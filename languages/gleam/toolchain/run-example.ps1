@@ -2,21 +2,33 @@ $ErrorActionPreference = "Stop"
 
 $exampleDir = Join-Path $PSScriptRoot "..\examples\hello-world"
 $exampleDir = [System.IO.Path]::GetFullPath($exampleDir)
-$erlangBin = "C:\Program Files\Erlang OTP\bin"
-$gleam = Join-Path $PSScriptRoot "..\..\..\.cache\runtime-shims\gleam.exe"
-$gleam = [System.IO.Path]::GetFullPath($gleam)
+$workspaceGleam = Join-Path $PSScriptRoot "..\..\..\.cache\runtime-shims\gleam.exe"
+$workspaceGleam = [System.IO.Path]::GetFullPath($workspaceGleam)
 
-if (-not (Test-Path (Join-Path $erlangBin "escript.exe"))) {
-  Write-Error "Erlang escript.exe was not found at $erlangBin"
+$gleamCommand = Get-Command gleam -ErrorAction SilentlyContinue
+if ($gleamCommand) {
+  $gleam = $gleamCommand.Source
+} elseif (Test-Path $workspaceGleam) {
+  $gleam = $workspaceGleam
+} else {
+  Write-Error "Gleam executable was not found in PATH or at $workspaceGleam"
   exit 1
 }
 
-if (-not (Test-Path $gleam)) {
-  Write-Error "Gleam executable was not found at $gleam"
+$escriptCommand = Get-Command escript -ErrorAction SilentlyContinue
+if (-not $escriptCommand) {
+  $erlangBin = "C:\Program Files\Erlang OTP\bin"
+  if (Test-Path (Join-Path $erlangBin "escript.exe")) {
+    $env:PATH = "$erlangBin;$env:PATH"
+    $escriptCommand = Get-Command escript -ErrorAction SilentlyContinue
+  }
+}
+
+if (-not $escriptCommand) {
+  Write-Error "Erlang escript was not found in PATH"
   exit 1
 }
 
-$env:PATH = "$erlangBin;$env:PATH"
 Set-Location $exampleDir
 & $gleam run
 exit $LASTEXITCODE
