@@ -27,3 +27,4 @@ C:\Users\matth\OneDrive\Desktop\we lit\polyglot-forge\workers\fsharp\obj\Debug\n
 C:\Users\matth\OneDrive\Desktop\we lit\polyglot-forge\workers\fsharp\obj\Debug\net9.0\Worker.pdb
 C:\Users\matth\OneDrive\Desktop\we lit\polyglot-forge\workers\fsharp\obj\Debug\net9.0\Worker.genruntimeconfig.cache
 C:\Users\matth\OneDrive\Desktop\we lit\polyglot-forge\workers\fsharp\obj\Debug\net9.0\ref\Worker.dll
+C:\Users\matth\OneDrive\Desktop\we lit\polyglot-forge\workers\fsharp\obj\Debug\net9.0\Worker.sourcelink.json

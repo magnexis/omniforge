@@ -1,5 +1,6 @@
 import json
 import os
+import shutil
 import subprocess
 import unittest
 from pathlib import Path
@@ -11,12 +12,12 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class OmniforgeTests(unittest.TestCase):
     SCRIPTED_PROTOCOL_CASES = [
-        ([r"C:\Users\matth\AppData\Local\Programs\Lua\bin\lua.exe", "workers/lua/worker.lua"], "lua-template-01"),
-        ([r"C:\Program Files\Git\usr\bin\perl.exe", "workers/perl/worker.pl"], "perl-regex-01"),
-        ([r"C:\Program Files\Git\mingw64\bin\tclsh.exe", "workers/tcl/worker.tcl"], "tcl-trim-01"),
-        ([r"C:\Program Files\Rakudo\bin\raku.exe", "workers/raku/worker.raku"], "raku-title-01"),
-        (["powershell", "-ExecutionPolicy", "Bypass", "-File", "workers/janet/worker.ps1"], "janet-lower-01"),
-        (["powershell", "-ExecutionPolicy", "Bypass", "-File", "workers/arturo/worker.ps1"], "arturo-lower-01"),
+        ("lua", ["workers/lua/worker.lua"], "lua-template-01"),
+        ("perl", ["workers/perl/worker.pl"], "perl-regex-01"),
+        ("tclsh", ["workers/tcl/worker.tcl"], "tcl-trim-01"),
+        ("raku", ["workers/raku/worker.raku"], "raku-title-01"),
+        ("powershell", ["-ExecutionPolicy", "Bypass", "-File", "workers/janet/worker.ps1"], "janet-lower-01"),
+        ("powershell", ["-ExecutionPolicy", "Bypass", "-File", "workers/arturo/worker.ps1"], "arturo-lower-01"),
     ]
 
     VERIFIED_CASES = [
@@ -78,6 +79,32 @@ class OmniforgeTests(unittest.TestCase):
         ("dev.webfortran-status", "webfortran", ".cache/job-webfortran.json", "webfortran"),
         ("bot.language-plan", "omniforge-bot", "workers/specialist-bot/examples/language-plan.json", "omniforge-bot"),
     ]
+
+    @staticmethod
+    def resolve_executable(name):
+        candidates = []
+        if os.name == "nt" and name == "powershell":
+            candidates.extend(
+                [
+                    shutil.which("powershell"),
+                    shutil.which("pwsh"),
+                    r"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe",
+                ]
+            )
+        elif name == "powershell":
+            candidates.extend([shutil.which("pwsh"), shutil.which("powershell")])
+        else:
+            candidates.append(shutil.which(name))
+        for candidate in candidates:
+            if candidate and Path(candidate).exists():
+                return candidate
+        return None
+
+    def resolve_scripted_command(self, executable_name, args):
+        executable = self.resolve_executable(executable_name)
+        if not executable:
+            self.skipTest(f"missing executable for scripted worker test: {executable_name}")
+        return [executable, *args]
 
     def run_cli(self, *args):
         completed = subprocess.run(
@@ -145,11 +172,15 @@ class OmniforgeTests(unittest.TestCase):
         self.assertEqual(gleam["catalog"]["supportTier"], "tier-1")
 
     def test_gleam_example_runner(self):
+        powershell = self.resolve_executable("powershell")
+        if not powershell:
+            self.skipTest("powershell or pwsh is not available")
         env = dict(os.environ)
-        env["PATH"] = r"C:\Program Files\Erlang OTP\bin;" + env.get("PATH", "")
+        if os.name == "nt":
+            env["PATH"] = r"C:\Program Files\Erlang OTP\bin;" + env.get("PATH", "")
         completed = subprocess.run(
             [
-                "powershell",
+                powershell,
                 "-ExecutionPolicy",
                 "Bypass",
                 "-File",
@@ -184,8 +215,11 @@ class OmniforgeTests(unittest.TestCase):
 
     def test_additional_workers(self):
         for capability, language, input_path, expected_language in self.VERIFIED_CASES:
-            payload = self.run_cli("run", capability, "--language", language, "--input", input_path)
-            self.assertEqual(payload["language"], expected_language)
+            with self.subTest(language=language, capability=capability):
+                if not (ROOT / input_path).exists():
+                    self.skipTest(f"missing test input fixture: {input_path}")
+                payload = self.run_cli("run", capability, "--language", language, "--input", input_path)
+                self.assertEqual(payload["language"], expected_language)
 
     def test_specialist_bot_execution_options(self):
         payload = self.run_cli(
@@ -229,8 +263,9 @@ class OmniforgeTests(unittest.TestCase):
             worker.wait(timeout=5)
 
     def test_scripted_workers_protocol_messages(self):
-        for command, worker_id in self.SCRIPTED_PROTOCOL_CASES:
+        for executable_name, args, worker_id in self.SCRIPTED_PROTOCOL_CASES:
             with self.subTest(worker_id=worker_id):
+                command = self.resolve_scripted_command(executable_name, args)
                 worker = subprocess.Popen(
                     command,
                     cwd=ROOT,
