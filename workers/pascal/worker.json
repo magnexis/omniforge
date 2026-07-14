@@ -1,0 +1,18 @@
+{
+  "id": "pascal-product-01",
+  "language": "pascal",
+  "runtime": "3.2.2",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/pascal",
+  "command": [
+    "worker.exe"
+  ],
+  "capabilities": [
+    {
+      "name": "math.product",
+      "inputSchema": "number-array",
+      "outputSchema": "product-result"
+    }
+  ]
+}

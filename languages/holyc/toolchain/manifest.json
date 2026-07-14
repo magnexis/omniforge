@@ -1,0 +1,12 @@
+{
+  "language": "holyc",
+  "runtime": "TempleOS-hosted HolyC",
+  "version": "unverified",
+  "installStrategy": "vm-or-emulator",
+  "hostSupport": [
+    "windows-vm"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "manual",
+  "runExample": "execute inside TempleOS-compatible environment"
+}

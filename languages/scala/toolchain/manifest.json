@@ -1,0 +1,12 @@
+{
+  "detector": "scalac",
+  "build": [],
+  "run": [
+    "scala",
+    "examples/hello-world/Main.scala"
+  ],
+  "expected": {
+    "language": "scala",
+    "message": "hello-forge"
+  }
+}

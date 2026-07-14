@@ -1,0 +1,15 @@
+{
+  "language": "julia",
+  "name": "Julia",
+  "year": 2012,
+  "typing": "dynamic",
+  "paradigm": [
+    "numeric",
+    "scientific",
+    "multiple-dispatch"
+  ],
+  "supportTier": "tier-0",
+  "status": "catalogued",
+  "workerStatus": "not-counted",
+  "admissionRule": "Catalogued only until Omniforge has a detected runtime, OFP worker, verified coordinator path, and tests."
+}

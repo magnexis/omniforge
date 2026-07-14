@@ -1,0 +1,48 @@
+{
+  "name": "JavaScript",
+  "slug": "javascript",
+  "creator": "Brendan Eich",
+  "year": 1995,
+  "latest_version": "",
+  "typing": "dynamic, weak",
+  "memory_model": "garbage collected",
+  "garbage_collected": true,
+  "compiled": false,
+  "interpreted": true,
+  "license": "ECMA standard",
+  "package_manager": "npm",
+  "compiler": "node",
+  "runtime": "Node.js",
+  "github": "https://github.com/nodejs/node",
+  "official_site": "https://developer.mozilla.org/docs/Web/JavaScript",
+  "documentation": "https://developer.mozilla.org/docs/Web/JavaScript",
+  "paradigm": [
+    "event-driven",
+    "functional",
+    "prototype-based"
+  ],
+  "inspired_by": [
+    "Scheme",
+    "Self",
+    "Java"
+  ],
+  "inspired": [
+    "TypeScript"
+  ],
+  "status": "active",
+  "feature_flags": {
+    "coroutines": true,
+    "ffi": true,
+    "macros": false,
+    "generics": false
+  },
+  "ecosystem": {
+    "package_count": 0,
+    "primary_domains": [
+      "web",
+      "tooling",
+      "backend"
+    ],
+    "notable_companies": []
+  }
+}

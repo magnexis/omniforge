@@ -1,0 +1,45 @@
+{
+  "name": "F#",
+  "slug": "fsharp",
+  "creator": "Don Syme",
+  "year": 2005,
+  "latest_version": "",
+  "typing": "static, strong, inferred",
+  "memory_model": "managed runtime",
+  "garbage_collected": true,
+  "compiled": true,
+  "interpreted": false,
+  "license": "Apache-2.0",
+  "package_manager": "NuGet",
+  "compiler": "dotnet",
+  "runtime": ".NET",
+  "github": "https://github.com/dotnet/fsharp",
+  "official_site": "https://fsharp.org/",
+  "documentation": "https://learn.microsoft.com/dotnet/fsharp/",
+  "paradigm": [
+    "functional",
+    "multi-paradigm"
+  ],
+  "inspired_by": [
+    "OCaml",
+    "ML",
+    "C#"
+  ],
+  "inspired": [],
+  "status": "active",
+  "feature_flags": {
+    "coroutines": true,
+    "ffi": true,
+    "macros": false,
+    "generics": true
+  },
+  "ecosystem": {
+    "package_count": 0,
+    "primary_domains": [
+      "data",
+      "finance",
+      "tooling"
+    ],
+    "notable_companies": []
+  }
+}

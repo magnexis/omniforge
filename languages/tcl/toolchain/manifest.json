@@ -1,0 +1,12 @@
+{
+  "language": "tcl",
+  "runtime": "tclsh",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "tclsh --version",
+  "runExample": "tclsh examples/hello-world/main.tcl"
+}

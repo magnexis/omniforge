@@ -1,0 +1,6 @@
+opam-version: "2.0"
+synopsis: "Minimal dune example"
+maintainer: "omniforge"
+depends: [
+  "dune"
+]

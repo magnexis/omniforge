@@ -1,0 +1,12 @@
+{
+  "language": "idris",
+  "runtime": "idris2",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "idris2 --version",
+  "runExample": "idris2 examples/hello-world/Main.idr"
+}

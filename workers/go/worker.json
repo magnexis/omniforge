@@ -1,0 +1,16 @@
+{
+  "id": "go-stats-01",
+  "language": "go",
+  "runtime": "1.25",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/go",
+  "command": ["go", "run", "."],
+  "capabilities": [
+    {
+      "name": "statistics.summary",
+      "inputSchema": "validated-records",
+      "outputSchema": "statistics-summary"
+    }
+  ]
+}

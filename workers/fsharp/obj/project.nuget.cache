@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yiYW2ihkp14=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\matth\\OneDrive\\Desktop\\we lit\\polyglot-forge\\workers\\fsharp\\Worker.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matth\\OneDrive\\Desktop\\we lit\\polyglot-forge\\.cache\\nuget-packages\\fsharp.core\\9.0.303\\fsharp.core.9.0.303.nupkg.sha512"
+  ],
+  "logs": []
+}

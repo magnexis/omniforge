@@ -1,0 +1,12 @@
+{
+  "language": "clojure",
+  "runtime": "clojure",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "clojure --version",
+  "runExample": "clojure examples/hello-world/main.clj"
+}

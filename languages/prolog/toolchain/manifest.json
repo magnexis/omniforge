@@ -1,0 +1,12 @@
+{
+  "language": "prolog",
+  "runtime": "swipl",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "swipl --version",
+  "runExample": "swipl examples/hello-world/main.pl"
+}

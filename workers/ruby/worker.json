@@ -1,0 +1,15 @@
+{
+  "id": "ruby-rules-01",
+  "language": "ruby",
+  "runtime": "3.x",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "command": ["ruby", "workers/ruby/worker.rb"],
+  "capabilities": [
+    {
+      "name": "rules.evaluate",
+      "inputSchema": "cleaned-records",
+      "outputSchema": "classified-records"
+    }
+  ]
+}

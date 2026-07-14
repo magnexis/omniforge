@@ -1,0 +1,47 @@
+{
+  "name": "Java",
+  "slug": "java",
+  "creator": "James Gosling",
+  "year": 1995,
+  "latest_version": "",
+  "typing": "static, strong",
+  "memory_model": "managed runtime",
+  "garbage_collected": true,
+  "compiled": true,
+  "interpreted": false,
+  "license": "GPL-2.0-with-classpath-exception",
+  "package_manager": "Maven",
+  "compiler": "javac",
+  "runtime": "JVM",
+  "github": "https://github.com/openjdk/jdk",
+  "official_site": "https://www.java.com/",
+  "documentation": "https://docs.oracle.com/en/java/",
+  "paradigm": [
+    "object-oriented",
+    "class-based"
+  ],
+  "inspired_by": [
+    "C++",
+    "Smalltalk"
+  ],
+  "inspired": [
+    "Kotlin",
+    "C#"
+  ],
+  "status": "active",
+  "feature_flags": {
+    "coroutines": true,
+    "ffi": true,
+    "macros": false,
+    "generics": true
+  },
+  "ecosystem": {
+    "package_count": 0,
+    "primary_domains": [
+      "enterprise",
+      "backend",
+      "android"
+    ],
+    "notable_companies": []
+  }
+}

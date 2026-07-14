@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "tiers": [
+    {
+      "name": "Tier 1",
+      "slug": "tier-1",
+      "challenges": ["hello-world", "variables", "functions", "loops", "arrays"]
+    },
+    {
+      "name": "Tier 2",
+      "slug": "tier-2",
+      "challenges": ["sorting", "binary-search", "hash-map", "trees", "graphs"]
+    },
+    {
+      "name": "Tier 3",
+      "slug": "tier-3",
+      "challenges": ["json-parser", "csv-reader", "http-client", "http-server", "tcp-chat"]
+    },
+    {
+      "name": "Tier 4",
+      "slug": "tier-4",
+      "challenges": ["sqlite-crud", "rest-api", "authentication", "file-watcher", "multithreading"]
+    },
+    {
+      "name": "Tier 5",
+      "slug": "tier-5",
+      "challenges": ["ray-tracer", "chess-engine", "markdown-parser", "regex-engine", "compiler-frontend"]
+    },
+    {
+      "name": "Tier 6",
+      "slug": "tier-6",
+      "challenges": ["virtual-machine", "garbage-collector", "mini-database", "web-framework", "package-manager-prototype"]
+    }
+  ]
+}

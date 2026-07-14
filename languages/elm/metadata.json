@@ -1,0 +1,14 @@
+{
+  "language": "elm",
+  "name": "Elm",
+  "year": 2012,
+  "typing": "static",
+  "paradigm": [
+    "functional",
+    "frontend"
+  ],
+  "supportTier": "tier-0",
+  "status": "catalogued",
+  "workerStatus": "not-counted",
+  "admissionRule": "Catalogued only until Omniforge has a detected runtime, OFP worker, verified coordinator path, and tests."
+}

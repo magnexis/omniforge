@@ -1,0 +1,11 @@
+{
+  "name": "self-healing-ops",
+  "steps": [
+    { "capability": "ops.incident-normalize", "language": "python" },
+    { "capability": "ops.policy-evaluate", "language": "prolog" },
+    { "capability": "ops.remediation-plan", "language": "powershell" },
+    { "capability": "ops.remediation-summary", "language": "jq" },
+    { "capability": "ops.incident-packet", "language": "protobuf" },
+    { "capability": "system.compress", "language": "rust" }
+  ]
+}

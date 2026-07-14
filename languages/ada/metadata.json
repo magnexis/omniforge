@@ -1,0 +1,15 @@
+{
+  "language": "ada",
+  "name": "Ada",
+  "year": 1980,
+  "typing": "static",
+  "paradigm": [
+    "structured",
+    "imperative",
+    "concurrent"
+  ],
+  "supportTier": "tier-0",
+  "status": "catalogued",
+  "workerStatus": "not-counted",
+  "admissionRule": "Catalogued only until Omniforge has a detected runtime, OFP worker, verified coordinator path, and tests."
+}

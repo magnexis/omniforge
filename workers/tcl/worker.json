@@ -1,0 +1,19 @@
+{
+  "id": "tcl-trim-01",
+  "language": "tcl",
+  "runtime": "8.6",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/tcl",
+  "command": [
+    "tclsh",
+    "worker.tcl"
+  ],
+  "capabilities": [
+    {
+      "name": "text.trim",
+      "inputSchema": "text-request",
+      "outputSchema": "trim-result"
+    }
+  ]
+}

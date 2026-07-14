@@ -1,0 +1,14 @@
+{
+  "language": "typescript",
+  "name": "TypeScript",
+  "year": 2012,
+  "typing": "static",
+  "paradigm": [
+    "typed",
+    "javascript"
+  ],
+  "supportTier": "tier-0",
+  "status": "catalogued",
+  "workerStatus": "not-counted",
+  "admissionRule": "Catalogued only until Omniforge has a detected runtime, OFP worker, verified coordinator path, and tests."
+}

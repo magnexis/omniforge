@@ -1,0 +1,18 @@
+{
+  "id": "lua-template-01",
+  "language": "lua",
+  "runtime": "5.4",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "command": [
+    "lua",
+    "workers/lua/worker.lua"
+  ],
+  "capabilities": [
+    {
+      "name": "text.template",
+      "inputSchema": "template-request",
+      "outputSchema": "rendered-text"
+    }
+  ]
+}

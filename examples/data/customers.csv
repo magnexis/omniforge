@@ -1,0 +1,5 @@
+customer_id,name,department,amount,active
+C-100,Ada Lovelace,Research,1250.50,true
+C-101,Grace Hopper,Operations,880.00,true
+C-102,Alan Turing,Research,420.25,false
+C-103,Katherine Johnson,Analytics,1500.75,true

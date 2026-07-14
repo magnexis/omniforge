@@ -1,0 +1,13 @@
+.git
+.cache
+.agents
+.codex
+reports
+data
+node_modules
+__pycache__
+tests/__pycache__
+workers/*/*.exe
+workers/*/*.class
+workers/*/build
+workers/*/.cache

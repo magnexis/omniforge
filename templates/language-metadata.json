@@ -1,0 +1,34 @@
+{
+  "name": "Example Language",
+  "slug": "example-language",
+  "creator": "Unknown",
+  "year": 2000,
+  "latest_version": "",
+  "typing": "",
+  "memory_model": "",
+  "garbage_collected": false,
+  "compiled": false,
+  "interpreted": false,
+  "license": "",
+  "package_manager": "",
+  "compiler": "",
+  "runtime": "",
+  "github": "https://example.com/repo",
+  "official_site": "https://example.com",
+  "documentation": "https://example.com/docs",
+  "paradigm": [],
+  "inspired_by": [],
+  "inspired": [],
+  "status": "active",
+  "feature_flags": {
+    "coroutines": false,
+    "ffi": false,
+    "macros": false,
+    "generics": false
+  },
+  "ecosystem": {
+    "package_count": 0,
+    "primary_domains": [],
+    "notable_companies": []
+  }
+}

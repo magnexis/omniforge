@@ -1,0 +1,12 @@
+{
+  "language": "raku",
+  "runtime": "raku",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "raku --version",
+  "runExample": "raku examples/hello-world/main.raku"
+}

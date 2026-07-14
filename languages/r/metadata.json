@@ -1,0 +1,14 @@
+{
+  "language": "r",
+  "name": "R",
+  "year": 1993,
+  "typing": "dynamic",
+  "paradigm": [
+    "statistical",
+    "scripting"
+  ],
+  "supportTier": "tier-0",
+  "status": "catalogued",
+  "workerStatus": "not-counted",
+  "admissionRule": "Catalogued only until Omniforge has a detected runtime, OFP worker, verified coordinator path, and tests."
+}

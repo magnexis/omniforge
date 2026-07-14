@@ -1,0 +1,12 @@
+{
+  "language": "hy",
+  "runtime": "hy",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "hy --version",
+  "runExample": "hy examples/hello-world/main.hy"
+}

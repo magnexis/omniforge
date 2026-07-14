@@ -1,0 +1,12 @@
+{
+  "language": "fennel",
+  "runtime": "fennel",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "fennel --version",
+  "runExample": "fennel examples/hello-world/main.fnl"
+}

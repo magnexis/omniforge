@@ -1,0 +1,16 @@
+{
+  "id": "csharp-process-01",
+  "language": "csharp",
+  "runtime": "net9.0",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/csharp",
+  "command": ["dotnet", "run", "--project", "Worker.csproj", "--no-build"],
+  "capabilities": [
+    {
+      "name": "system.process-info",
+      "inputSchema": "process-request",
+      "outputSchema": "process-info"
+    }
+  ]
+}

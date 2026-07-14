@@ -1,0 +1,46 @@
+{
+  "name": "Go",
+  "slug": "go",
+  "creator": "Robert Griesemer, Rob Pike, Ken Thompson",
+  "year": 2009,
+  "latest_version": "",
+  "typing": "static, strong, inferred",
+  "memory_model": "garbage collected",
+  "garbage_collected": true,
+  "compiled": true,
+  "interpreted": false,
+  "license": "BSD-3-Clause",
+  "package_manager": "go modules",
+  "compiler": "go",
+  "runtime": "native",
+  "github": "https://github.com/golang/go",
+  "official_site": "https://go.dev/",
+  "documentation": "https://go.dev/doc/",
+  "paradigm": [
+    "concurrent",
+    "systems",
+    "procedural"
+  ],
+  "inspired_by": [
+    "C",
+    "Pascal",
+    "Modula"
+  ],
+  "inspired": [],
+  "status": "active",
+  "feature_flags": {
+    "coroutines": true,
+    "ffi": true,
+    "macros": false,
+    "generics": true
+  },
+  "ecosystem": {
+    "package_count": 0,
+    "primary_domains": [
+      "cloud",
+      "cli",
+      "backend"
+    ],
+    "notable_companies": []
+  }
+}

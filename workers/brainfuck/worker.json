@@ -1,0 +1,19 @@
+{
+  "id": "brainfuck-echo-01",
+  "language": "brainfuck",
+  "runtime": "embedded-python-interpreter",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/brainfuck",
+  "command": [
+    "python",
+    "worker.py"
+  ],
+  "capabilities": [
+    {
+      "name": "esolang.brainfuck-run",
+      "inputSchema": "brainfuck-program-request",
+      "outputSchema": "brainfuck-program-result"
+    }
+  ]
+}

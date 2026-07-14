@@ -1,0 +1,16 @@
+{
+  "id": "c-hash-01",
+  "language": "c",
+  "runtime": "clang",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/c",
+  "command": ["worker.exe"],
+  "capabilities": [
+    {
+      "name": "system.file-hash",
+      "inputSchema": "file-request",
+      "outputSchema": "hash-result"
+    }
+  ]
+}

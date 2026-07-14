@@ -1,0 +1,12 @@
+{
+  "language": "pascal",
+  "runtime": "fpc",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "fpc --version",
+  "runExample": "fpc examples/hello-world/main.pas"
+}

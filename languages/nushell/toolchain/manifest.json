@@ -1,0 +1,12 @@
+{
+  "language": "nushell",
+  "runtime": "nu",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "nu --version",
+  "runExample": "nu examples/hello-world/main.nu"
+}

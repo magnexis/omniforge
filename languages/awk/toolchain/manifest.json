@@ -1,0 +1,12 @@
+{
+  "language": "awk",
+  "runtime": "awk",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "awk --version",
+  "runExample": "awk examples/hello-world/main.awk"
+}

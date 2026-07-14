@@ -1,0 +1,46 @@
+{
+  "name": "Python",
+  "slug": "python",
+  "creator": "Guido van Rossum",
+  "year": 1991,
+  "latest_version": "",
+  "typing": "dynamic, strong",
+  "memory_model": "reference counting with GC",
+  "garbage_collected": true,
+  "compiled": false,
+  "interpreted": true,
+  "license": "PSF-2.0",
+  "package_manager": "pip",
+  "compiler": "python",
+  "runtime": "CPython",
+  "github": "https://github.com/python/cpython",
+  "official_site": "https://www.python.org/",
+  "documentation": "https://docs.python.org/3/",
+  "paradigm": [
+    "scripting",
+    "object-oriented",
+    "functional"
+  ],
+  "inspired_by": [
+    "ABC",
+    "Modula-3",
+    "C"
+  ],
+  "inspired": [],
+  "status": "active",
+  "feature_flags": {
+    "coroutines": true,
+    "ffi": true,
+    "macros": false,
+    "generics": true
+  },
+  "ecosystem": {
+    "package_count": 0,
+    "primary_domains": [
+      "automation",
+      "data",
+      "web"
+    ],
+    "notable_companies": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "sh-lowercase-01",
+  "language": "sh",
+  "runtime": "git-sh",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/sh",
+  "command": [
+    "sh",
+    "worker.sh"
+  ],
+  "capabilities": [
+    {
+      "name": "text.lowercase",
+      "inputSchema": "text-request",
+      "outputSchema": "lowercase-text"
+    }
+  ]
+}

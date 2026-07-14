@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://polyglotforge.dev/schemas/language-metadata.schema.json",
+  "title": "Polyglot Forge Language Metadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "slug",
+    "creator",
+    "year",
+    "typing",
+    "memory_model",
+    "garbage_collected",
+    "compiled",
+    "interpreted",
+    "license",
+    "package_manager",
+    "compiler",
+    "runtime",
+    "official_site",
+    "documentation",
+    "paradigm",
+    "status"
+  ],
+  "properties": {
+    "name": { "type": "string", "minLength": 1 },
+    "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "creator": { "type": "string" },
+    "year": { "type": "integer", "minimum": 1940 },
+    "latest_version": { "type": "string" },
+    "typing": { "type": "string" },
+    "memory_model": { "type": "string" },
+    "garbage_collected": { "type": "boolean" },
+    "compiled": { "type": "boolean" },
+    "interpreted": { "type": "boolean" },
+    "license": { "type": "string" },
+    "package_manager": { "type": "string" },
+    "compiler": { "type": "string" },
+    "runtime": { "type": "string" },
+    "github": { "type": "string", "format": "uri" },
+    "official_site": { "type": "string", "format": "uri" },
+    "documentation": { "type": "string", "format": "uri" },
+    "paradigm": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "inspired_by": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "inspired": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "experimental", "legacy", "historical"]
+    },
+    "feature_flags": {
+      "type": "object",
+      "additionalProperties": { "type": "boolean" }
+    },
+    "ecosystem": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "package_count": { "type": "integer", "minimum": 0 },
+        "primary_domains": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "notable_companies": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  }
+}

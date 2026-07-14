@@ -1,0 +1,17 @@
+{
+  "detector": "javac",
+  "build": [
+    "javac",
+    "examples/hello-world/Main.java"
+  ],
+  "run": [
+    "java",
+    "-cp",
+    "examples/hello-world",
+    "Main"
+  ],
+  "expected": {
+    "language": "java",
+    "message": "hello-forge"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "clpm-plan-01",
+  "language": "clpm",
+  "runtime": "0.4.2-rc.2",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/clpm",
+  "command": [
+    "python",
+    "worker.py"
+  ],
+  "capabilities": [
+    {
+      "name": "dev.common-lisp-tooling",
+      "inputSchema": "tooling-request",
+      "outputSchema": "tooling-result"
+    }
+  ]
+}

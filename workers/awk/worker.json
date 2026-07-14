@@ -1,0 +1,20 @@
+{
+  "id": "awk-tokenize-01",
+  "language": "awk",
+  "runtime": "gawk",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/awk",
+  "command": [
+    "awk",
+    "-f",
+    "worker.awk"
+  ],
+  "capabilities": [
+    {
+      "name": "text.tokenize",
+      "inputSchema": "text-request",
+      "outputSchema": "token-count"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "language": "haskell",
+  "runtime": "runghc",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "runghc --version",
+  "runExample": "runghc examples/hello-world/Main.hs"
+}

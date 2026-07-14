@@ -1,0 +1,20 @@
+{
+  "id": "sbcl-words-01",
+  "language": "sbcl",
+  "runtime": "2.6.6",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/sbcl",
+  "command": [
+    "sbcl",
+    "--script",
+    "worker.lisp"
+  ],
+  "capabilities": [
+    {
+      "name": "text.word-count-lisp",
+      "inputSchema": "text-request",
+      "outputSchema": "word-count-result"
+    }
+  ]
+}

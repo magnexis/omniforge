@@ -1,0 +1,10 @@
+{
+  "name": "data-intelligence",
+  "steps": [
+    { "capability": "data.csv-transform", "language": "python" },
+    { "capability": "rules.evaluate", "language": "ruby" },
+    { "capability": "data.validate", "language": "javascript" },
+    { "capability": "statistics.summary", "language": "go" },
+    { "capability": "system.compress", "language": "rust" }
+  ]
+}

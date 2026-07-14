@@ -1,0 +1,12 @@
+{
+  "language": "kotlin",
+  "runtime": "kotlinc",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "kotlinc --version",
+  "runExample": "kotlinc examples/hello-world/Main.kt"
+}

@@ -1,0 +1,12 @@
+{
+  "language": "lfe",
+  "runtime": "lfe",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "lfe --version",
+  "runExample": "lfe examples/hello-world/main.lfe"
+}

@@ -1,0 +1,14 @@
+{
+  "language": "scryer-prolog",
+  "name": "Scryer Prolog",
+  "year": 2019,
+  "typing": "dynamic",
+  "paradigm": [
+    "logic",
+    "prolog"
+  ],
+  "supportTier": "tier-3",
+  "status": "operational",
+  "workerStatus": "counted-operational",
+  "admissionRule": "Counted because Omniforge now has a detected runtime, verified coordinator execution path, and automated tests."
+}

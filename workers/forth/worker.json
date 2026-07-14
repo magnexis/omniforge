@@ -1,0 +1,22 @@
+{
+  "id": "forth-max-01",
+  "language": "forth",
+  "runtime": "gforth-0.7.0",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/forth",
+  "command": [
+    "powershell",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    "worker.ps1"
+  ],
+  "capabilities": [
+    {
+      "name": "math.max",
+      "inputSchema": "number-array",
+      "outputSchema": "max-result"
+    }
+  ]
+}

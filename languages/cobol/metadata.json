@@ -1,0 +1,14 @@
+{
+  "language": "cobol",
+  "name": "COBOL",
+  "year": 1959,
+  "typing": "static",
+  "paradigm": [
+    "procedural",
+    "business"
+  ],
+  "supportTier": "tier-0",
+  "status": "catalogued",
+  "workerStatus": "not-counted",
+  "admissionRule": "Catalogued only until Omniforge has a detected runtime, OFP worker, verified coordinator path, and tests."
+}

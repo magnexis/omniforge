@@ -1,0 +1,12 @@
+{
+  "detector": "ruby",
+  "build": [],
+  "run": [
+    "ruby",
+    "examples/hello-world/main.rb"
+  ],
+  "expected": {
+    "language": "ruby",
+    "message": "hello-forge"
+  }
+}

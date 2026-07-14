@@ -1,0 +1,18 @@
+{
+  "id": "d-range-01",
+  "language": "d",
+  "runtime": "2.112.0",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/d",
+  "command": [
+    "worker.exe"
+  ],
+  "capabilities": [
+    {
+      "name": "math.range",
+      "inputSchema": "number-array",
+      "outputSchema": "range-result"
+    }
+  ]
+}

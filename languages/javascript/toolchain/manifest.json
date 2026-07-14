@@ -1,0 +1,12 @@
+{
+  "detector": "node",
+  "build": [],
+  "run": [
+    "node",
+    "examples/hello-world/main.js"
+  ],
+  "expected": {
+    "language": "javascript",
+    "message": "hello-forge"
+  }
+}

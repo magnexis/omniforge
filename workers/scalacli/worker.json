@@ -1,0 +1,23 @@
+{
+  "id": "scala-cli-lines-01",
+  "language": "scalacli",
+  "runtime": "1.15.0",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/scalacli",
+  "command": [
+    "powershell",
+    "-NoProfile",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    "worker.ps1"
+  ],
+  "capabilities": [
+    {
+      "name": "text.lines-scala",
+      "inputSchema": "text-request",
+      "outputSchema": "line-count-result"
+    }
+  ]
+}

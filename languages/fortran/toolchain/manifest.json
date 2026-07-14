@@ -1,0 +1,12 @@
+{
+  "language": "fortran",
+  "runtime": "gfortran",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "gfortran --version",
+  "runExample": "gfortran examples/hello-world/main.f90"
+}

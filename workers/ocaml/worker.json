@@ -1,0 +1,16 @@
+{
+  "id": "ocaml-sum-01",
+  "language": "ocaml",
+  "runtime": "ocaml",
+  "workerVersion": "0.1.0",
+  "tier": "tier-2",
+  "workingDirectory": "workers/ocaml",
+  "command": ["powershell", "-ExecutionPolicy", "Bypass", "-File", "workers/ocaml/worker.ps1"],
+  "capabilities": [
+    {
+      "name": "math.sum-ocaml",
+      "inputSchema": "number-array",
+      "outputSchema": "sum-result"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "language": "ocaml",
+  "runtime": "ocaml",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "ocaml --version",
+  "runExample": "ocaml examples/hello-world/main.ml"
+}

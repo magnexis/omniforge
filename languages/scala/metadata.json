@@ -1,0 +1,48 @@
+{
+  "name": "Scala",
+  "slug": "scala",
+  "creator": "Martin Odersky",
+  "year": 2004,
+  "latest_version": "",
+  "typing": "static, strong, inferred",
+  "memory_model": "managed runtime",
+  "garbage_collected": true,
+  "compiled": true,
+  "interpreted": false,
+  "license": "Apache-2.0",
+  "package_manager": "sbt",
+  "compiler": "scalac",
+  "runtime": "JVM",
+  "github": "https://github.com/scala/scala",
+  "official_site": "https://www.scala-lang.org/",
+  "documentation": "https://docs.scala-lang.org/",
+  "paradigm": [
+    "functional",
+    "object-oriented",
+    "jvm"
+  ],
+  "inspired_by": [
+    "Java",
+    "Haskell",
+    "ML"
+  ],
+  "inspired": [
+    "Kotlin"
+  ],
+  "status": "active",
+  "feature_flags": {
+    "coroutines": false,
+    "ffi": true,
+    "macros": true,
+    "generics": true
+  },
+  "ecosystem": {
+    "package_count": 0,
+    "primary_domains": [
+      "backend",
+      "data",
+      "distributed-systems"
+    ],
+    "notable_companies": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "detector": "python",
+  "build": [],
+  "run": [
+    "python",
+    "examples/hello-world/main.py"
+  ],
+  "expected": {
+    "language": "python",
+    "message": "hello-forge"
+  }
+}

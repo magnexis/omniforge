@@ -1,0 +1,18 @@
+{
+  "id": "nim-palindrome-01",
+  "language": "nim",
+  "runtime": "2.0.8",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/nim",
+  "command": [
+    "worker.exe"
+  ],
+  "capabilities": [
+    {
+      "name": "text.palindrome",
+      "inputSchema": "text-request",
+      "outputSchema": "palindrome-result"
+    }
+  ]
+}

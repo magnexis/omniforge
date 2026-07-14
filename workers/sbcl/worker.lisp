@@ -1,0 +1,40 @@
+(defun send (message)
+  (format t "~a~%" message)
+  (finish-output))
+
+(defun extract (line marker)
+  (let ((start (search marker line)))
+    (if (null start)
+        ""
+        (let* ((from (+ start (length marker)))
+               (rest (subseq line from))
+               (stop (position #\" rest)))
+          (if stop (subseq rest 0 stop) "")))))
+
+(defun split-words (text)
+  (let ((current "")
+        (words '()))
+    (loop for ch across text do
+      (if (alphanumericp ch)
+          (setf current (concatenate 'string current (string ch)))
+          (when (> (length current) 0)
+            (push current words)
+            (setf current ""))))
+    (when (> (length current) 0)
+      (push current words))
+    (nreverse words)))
+
+(loop for line = (read-line *standard-input* nil nil)
+      while line do
+        (cond
+          ((search "\"type\":\"HELLO\"" line)
+           (send "{\"type\":\"REGISTER\",\"protocol\":\"ofp/1\",\"workerId\":\"sbcl-words-01\",\"language\":\"sbcl\",\"runtimeVersion\":\"2.6.6\",\"workerVersion\":\"0.1.0\",\"capabilities\":[{\"name\":\"text.word-count-lisp\"}]}"))
+          ((search "\"type\":\"JOB_START\"" line)
+           (if (not (search "\"capability\":\"text.word-count-lisp\"" line))
+               (send "{\"type\":\"JOB_ERROR\",\"jobId\":\"unknown\",\"error\":\"unsupported capability\"}")
+               (let* ((job-id (let ((value (extract line "\"jobId\":\""))) (if (string= value "") "job-unknown" value)))
+                      (text (extract line "\"text\":\""))
+                      (count (length (split-words text))))
+                 (send (format nil "{\"type\":\"JOB_RESULT\",\"jobId\":\"~a\",\"output\":{\"words\":~d}}" job-id count)))))
+          ((search "\"type\":\"SHUTDOWN\"" line)
+           (quit))))

@@ -1,0 +1,12 @@
+{
+  "language": "groovy",
+  "runtime": "groovy",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "groovy --version",
+  "runExample": "groovy examples/hello-world/main.groovy"
+}

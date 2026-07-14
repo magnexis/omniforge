@@ -1,0 +1,12 @@
+{
+  "language": "objective-c",
+  "runtime": "clang",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "clang --version",
+  "runExample": "clang examples/hello-world/main.m"
+}

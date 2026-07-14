@@ -1,0 +1,19 @@
+{
+  "id": "fpm-plan-01",
+  "language": "fpm",
+  "runtime": "0.13.0",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/fpm",
+  "command": [
+    "python",
+    "worker.py"
+  ],
+  "capabilities": [
+    {
+      "name": "dev.fortran-tooling",
+      "inputSchema": "tooling-request",
+      "outputSchema": "tooling-result"
+    }
+  ]
+}

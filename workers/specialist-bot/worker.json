@@ -1,0 +1,29 @@
+{
+  "id": "specialist-bot-01",
+  "language": "omniforge-bot",
+  "runtime": "python-3.12",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/specialist-bot",
+  "command": [
+    "python",
+    "worker.py"
+  ],
+  "capabilities": [
+    {
+      "name": "bot.language-plan",
+      "inputSchema": "bot-language-request",
+      "outputSchema": "bot-language-plan"
+    },
+    {
+      "name": "bot.execution-options",
+      "inputSchema": "bot-language-request",
+      "outputSchema": "bot-execution-options"
+    },
+    {
+      "name": "bot.pipeline-handoff",
+      "inputSchema": "bot-language-request",
+      "outputSchema": "bot-pipeline-handoff"
+    }
+  ]
+}

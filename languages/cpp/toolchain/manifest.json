@@ -1,0 +1,17 @@
+{
+  "detector": "clang++",
+  "build": [
+    "clang++",
+    "examples/hello-world/main.cpp",
+    "-std=c++20",
+    "-o",
+    "examples/hello-world/hello.exe"
+  ],
+  "run": [
+    "examples/hello-world/hello.exe"
+  ],
+  "expected": {
+    "language": "cpp",
+    "message": "hello-forge"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "racket-list-01",
+  "language": "racket",
+  "runtime": "9.2",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/racket",
+  "command": [
+    "racket",
+    "worker.rkt"
+  ],
+  "capabilities": [
+    {
+      "name": "data.aggregate",
+      "inputSchema": "number-array",
+      "outputSchema": "aggregate-result"
+    }
+  ]
+}

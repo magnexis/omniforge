@@ -1,0 +1,12 @@
+{
+  "language": "forth",
+  "runtime": "gforth",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "gforth --version",
+  "runExample": "gforth examples/hello-world/main.fs"
+}

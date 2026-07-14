@@ -1,0 +1,12 @@
+{
+  "language": "smalltalk",
+  "runtime": "gst",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "gst --version",
+  "runExample": "gst examples/hello-world/main.st"
+}

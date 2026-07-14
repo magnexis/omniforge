@@ -1,0 +1,12 @@
+{
+  "language": "typescript",
+  "runtime": "ts-node",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "ts-node --version",
+  "runExample": "ts-node examples/hello-world/main.ts"
+}

@@ -1,0 +1,12 @@
+{
+  "language": "janet",
+  "runtime": "janet",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "janet --version",
+  "runExample": "janet examples/hello-world/main.janet"
+}

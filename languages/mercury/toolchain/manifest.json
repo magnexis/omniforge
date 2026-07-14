@@ -1,0 +1,12 @@
+{
+  "language": "mercury",
+  "runtime": "mmc",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "mmc --version",
+  "runExample": "mmc examples/hello-world/main.m"
+}

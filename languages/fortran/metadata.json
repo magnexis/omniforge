@@ -1,0 +1,14 @@
+{
+  "language": "fortran",
+  "name": "Fortran",
+  "year": 1957,
+  "typing": "static",
+  "paradigm": [
+    "procedural",
+    "numeric"
+  ],
+  "supportTier": "tier-0",
+  "status": "catalogued",
+  "workerStatus": "not-counted",
+  "admissionRule": "Catalogued only until Omniforge has a detected runtime, OFP worker, verified coordinator path, and tests."
+}

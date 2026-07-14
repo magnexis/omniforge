@@ -1,0 +1,12 @@
+{
+  "language": "v",
+  "runtime": "v",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "v --version",
+  "runExample": "v examples/hello-world/main.v"
+}

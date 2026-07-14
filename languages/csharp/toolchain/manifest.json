@@ -1,0 +1,16 @@
+{
+  "detector": "dotnet",
+  "build": [
+    "dotnet",
+    "build",
+    "examples/hello-world/HelloForge.csproj",
+    "-nologo"
+  ],
+  "run": [
+    "examples/hello-world/bin/Debug/net9.0/HelloForge.exe"
+  ],
+  "expected": {
+    "language": "csharp",
+    "message": "hello-forge"
+  }
+}

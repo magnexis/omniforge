@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.venv/
+reports/generated/
+data/generated/
+
+# Omniforge generated caches and local toolchains
+.cache/
+
+# Release artifacts and staging directories
+dist/
+build/
+
+# Runtime and toolchain byproducts
+erl_crash.dump
+*.beam
+*.hi
+*.o
+*.obj
+*.pdb
+*.exe.stackdump

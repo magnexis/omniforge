@@ -1,0 +1,12 @@
+{
+  "language": "cobol",
+  "runtime": "cobc",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "cobc --version",
+  "runExample": "cobc examples/hello-world/main.cob"
+}

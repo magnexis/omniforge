@@ -1,0 +1,15 @@
+{
+  "language": "scratch",
+  "name": "Scratch",
+  "year": 2007,
+  "typing": "visual",
+  "paradigm": [
+    "educational",
+    "block-based",
+    "visual"
+  ],
+  "supportTier": "tier-0",
+  "status": "catalogued",
+  "workerStatus": "not-counted",
+  "admissionRule": "Catalogued only until Omniforge has a detected runtime or export path, OFP worker, verified coordinator path, and tests."
+}

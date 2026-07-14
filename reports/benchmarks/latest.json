@@ -1,0 +1,52 @@
+{
+  "results": [
+    {
+      "capability": "text.word-count",
+      "language": "java",
+      "workerId": "java-wordcount-01",
+      "elapsedMs": 10
+    },
+    {
+      "capability": "system.file-hash",
+      "language": "c",
+      "workerId": "c-hash-01",
+      "elapsedMs": 0
+    },
+    {
+      "capability": "algorithm.sort",
+      "language": "cpp",
+      "workerId": "cpp-sort-01",
+      "elapsedMs": 0
+    },
+    {
+      "capability": "text.slugify",
+      "language": "typescript",
+      "workerId": "typescript-slug-01",
+      "elapsedMs": 0
+    },
+    {
+      "capability": "text.template",
+      "language": "lua",
+      "workerId": "lua-template-01",
+      "elapsedMs": 0
+    },
+    {
+      "capability": "text.lower-janet",
+      "language": "janet",
+      "workerId": "janet-lower-01",
+      "elapsedMs": 59
+    },
+    {
+      "capability": "math.vector-sum",
+      "language": "julia",
+      "workerId": "julia-vector-01",
+      "elapsedMs": 147
+    },
+    {
+      "capability": "algorithm.prime-search",
+      "language": "zig",
+      "workerId": "zig-primes-01",
+      "elapsedMs": 19
+    }
+  ]
+}

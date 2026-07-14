@@ -1,0 +1,22 @@
+{
+  "id": "freebasic-sum-01",
+  "language": "freebasic",
+  "runtime": "1.10.1",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/freebasic",
+  "command": [
+    "powershell",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    "worker.ps1"
+  ],
+  "capabilities": [
+    {
+      "name": "math.sum",
+      "inputSchema": "number-array",
+      "outputSchema": "sum-result"
+    }
+  ]
+}

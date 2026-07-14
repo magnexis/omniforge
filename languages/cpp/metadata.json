@@ -1,0 +1,49 @@
+{
+  "name": "C++",
+  "slug": "cpp",
+  "creator": "Bjarne Stroustrup",
+  "year": 1985,
+  "latest_version": "",
+  "typing": "static, strong",
+  "memory_model": "manual and RAII",
+  "garbage_collected": false,
+  "compiled": true,
+  "interpreted": false,
+  "license": "ISO standard",
+  "package_manager": "vcpkg",
+  "compiler": "clang++",
+  "runtime": "native",
+  "github": "https://github.com/llvm/llvm-project",
+  "official_site": "https://isocpp.org/",
+  "documentation": "https://en.cppreference.com/w/",
+  "paradigm": [
+    "systems",
+    "object-oriented",
+    "generic"
+  ],
+  "inspired_by": [
+    "C",
+    "Simula"
+  ],
+  "inspired": [
+    "Java",
+    "Rust",
+    "C#"
+  ],
+  "status": "active",
+  "feature_flags": {
+    "coroutines": true,
+    "ffi": true,
+    "macros": true,
+    "generics": true
+  },
+  "ecosystem": {
+    "package_count": 0,
+    "primary_domains": [
+      "systems",
+      "games",
+      "finance"
+    ],
+    "notable_companies": []
+  }
+}

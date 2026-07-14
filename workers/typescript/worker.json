@@ -1,0 +1,19 @@
+{
+  "id": "typescript-slug-01",
+  "language": "typescript",
+  "runtime": "node",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/typescript",
+  "command": [
+    "node",
+    "worker.ts"
+  ],
+  "capabilities": [
+    {
+      "name": "text.slugify",
+      "inputSchema": "text-request",
+      "outputSchema": "slug-text"
+    }
+  ]
+}

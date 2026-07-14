@@ -1,0 +1,16 @@
+{
+  "id": "haskell-length-01",
+  "language": "haskell",
+  "runtime": "ghc",
+  "workerVersion": "0.1.0",
+  "tier": "tier-2",
+  "workingDirectory": "workers/haskell",
+  "command": ["powershell", "-ExecutionPolicy", "Bypass", "-File", "workers/haskell/worker.ps1"],
+  "capabilities": [
+    {
+      "name": "text.length-hs",
+      "inputSchema": "text-request",
+      "outputSchema": "length-result"
+    }
+  ]
+}

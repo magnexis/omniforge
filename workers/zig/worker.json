@@ -1,0 +1,23 @@
+{
+  "id": "zig-primes-01",
+  "language": "zig",
+  "runtime": "0.16",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/zig",
+  "command": [
+    "powershell",
+    "-NoProfile",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    "worker.ps1"
+  ],
+  "capabilities": [
+    {
+      "name": "algorithm.prime-search",
+      "inputSchema": "prime-request",
+      "outputSchema": "prime-result"
+    }
+  ]
+}

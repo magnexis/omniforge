@@ -1,0 +1,49 @@
+{
+  "name": "Rust",
+  "slug": "rust",
+  "creator": "Graydon Hoare",
+  "year": 2010,
+  "latest_version": "",
+  "typing": "static, strong, inferred",
+  "memory_model": "ownership and borrowing",
+  "garbage_collected": false,
+  "compiled": true,
+  "interpreted": false,
+  "license": "MIT OR Apache-2.0",
+  "package_manager": "Cargo",
+  "compiler": "cargo",
+  "runtime": "native",
+  "github": "https://github.com/rust-lang/rust",
+  "official_site": "https://www.rust-lang.org/",
+  "documentation": "https://doc.rust-lang.org/",
+  "paradigm": [
+    "systems",
+    "functional",
+    "concurrent",
+    "multi-paradigm"
+  ],
+  "inspired_by": [
+    "C++",
+    "ML",
+    "Haskell",
+    "Ruby"
+  ],
+  "inspired": [],
+  "status": "active",
+  "feature_flags": {
+    "coroutines": false,
+    "ffi": true,
+    "macros": true,
+    "generics": true
+  },
+  "ecosystem": {
+    "package_count": 0,
+    "primary_domains": [
+      "systems",
+      "cli",
+      "web",
+      "embedded"
+    ],
+    "notable_companies": []
+  }
+}

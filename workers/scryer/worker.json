@@ -1,0 +1,16 @@
+{
+  "id": "scryer-max-01",
+  "language": "scryer-prolog",
+  "runtime": "0.9.3",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/scryer",
+  "command": ["python", "-u", "worker.py"],
+  "capabilities": [
+    {
+      "name": "math.max-scryer",
+      "inputSchema": "number-array",
+      "outputSchema": "max-result"
+    }
+  ]
+}

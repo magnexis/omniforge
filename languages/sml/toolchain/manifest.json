@@ -1,0 +1,12 @@
+{
+  "language": "sml",
+  "runtime": "sml",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "sml --version",
+  "runExample": "sml examples/hello-world/main.sml"
+}

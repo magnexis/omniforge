@@ -1,0 +1,16 @@
+{
+  "id": "cpp-sort-01",
+  "language": "cpp",
+  "runtime": "clang++",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/cpp",
+  "command": ["worker.exe"],
+  "capabilities": [
+    {
+      "name": "algorithm.sort",
+      "inputSchema": "number-array",
+      "outputSchema": "sorted-array"
+    }
+  ]
+}

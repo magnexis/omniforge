@@ -1,0 +1,16 @@
+{
+  "id": "fsharp-math-01",
+  "language": "fsharp",
+  "runtime": "net9.0",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/fsharp",
+  "command": ["dotnet", "run", "--project", "Worker.fsproj", "--no-build"],
+  "capabilities": [
+    {
+      "name": "math.statistics",
+      "inputSchema": "number-array",
+      "outputSchema": "statistics-result"
+    }
+  ]
+}

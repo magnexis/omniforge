@@ -1,0 +1,19 @@
+{
+  "id": "clojure-frequencies-01",
+  "language": "clojure",
+  "runtime": "babashka",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/clojure",
+  "command": [
+    "bb",
+    "worker.clj"
+  ],
+  "capabilities": [
+    {
+      "name": "data.frequencies",
+      "inputSchema": "items-request",
+      "outputSchema": "frequencies-response"
+    }
+  ]
+}

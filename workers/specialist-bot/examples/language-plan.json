@@ -1,0 +1,4 @@
+{
+  "delegateWorkerId": "rust-compress-01",
+  "goal": "choose the best execution paths for artifact handling"
+}

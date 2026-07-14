@@ -1,0 +1,12 @@
+{
+  "language": "bash",
+  "runtime": "bash",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "bash --version",
+  "runExample": "bash examples/hello-world/main.sh"
+}

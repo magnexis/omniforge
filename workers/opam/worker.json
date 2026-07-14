@@ -1,0 +1,19 @@
+{
+  "id": "opam-plan-01",
+  "language": "opam",
+  "runtime": "2.5.2",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/opam",
+  "command": [
+    "python",
+    "worker.py"
+  ],
+  "capabilities": [
+    {
+      "name": "dev.ocaml-tooling",
+      "inputSchema": "tooling-request",
+      "outputSchema": "tooling-result"
+    }
+  ]
+}

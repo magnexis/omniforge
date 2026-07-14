@@ -1,0 +1,198 @@
+{
+  "python": {
+    "strengths": [
+      {
+        "area": "automation",
+        "why": "Strong for glue code, file transforms, orchestration, and fast iteration.",
+        "recommendedCapabilities": [
+          "data.csv-transform",
+          "ops.incident-normalize",
+          "system.environment"
+        ]
+      },
+      {
+        "area": "data-processing",
+        "why": "Good default for schema reshaping, parsing, and report preparation.",
+        "recommendedCapabilities": [
+          "data.aggregate",
+          "data.json-parse",
+          "text.word-count"
+        ]
+      }
+    ]
+  },
+  "rust": {
+    "strengths": [
+      {
+        "area": "systems",
+        "why": "Best suited for safe native artifact handling and bounded resource work.",
+        "recommendedCapabilities": [
+          "system.compress",
+          "system.file-hash",
+          "algorithm.prime-search"
+        ]
+      }
+    ]
+  },
+  "go": {
+    "strengths": [
+      {
+        "area": "coordination",
+        "why": "Best for lightweight services, schedulers, and concurrent job handling.",
+        "recommendedCapabilities": [
+          "statistics.summary",
+          "system.ping"
+        ]
+      }
+    ]
+  },
+  "typescript": {
+    "strengths": [
+      {
+        "area": "web-and-api",
+        "why": "Strong fit for frontend, API SDK, and structured text shaping tasks.",
+        "recommendedCapabilities": [
+          "text.slugify",
+          "text.lines-scala",
+          "data.validate"
+        ]
+      }
+    ]
+  },
+  "javascript": {
+    "strengths": [
+      {
+        "area": "validation",
+        "why": "Useful for JSON-centric transforms and browser-aligned logic.",
+        "recommendedCapabilities": [
+          "data.validate",
+          "data.json-query"
+        ]
+      }
+    ]
+  },
+  "powershell": {
+    "strengths": [
+      {
+        "area": "windows-ops",
+        "why": "Best for host inspection, remediation planning, and native Windows automation.",
+        "recommendedCapabilities": [
+          "system.environment",
+          "ops.remediation-plan",
+          "repo.status"
+        ]
+      }
+    ]
+  },
+  "prolog": {
+    "strengths": [
+      {
+        "area": "rules-and-inference",
+        "why": "Good for policy routing, classification, and explicit rule reasoning.",
+        "recommendedCapabilities": [
+          "rules.classify",
+          "ops.policy-evaluate"
+        ]
+      }
+    ]
+  },
+  "julia": {
+    "strengths": [
+      {
+        "area": "numerics",
+        "why": "Good fit for dense numerical work and scientific summaries.",
+        "recommendedCapabilities": [
+          "math.vector-sum",
+          "math.mean",
+          "math.median"
+        ]
+      }
+    ]
+  },
+  "perl": {
+    "strengths": [
+      {
+        "area": "text-processing",
+        "why": "Best used where regular expressions and legacy text manipulation dominate.",
+        "recommendedCapabilities": [
+          "text.regex",
+          "text.tokenize",
+          "text.trim"
+        ]
+      }
+    ]
+  },
+  "lua": {
+    "strengths": [
+      {
+        "area": "embedded-scripting",
+        "why": "Lightweight fit for templating, plugin behavior, and host-embedded actions.",
+        "recommendedCapabilities": [
+          "text.template",
+          "text.lowercase"
+        ]
+      }
+    ]
+  },
+  "c": {
+    "strengths": [
+      {
+        "area": "low-level",
+        "why": "Best for compact native kernels, checksums, and tight memory-sensitive work.",
+        "recommendedCapabilities": [
+          "system.file-hash",
+          "system.compress"
+        ]
+      }
+    ]
+  },
+  "cpp": {
+    "strengths": [
+      {
+        "area": "high-performance-native",
+        "why": "Best for fast compute-heavy algorithms and native data structures.",
+        "recommendedCapabilities": [
+          "algorithm.sort",
+          "math.range"
+        ]
+      }
+    ]
+  },
+  "csharp": {
+    "strengths": [
+      {
+        "area": "dotnet-integration",
+        "why": "Good for Windows integration and typed application services.",
+        "recommendedCapabilities": [
+          "system.process-info",
+          "text.reverse"
+        ]
+      }
+    ]
+  },
+  "bash": {
+    "strengths": [
+      {
+        "area": "shell-automation",
+        "why": "Useful for command chaining, quick filters, and lightweight text actions.",
+        "recommendedCapabilities": [
+          "text.uppercase",
+          "text.lowercase",
+          "text.search-findstr"
+        ]
+      }
+    ]
+  },
+  "git": {
+    "strengths": [
+      {
+        "area": "repository-inspection",
+        "why": "Best for repository status, tracked content, and workspace-aware file views.",
+        "recommendedCapabilities": [
+          "repo.file-list",
+          "repo.status"
+        ]
+      }
+    ]
+  }
+}

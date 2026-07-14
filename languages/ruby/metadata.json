@@ -1,0 +1,46 @@
+{
+  "name": "Ruby",
+  "slug": "ruby",
+  "creator": "Yukihiro Matsumoto",
+  "year": 1995,
+  "latest_version": "",
+  "typing": "dynamic, strong",
+  "memory_model": "garbage collected",
+  "garbage_collected": true,
+  "compiled": false,
+  "interpreted": true,
+  "license": "Ruby or BSD-2-Clause",
+  "package_manager": "RubyGems",
+  "compiler": "ruby",
+  "runtime": "MRI",
+  "github": "https://github.com/ruby/ruby",
+  "official_site": "https://www.ruby-lang.org/",
+  "documentation": "https://www.ruby-lang.org/en/documentation/",
+  "paradigm": [
+    "object-oriented",
+    "scripting"
+  ],
+  "inspired_by": [
+    "Perl",
+    "Smalltalk",
+    "Lisp"
+  ],
+  "inspired": [
+    "Crystal"
+  ],
+  "status": "active",
+  "feature_flags": {
+    "coroutines": true,
+    "ffi": true,
+    "macros": false,
+    "generics": false
+  },
+  "ecosystem": {
+    "package_count": 0,
+    "primary_domains": [
+      "web",
+      "automation"
+    ],
+    "notable_companies": []
+  }
+}

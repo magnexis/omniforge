@@ -1,0 +1,15 @@
+{
+  "id": "rust-compress-01",
+  "language": "rust",
+  "runtime": "stable",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "command": ["cargo", "run", "--quiet", "--manifest-path", "workers/rust/Cargo.toml"],
+  "capabilities": [
+    {
+      "name": "system.compress",
+      "inputSchema": "statistics-summary",
+      "outputSchema": "compressed-artifact"
+    }
+  ]
+}

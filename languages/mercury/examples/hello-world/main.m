@@ -1,0 +1,6 @@
+:- module main.
+:- interface.
+:- import_module io.
+:- pred main(io::di, io::uo) is det.
+:- implementation.
+main(!IO) :- io.write_string("Hello, Omniforge from Mercury!\n", !IO).

@@ -1,0 +1,12 @@
+{
+  "language": "elmish",
+  "runtime": "dotnet",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "dotnet --version",
+  "runExample": "dotnet examples/hello-world/Program.fs"
+}

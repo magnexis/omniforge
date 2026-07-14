@@ -1,0 +1,23 @@
+{
+  "id": "stack-plan-01",
+  "language": "stack",
+  "runtime": "3.11.1",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/stack",
+  "command": [
+    "powershell",
+    "-NoProfile",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    "worker.ps1"
+  ],
+  "capabilities": [
+    {
+      "name": "dev.haskell-stack",
+      "inputSchema": "tooling-request",
+      "outputSchema": "tooling-result"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "language": "gleam",
+  "name": "Gleam",
+  "year": 2022,
+  "typing": "static",
+  "paradigm": [
+    "functional",
+    "typed",
+    "beam"
+  ],
+  "supportTier": "tier-1",
+  "status": "example-available",
+  "workerStatus": "tracked-only",
+  "admissionRule": "Tier 1 means the runtime is detected and a runnable language example exists, but the OFP worker is not yet counted as operational."
+}

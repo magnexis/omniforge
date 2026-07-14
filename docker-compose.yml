@@ -1,0 +1,44 @@
+services:
+  omniforge-systems:
+    build:
+      context: .
+      dockerfile: containers/systems/Dockerfile
+    image: omniforge-systems:dev
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    command: ["bash", "-lc", "sleep infinity"]
+    profiles: ["systems"]
+
+  omniforge-functional:
+    build:
+      context: .
+      dockerfile: containers/functional/Dockerfile
+    image: omniforge-functional:dev
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    command: ["bash", "-lc", "sleep infinity"]
+    profiles: ["functional"]
+
+  omniforge-scientific:
+    build:
+      context: .
+      dockerfile: containers/scientific/Dockerfile
+    image: omniforge-scientific:dev
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    command: ["bash", "-lc", "sleep infinity"]
+    profiles: ["scientific"]
+
+  omniforge-full:
+    build:
+      context: .
+      dockerfile: containers/full/Dockerfile
+    image: omniforge-full:dev
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    command: ["bash", "-lc", "sleep infinity"]
+    profiles: ["full"]

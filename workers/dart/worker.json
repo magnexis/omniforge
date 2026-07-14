@@ -1,0 +1,19 @@
+{
+  "id": "dart-json-01",
+  "language": "dart",
+  "runtime": "3.12",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/dart",
+  "command": [
+    "dart",
+    "worker.dart"
+  ],
+  "capabilities": [
+    {
+      "name": "data.json-parse",
+      "inputSchema": "json-request",
+      "outputSchema": "json-summary"
+    }
+  ]
+}

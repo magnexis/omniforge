@@ -1,0 +1,12 @@
+{
+  "language": "zig",
+  "runtime": "zig",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "zig --version",
+  "runExample": "zig examples/hello-world/main.zig"
+}

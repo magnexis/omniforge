@@ -1,0 +1,46 @@
+{
+  "name": "C",
+  "slug": "c",
+  "creator": "Dennis Ritchie",
+  "year": 1972,
+  "latest_version": "",
+  "typing": "static, weak",
+  "memory_model": "manual memory management",
+  "garbage_collected": false,
+  "compiled": true,
+  "interpreted": false,
+  "license": "ISO standard",
+  "package_manager": "none",
+  "compiler": "clang",
+  "runtime": "native",
+  "github": "https://github.com/llvm/llvm-project",
+  "official_site": "https://www.iso.org/standard/82075.html",
+  "documentation": "https://en.cppreference.com/w/c",
+  "paradigm": [
+    "procedural",
+    "systems"
+  ],
+  "inspired_by": [
+    "B"
+  ],
+  "inspired": [
+    "C++",
+    "Objective-C",
+    "C#"
+  ],
+  "status": "active",
+  "feature_flags": {
+    "coroutines": false,
+    "ffi": true,
+    "macros": true,
+    "generics": false
+  },
+  "ecosystem": {
+    "package_count": 0,
+    "primary_domains": [
+      "systems",
+      "embedded"
+    ],
+    "notable_companies": []
+  }
+}

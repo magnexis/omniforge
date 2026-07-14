@@ -1,0 +1,26 @@
+{
+  "id": "prolog-rules-01",
+  "language": "prolog",
+  "runtime": "swi-prolog",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/prolog",
+  "command": [
+    "swipl",
+    "-q",
+    "-f",
+    "worker.pl"
+  ],
+  "capabilities": [
+    {
+      "name": "rules.classify",
+      "inputSchema": "score-request",
+      "outputSchema": "classification-result"
+    },
+    {
+      "name": "ops.policy-evaluate",
+      "inputSchema": "normalized-incidents",
+      "outputSchema": "policy-decisions"
+    }
+  ]
+}

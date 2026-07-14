@@ -1,0 +1,19 @@
+{
+  "id": "bash-uppercase-01",
+  "language": "bash",
+  "runtime": "git-bash",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/bash",
+  "command": [
+    "bash",
+    "worker.sh"
+  ],
+  "capabilities": [
+    {
+      "name": "text.uppercase",
+      "inputSchema": "text-request",
+      "outputSchema": "uppercase-text"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "language": "webassembly",
+  "name": "WebAssembly",
+  "year": 2017,
+  "typing": "typed-binary",
+  "paradigm": [
+    "portable-binary",
+    "vm-target"
+  ],
+  "supportTier": "tier-0",
+  "status": "catalogued",
+  "workerStatus": "not-counted",
+  "admissionRule": "Catalogued only until Omniforge has a detected runtime, OFP worker, verified coordinator path, and tests."
+}

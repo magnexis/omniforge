@@ -1,0 +1,22 @@
+{
+  "id": "elvish-length-01",
+  "language": "elvish",
+  "runtime": "0.21.0",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/elvish",
+  "command": [
+    "powershell",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    "worker.ps1"
+  ],
+  "capabilities": [
+    {
+      "name": "text.length-elvish",
+      "inputSchema": "text-request",
+      "outputSchema": "length-result"
+    }
+  ]
+}

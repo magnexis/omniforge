@@ -1,0 +1,20 @@
+{
+  "detector": "cargo",
+  "build": [
+    "cargo",
+    "build",
+    "--manifest-path",
+    "examples/hello-world/Cargo.toml"
+  ],
+  "run": [
+    "cargo",
+    "run",
+    "--quiet",
+    "--manifest-path",
+    "examples/hello-world/Cargo.toml"
+  ],
+  "expected": {
+    "language": "rust",
+    "message": "hello-forge"
+  }
+}

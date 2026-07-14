@@ -1,0 +1,12 @@
+{
+  "language": "logtalk",
+  "runtime": "logtalk",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "logtalk --version",
+  "runExample": "logtalk examples/hello-world/main.lgt"
+}

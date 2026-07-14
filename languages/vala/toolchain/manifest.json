@@ -1,0 +1,12 @@
+{
+  "language": "vala",
+  "runtime": "valac",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "valac --version",
+  "runExample": "valac examples/hello-world/main.vala"
+}

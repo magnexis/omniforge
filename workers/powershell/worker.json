@@ -1,0 +1,27 @@
+{
+  "id": "powershell-env-01",
+  "language": "powershell",
+  "runtime": "windows-powershell",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/powershell",
+  "command": [
+    "powershell",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    "worker.ps1"
+  ],
+  "capabilities": [
+    {
+      "name": "system.environment",
+      "inputSchema": "env-request",
+      "outputSchema": "env-summary"
+    },
+    {
+      "name": "ops.remediation-plan",
+      "inputSchema": "policy-decisions",
+      "outputSchema": "remediation-plan"
+    }
+  ]
+}

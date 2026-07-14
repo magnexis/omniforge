@@ -1,0 +1,3018 @@
+{
+    "source":  "attachment:pasted-text.txt",
+    "capturedOn":  "2026-07-13",
+    "totalCatalogued":  275,
+    "admissionRule":  "Catalogued entries are not counted as supported until they have a detected runtime, OFP worker, verified coordinator path, and tests.",
+    "entries":  [
+                    {
+                        "index":  1,
+                        "name":  "PYTHON",
+                        "metadata":  [
+                                         "Official:          https://www.python.org/downloads/",
+                                         "Windows x64:       https://www.python.org/ftp/python/3.12.0/python-3.12.0-amd64.exe",
+                                         "macOS Intel:       https://www.python.org/ftp/python/3.12.0/python-3.12.0-macosx10.9.pkg",
+                                         "macOS ARM:         https://www.python.org/ftp/python/3.12.0/python-3.12.0-macos11.pkg",
+                                         "Linux Source:      https://www.python.org/ftp/python/3.12.0/Python-3.12.0.tgz",
+                                         "Embeddable Win:    https://www.python.org/ftp/python/3.12.0/python-3.12.0-embed-amd64.zip",
+                                         "GPG Signature:     https://www.python.org/ftp/python/3.12.0/Python-3.12.0.tgz.asc",
+                                         "Docker:            docker pull python:3.12-slim",
+                                         "Conda:             conda install python=3.12",
+                                         "Pyenv:             pyenv install 3.12.0",
+                                         "Homebrew:           brew install python@3.12",
+                                         "Winget:            winget install Python.Python.3.12",
+                                         "Chocolatey:         choco install python",
+                                         "Scoop:              scoop install python"
+                                     ]
+                    },
+                    {
+                        "index":  2,
+                        "name":  "JAVASCRIPT / NODE.JS",
+                        "metadata":  [
+                                         "Official:          https://nodejs.org/en/download",
+                                         "LTS (v20):         https://nodejs.org/dist/v20.11.0/node-v20.11.0-x64.msi",
+                                         "Current:           https://nodejs.org/dist/v21.7.0/node-v21.7.0-x64.msi",
+                                         "macOS:             https://nodejs.org/dist/v20.11.0/node-v20.11.0.pkg",
+                                         "Linux Binary:      https://nodejs.org/dist/v20.11.0/node-v20.11.0-linux-x64.tar.xz",
+                                         "Source:            https://nodejs.org/dist/v20.11.0/node-v20.11.0.tar.gz",
+                                         "Docker:            docker pull node:20-slim",
+                                         "Bun (Fast Alt):    https://bun.sh/docs/installation",
+                                         "Deno (Secure):     https://deno.land/#installation",
+                                         "GraalJS (JVM):    https://www.graalvm.org/downloads/",
+                                         "QuickJS:           https://bellard.org/quickjs/",
+                                         "JerryScript:       https://jerryscript.net/docs/getting-started/",
+                                         "SpiderMonkey:      https://spidermonkey.dev/",
+                                         "V8 Engine:         https://v8.dev/docs/build",
+                                         "Hermes:            https://hermesengine.dev/"
+                                     ]
+                    },
+                    {
+                        "index":  3,
+                        "name":  "TYPESCRIPT",
+                        "metadata":  [
+                                         "NPM Global:        npm install -g typescript@latest",
+                                         "Playground:        https://www.typescriptlang.org/play",
+                                         "Source:            https://github.com/microsoft/TypeScript/releases",
+                                         "VS Code Extension: Built-in (vscode.typescript-language-features)",
+                                         "Deno:              Built-in TypeScript support",
+                                         "Bun:               Built-in TypeScript support",
+                                         "ts-node:           npm install -g ts-node",
+                                         "tsx:               npx tsx",
+                                         "SWC (Rust-based):  https://swc.rs/",
+                                         "esbuild:           https://esm.sh/esbuild-wasm"
+                                     ]
+                    },
+                    {
+                        "index":  4,
+                        "name":  "JAVA",
+                        "metadata":  [
+                                         "Oracle JDK:        https://www.oracle.com/java/technologies/downloads/",
+                                         "OpenJDK Temurin:   https://adoptium.net/",
+                                         "Amazon Corretto:   https://aws.amazon.com/corretto/",
+                                         "Azul Zulu:         https://www.azul.com/downloads/?version=java-21-lts\u0026os=windows\u0026architecture=x86-bit\u0026package=jdk",
+                                         "Microsoft Build:   https://learn.microsoft.com/en-us/java/openjdk/download",
+                                         "Red Hat OpenJDK:   https://developers.redhat.com/products/openjdk/download",
+                                         "Liberica NIK:      https://bell-sw.com/pages/downloads",
+                                         "SAP Machine:       https://sap.github.io/SapMachine/",
+                                         "Dragonwell:        https://github.com/alibaba/Dragonweed8",
+                                         "GraalVM:           https://www.graalvm.org/downloads/",
+                                         "SDKMAN!:           curl -s \"https://get.sdkman.io\" | bash \u0026\u0026 sdk install java 21.0.1-tem",
+                                         "Docker:            docker pull eclipse-temurin:21-jdk",
+                                         "Winget:            winget install EclipseAdoptium JDK.21",
+                                         "Chocolatey:         choco install jdk21",
+                                         "Maven:             https://maven.apache.org/download.cgi",
+                                         "Gradle:            https://gradle.org/install/"
+                                     ]
+                    },
+                    {
+                        "index":  5,
+                        "name":  "C",
+                        "metadata":  [
+                                         "GCC (MinGW):       https://www.msys2.org/",
+                                         "LLVM/Clang:        https://clang.llvm.org/get_started.html",
+                                         "MSVC:              https://visualstudio.microsoft.com/visual-cpp-build-tools/",
+                                         "TCC (Tiny C):      http://bellard.org/tcc/",
+                                         "Zig (C Mode):      https://ziglang.org/download/",
+                                         "Intel oneAPI:      https://www.intel.com/content/www/us/en/developer/tools/oneapi/dpc++-compiler.html",
+                                         "Apple Clang:       xcode-select --install",
+                                         "Emscripten:        https://emscripten.org/docs/getting_started/downloads.html",
+                                         "SDCC:              http://sdcc.sourceforge.net/",
+                                         "Pelles C:          https://www.smorgasbord.se/pelle-c/",
+                                         "Digital Mars:      http://digitalmars.com/compiler/",
+                                         "Open Watcom:       https://openwatcom.org/install/",
+                                         "Docker GCC:        docker pull gcc:13",
+                                         "Docker Clang:      docker pull clang:17"
+                                     ]
+                    },
+                    {
+                        "index":  6,
+                        "name":  "C++",
+                        "metadata":  [
+                                         "GCC G++:           https://gcc.gnu.org/projects/cxx-status.html",
+                                         "LLVM Clang++:      https://clang.llvm.org/cxx_status.html",
+                                         "MSVC:              https://learn.microsoft.com/en-us/cpp/overview/visual-cpp-in-visual-studio",
+                                         "Intel C++:         https://www.intel.com/content/www/us/en/developer/tools/oneapi/c++-compiler.html",
+                                         "CUDA Toolkit:      https://developer.nvidia.com/cuda-downloads",
+                                         "HIP (AMD):         https://github.com/ROCm/HIP",
+                                         "CMake:             https://cmake.org/download/",
+                                         "Docker:            docker pull gcc:13"
+                                     ]
+                    },
+                    {
+                        "index":  7,
+                        "name":  "C# (.NET)",
+                        "metadata":  [
+                                         ".NET SDK:          https://dotnet.microsoft.com/download/dotnet",
+                                         "Visual Studio:     https://visualstudio.microsoft.com/downloads/",
+                                         "Mono:              www.mono-project.com/download/stable/",
+                                         "Unity Hub:         https://unity.com/download",
+                                         "Godot .NET:        https://godotengine.org/download",
+                                         "Avalonia UI:       https://avaloniaui.net/",
+                                         "NuGet:             nuget.org",
+                                         "Winget:            winget Microsoft.DotNet.SDK.8",
+                                         "Docker:            mcr.microsoft.com/dotnet/sdk:8.0"
+                                     ]
+                    },
+                    {
+                        "index":  8,
+                        "name":  "GO (GOLANG)",
+                        "metadata":  [
+                                         "Official:          https://go.dev/dl/",
+                                         "Windows MSI:       https://go.dev/dl/go1.22.0.windows-amd64.msi",
+                                         "macOS PKG:         https://go.dev/dl/go1.22.0.darwin-arm64.pkg",
+                                         "Linux Tar:         https://go.dev/dl/go1.22.0.linux-amd64.tar.gz",
+                                         "Source:            https://go.dev/dl/go1.22.0.src.tar.gz",
+                                         "Playground:        https://go.dev/play/",
+                                         "Homebrew:           brew install go",
+                                         "Winget:            winget install GoLang.Go",
+                                         "Chocolatey:         choco install golang",
+                                         "Scoop:              scoop install go",
+                                         "Docker:            docker pull golang:1.22-alpine"
+                                     ]
+                    },
+                    {
+                        "index":  9,
+                        "name":  "RUST",
+                        "metadata":  [
+                                         "rustup (Official): https://rustup.rs/",
+                                         "Windows:           https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe",
+                                         "Unix Installer:    curl --proto \u0027=https\u0027 --tlsv1.2 -sSf https://sh.rustup.rs | sh",
+                                         "Standalone:        https://static.rust-lang.org/dist/x86_64-pc-windows-msvc/rustc-1.77.0-pc-windows-msvc.msi",
+                                         "Source:            https://github.com/rust-lang/rust",
+                                         "Docker:            docker pull rust:1.77-slim",
+                                         "Homebrew:           brew install rust",
+                                         "Winget:            winget install Rustlang.Rust.MSVC",
+                                         "Cargo:             Included with Rustup",
+                                         "rust-analyzer:     rustup component add rust-analyzer"
+                                     ]
+                    },
+                    {
+                        "index":  10,
+                        "name":  "PHP",
+                        "metadata":  [
+                                         "Official:          https://www.php.net/downloads.php",
+                                         "Windows:           https://windows.php.net/download/",
+                                         "macOS:             brew install php@8.3",
+                                         "Linux:             apt install php8.3-cli",
+                                         "XAMPP:             https://www.apachefriends.org/",
+                                         "MAMP:              https://www.mamp.info/",
+                                         "Laragon:           https://laragon.org/",
+                                         "Composer:          https://getcomposer.org/download/",
+                                         "PECL:              pecl.php.net",
+                                         "Docker:            docker pull php:8.3-apache",
+                                         "Docker FPM:        docker pull php:8.3-fpm-alpine"
+                                     ]
+                    },
+                    {
+                        "index":  11,
+                        "name":  "RUBY",
+                        "metadata":  [
+                                         "Official:          https://www.ruby-lang.org/en/downloads/",
+                                         "RubyInstaller Win: https://rubyinstaller.org/downloads/",
+                                         "macOS:             brew install ruby",
+                                         "Linux:             apt install ruby-full",
+                                         "rbenv:             https://github.com/rbenv/rbenv",
+                                         "rvm:               https://rvm.io/",
+                                         "asdf:              asdf plugin-add ruby",
+                                         "JRuby:             https://www.jruby.org/",
+                                         "TruffleRuby:       https://www.graalvm.org/ruby/",
+                                         "Bundler:           gem install bundler",
+                                         "Docker:            docker pull ruby:3.2-alpine"
+                                     ]
+                    },
+                    {
+                        "index":  12,
+                        "name":  "SWIFT",
+                        "metadata":  [
+                                         "Official:          https://www.swift.org/download/",
+                                         "Xcode:             App Store (includes Swift)",
+                                         "Linux Toolchain:   swift-5.10-RELEASE-ubuntu22.04.tar.gz",
+                                         "Windows (Exp):     https://www.swift.org/install/windows/",
+                                         "Docker:            docker pull swift:5.10",
+                                         "Swift Playgrounds: App Store",
+                                         "SPM:               Included with Swift",
+                                         "CocoaPods:         sudo gem install cocoapods"
+                                     ]
+                    },
+                    {
+                        "index":  13,
+                        "name":  "KOTLIN",
+                        "metadata":  [
+                                         "Official:          https://kotlinlang.org/downloads/",
+                                         "IntelliJ IDEA:      https://www.jetbrains.com/idea/download/",
+                                         "Android Studio:    developer.android.com/studio",
+                                         "CLI:               https://github.com/JetBrains/kotlin/releases",
+                                         "SDKMAN!:           sdk install kotlin",
+                                         "Gradle Plugin:     plugins { id(\"org.jetbrains.kotlin.jvm\") version \"2.0\" }",
+                                         "Compose Multiplatform: https://github.com/JetBrains/compose-multiplatform",
+                                         "Ktor:              https://ktor.io/"
+                                     ]
+                    },
+                    {
+                        "index":  14,
+                        "name":  "DART",
+                        "metadata":  [
+                                         "Official:          https://dart.dev/get-dart",
+                                         "Flutter SDK:       https://docs.flutter.dev/get-started/install",
+                                         "Web (DartPad):     https://dartpad.dev/",
+                                         "SDK Archive:       https://dart.dev/tools/sdk/archive",
+                                         "Homebrew:           brew install dart",
+                                         "Chocolatey:         choco install dart-sdk",
+                                         "Docker:            docker pull dart:stable"
+                                     ]
+                    },
+                    {
+                        "index":  15,
+                        "name":  "R (STATISTICAL)",
+                        "metadata":  [
+                                         "CRAN Official:     https://cran.r-project.org/",
+                                         "Windows:           https://cran.r-project.org/bin/windows/base/R-4.4.0-win.exe",
+                                         "macOS:             https://cran.r-project.org/bin/macosx/",
+                                         "Linux:             apt install r-base",
+                                         "Microsoft R Open:  https://microsoft.github.io/ROpen/",
+                                         "Posit/RStudio:     https://posit.co/download/rstudio-desktop/",
+                                         "rocker Docker:     docker pull rocker/r-ver:4.4",
+                                         "renv:              https://rstudio.github.io/renv/"
+                                     ]
+                    },
+                    {
+                        "index":  16,
+                        "name":  "JULIA",
+                        "metadata":  [
+                                         "Official:          https://julialang.org/downloads/",
+                                         "juliaup:           https://github.com/JuliaLang/juliaup",
+                                         "Windows:           julia-1.10.0-win64.exe",
+                                         "macOS:             julia-1.10.0-mac64.dmg",
+                                         "Linux:             julia-1.10.0-linux-x86_64.tar.gz",
+                                         "Docker:            docker pull julia:1.10",
+                                         "Pluto Notebooks:   https://plutojl.org/"
+                                     ]
+                    },
+                    {
+                        "index":  17,
+                        "name":  "LUA",
+                        "metadata":  [
+                                         "Official Lua:      https://www.lua.org/download.html",
+                                         "LuaJIT (Fast):     https://luajit.org/download.html",
+                                         "Luarocks:          https://luarocks.org/",
+                                         "Homebrew:           brew install lua luajit",
+                                         "fengari (WASM):    https://fengari.io/",
+                                         "MoonScript:        https://moonscript.org/",
+                                         "Teal (Typed Lua):  https://teal-lang.org/",
+                                         "Docker:            docker pull alpine:latest \u0026\u0026 apk add lua5.4"
+                                     ]
+                    },
+                    {
+                        "index":  18,
+                        "name":  "PERL",
+                        "metadata":  [
+                                         "CPAN Official:     https://www.perl.org/get.html",
+                                         "Strawberry Perl:   https://strawberryperl.com/",
+                                         "ActivePerl:        https://www.activestate.com/products/perl/",
+                                         "macOS:             brew install perl",
+                                         "perlbrew:          https://perlbrew.pl/",
+                                         "cpanm:             https://metacpan.org/pod/App::cpanminus",
+                                         "Docker:            docker pull perl:5.40-slim"
+                                     ]
+                    },
+                    {
+                        "index":  19,
+                        "name":  "SHELL/BASH/ZSH/FISH/POWERSHELL",
+                        "metadata":  [
+                                         "GNU Bash:          https://ftp.gnu.org/gnu/bash/bash-5.2.tar.gz",
+                                         "Zsh:               https://www.zsh.org/",
+                                         "Fish Shell:        https://fishshell.com/",
+                                         "PowerShell:        https://github.com/PowerShell/PowerShell/releases",
+                                         "Dash:              https://tracker.debian.org/pkg/dash",
+                                         "Nushell:          https://www.nushell.sh/",
+                                         "Elvish:            https://elv.sh/",
+                                         "Oil Shell:         https://www.oilshell.org/",
+                                         "Most pre-installed on Unix/Linux/macOS"
+                                     ]
+                    },
+                    {
+                        "index":  20,
+                        "name":  "SCALA",
+                        "metadata":  [
+                                         "Official:          https://www.scala-lang.org/download/",
+                                         "Coursier:          https://get-coursier.io/docs/cli-installation",
+                                         "SDKMAN!:           sdk install scala",
+                                         "sbt:               https://www.scala-sbt.org/download.html",
+                                         "Mill:              https://com-lihaoyi.github.io/mill/",
+                                         "Metals (LSP):      https://scalameta.org/metals/",
+                                         "Ammonite REPL:     https://ammonite.io/",
+                                         "Docker:            docker pull hseeberger/scala-sbt:latest"
+                                     ]
+                    },
+                    {
+                        "index":  21,
+                        "name":  "HASKELL",
+                        "metadata":  [
+                                         "GHCup (Recommended): https://www.haskell.org/ghcup/",
+                                         "GHC Compiler:      https://www.haskell.org/ghc/",
+                                         "Stack:             https://docs.haskellstack.org/en/stable/install_and_upgrade/",
+                                         "Cabal:             Pre-installed with GHC",
+                                         "Hackage:           https://hackage.haskell.org/",
+                                         "Stackage:          https://www.stackage.org/",
+                                         "Docker:            docker pull ghcr.io/ghcr/haskell/ghci:9.8"
+                                     ]
+                    },
+                    {
+                        "index":  22,
+                        "name":  "ELIXIR",
+                        "metadata":  [
+                                         "Official:          https://elixir-lang.org/install.html",
+                                         "Erlang OTP (Req):  https://www.erlang.org/downloads",
+                                         "asdf:              asdf plugin-add elixir \u0026\u0026 asdf install elixir 1.16",
+                                         "Homebrew:           brew install elixir",
+                                         "Livebook:          https://livebook.dev/",
+                                         "Phoenix Framework: https://www.phoenixframework.org/",
+                                         "Docker:            docker pull elixir:1.16"
+                                     ]
+                    },
+                    {
+                        "index":  23,
+                        "name":  "ERLANG",
+                        "metadata":  [
+                                         "Official:          https://www.erlang.org/downloads",
+                                         "kerl:              https://kerl.github.io/kerl/",
+                                         "asdf:              asdf plugin-add erlang",
+                                         "Rebar3:            https://rebar3.org/",
+                                         "RabbitMQ:          https://www.rabbitmq.com/download",
+                                         "Cowboy Web Server: https://ninenines.eu/",
+                                         "Docker:            docker pull erlang:27"
+                                     ]
+                    },
+                    {
+                        "index":  24,
+                        "name":  "ASSEMBLY (MULTI-ARCH)",
+                        "metadata":  [
+                                         "NASM (x86):        https://www.nasm.us/",
+                                         "GNU Assembler:     Part of binutils (https://gnu.org/software/binutils/)",
+                                         "MASM (MS):         Visual Studio / MASM32 (http://www.masm32.com/)",
+                                         "YASM:              https://yasm.tortall.net/",
+                                         "FASM:              https://flatassembler.net/",
+                                         "ARM Keil:          https://developer.arm.com/tools-and-software/embedded",
+                                         "GNU ARM Toolchain: https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm",
+                                         "RISC-V Toolchain:  https://github.com/riscv/riscv-gnu-toolchain",
+                                         "AVR-GCC:          https://microchip-microchip-direct.gitlab.io/doc/avr-tools/",
+                                         "QEMU Emulator:     https://www.qemu.org/download/",
+                                         "Bochs x86:         https://bochs.sourceforge.io/"
+                                     ]
+                    },
+                    {
+                        "index":  25,
+                        "name":  "ZIG",
+                        "metadata":  [
+                                         "Official:          https://ziglang.org/download/",
+                                         "GitHub Releases:   https://github.com/ziglang/zig/releases",
+                                         "zigup:             https://github.com/genzyner/zigup",
+                                         "Homebrew:           brew install zig",
+                                         "Winget:            winget install ziglang.zig",
+                                         "Docker:            docker pull ziglang/zig:ubuntu-22.04",
+                                         "Playground:        https://zig-play.dev/"
+                                     ]
+                    },
+                    {
+                        "index":  26,
+                        "name":  "ODIN",
+                        "metadata":  [
+                                         "Official:          https://odin-lang.org/download",
+                                         "GitHub:            https://github.com/odin-lang/Odin",
+                                         "VS Code Ext:       odin-vscode-extension"
+                                     ]
+                    },
+                    {
+                        "index":  27,
+                        "name":  "V (VLANG)",
+                        "metadata":  [
+                                         "Official:          https://vlang.io/",
+                                         "GitHub:            https://github.com/vlang/v",
+                                         "One-line Unix:     wget -o v.c https://vlang.io/v.c \u0026\u0026 cc -o v v.c -lm \u0026\u0026 ./v",
+                                         "Windows Exe:       GitHub releases page",
+                                         "Docker:            docker pull thevlang/v:latest"
+                                     ]
+                    },
+                    {
+                        "index":  28,
+                        "name":  "NIM",
+                        "metadata":  [
+                                         "Official:          https://nim-lang.org/install.html",
+                                         "choosenim:         https://nim-lang.org/install/choosenim.html",
+                                         "GitHub:            https://github.com/nim-lang/Nim",
+                                         "Homebrew:           brew nim",
+                                         "Chocolatey:         choco install nim",
+                                         "Docker:            docker pull nimlang/nim:latest",
+                                         "Nimble:           Included with Nim installation"
+                                     ]
+                    },
+                    {
+                        "index":  29,
+                        "name":  "D LANGUAGE",
+                        "metadata":  [
+                                         "Digital Mars DMD:  https://dlang.org/download.html",
+                                         "LDC (LLVM):        https://github.com/ldc-developers/ldc/releases",
+                                         "GDC (GCC):        https://gdcproject.org/downloads",
+                                         "Dub (Pkg Mgr):     https://code.dlang.org/",
+                                         "VS Code:           code-d extension"
+                                     ]
+                    },
+                    {
+                        "index":  30,
+                        "name":  "F#",
+                        "metadata":  [
+                                         ".NET SDK:          https://dotnet.microsoft.com/download/dotnet (includes F#)",
+                                         "Visual Studio:     Built-in F# tools",
+                                         "Ionide (VS Code):  ionide-fsharp extension",
+                                         "Paket:             paket.io",
+                                         "Forge:             https://forge.run/"
+                                     ]
+                    },
+                    {
+                        "index":  31,
+                        "name":  "ADA",
+                        "metadata":  [
+                                         "GNAT Community:    https://www.adacore.com/download",
+                                         "Alire (Pkg Mgr):   https://alire.ada.dev/",
+                                         "GPS IDE:           Included with GNAT",
+                                         "Docker:            docker pull ghcr.io/alire-project/gnat:latest"
+                                     ]
+                    },
+                    {
+                        "index":  32,
+                        "name":  "FORTRAN",
+                        "metadata":  [
+                                         "GCC GFortran:      https://gcc.gnu.org/fortran/",
+                                         "Intel Fortran:     https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html",
+                                         "LLVM Flang:        https://flang.llvm.org/",
+                                         "MinGW Fortran:     https://www.msys2.org/",
+                                         "Docker:            docker pull gcc:13 (includes gfortran)"
+                                     ]
+                    },
+                    {
+                        "index":  33,
+                        "name":  "COBOL",
+                        "metadata":  [
+                                         "GnuCOBOL:         https://sourceforge.net/projects/open-cobol/",
+                                         "IBM COBOL:        IBM licensed product (enterprise)",
+                                         "Micro Focus:      https://www.microfocus.com/products/cobol",
+                                         "Docker:            docker pull cobol/gnucobol"
+                                     ]
+                    },
+                    {
+                        "index":  34,
+                        "name":  "PASCAL / DELPHI",
+                        "metadata":  [
+                                         "Free Pascal:       https://www.freepascal.org/",
+                                         "Lazarus IDE:       https://www.lazarus-ide.org/",
+                                         "Delphi CE:        https://www.embarcadero.com/products/delphi",
+                                         "Dev-Pascal:       https://www.bloodshed.net/devpascal.html (legacy)",
+                                         "Turbo Pascal:      DOS era (abandonware/emulators only)"
+                                     ]
+                    },
+                    {
+                        "index":  35,
+                        "name":  "OBJECTIVE-C",
+                        "metadata":  [
+                                         "Apple Xcode:       App Store (includes Objective-C runtime)",
+                                         "GNUstep:           https://www.gnustep.org/experience/Windows.html",
+                                         "Clang (Frontend):  Included with LLVM/Clang toolchain",
+                                         "Windows Support:   Via GNUstep or MinGW-w64"
+                                     ]
+                    },
+                    {
+                        "index":  36,
+                        "name":  "VISUAL BASIC .NET",
+                        "metadata":  [
+                                         ".NET SDK:          https://dotnet.microsoft.com/download/dotnet",
+                                         "Visual Studio:     Full VB.NET designer support",
+                                         "VB6 Legacy:        Windows legacy (not recommended for new projects)"
+                                     ]
+                    },
+                    {
+                        "index":  37,
+                        "name":  "CLOJURE",
+                        "metadata":  [
+                                         "Official:          https://clojure.org/guides/install_clojure",
+                                         "Clojure CLI:       https://clojure.org/guides/getting_started",
+                                         "Leiningen:         https://leiningen.org/",
+                                         "Boot:              https://boot-clj.com/",
+                                         "Deps.edn:          Clojure native deps tool",
+                                         "Docker:            docker pull clojure:temurin-21-tools-deps",
+                                         "REPL:              clj or clojure command after install"
+                                     ]
+                    },
+                    {
+                        "index":  38,
+                        "name":  "SCHEME",
+                        "metadata":  [
+                                         "Chez Scheme:       https://cisco.github.io/ChezScheme/",
+                                         "MIT Scheme:        https://www.gnu.org/software/mit-scheme/",
+                                         "Guile (GNU):      https://www.gnu.org/software/guile/",
+                                         "Chicken:          https://call-cc.org/",
+                                         "Racket:            https://racket-lang.org/",
+                                         "Gauche:           https://practical-scheme.net/gauche/",
+                                         "STklos:           https://stklos.net/",
+                                         "Kawa (JVM):       https://www.gnu.org/software/kawa/",
+                                         "Bigloo:           https://www-sop.inria.fr/india/fp/Bigloo/",
+                                         "SISC:             https://sisc-scheme.org/"
+                                     ]
+                    },
+                    {
+                        "index":  39,
+                        "name":  "COMMON LISP",
+                        "metadata":  [
+                                         "SBCL:             https://sbcl.org/",
+                                         "CLISP:            https://clisp.sourceforge.net/",
+                                         "CCL (Clozure):    https://ccl.clozure.com/",
+                                         "ABCL (JVM):       https://github.com/armedbear/abcl",
+                                         "ECL:              https://common-lisp.net/project/ecl/",
+                                         "Allegro CL:       https://franz.com/products/allegrocl/ (commercial)",
+                                         "LispWorks:        https://www.lispworks.com/ (commercial)",
+                                         "SLIME (Emacs):    https://common-lisp.net/project/slime/",
+                                         "Quicklisp:        https://www.quicklisp.org/beta/",
+                                         "Roswell:          https://roswell.lisp.rs/",
+                                         "Portacle:         https://portacle.github.io/ (portable env)"
+                                     ]
+                    },
+                    {
+                        "index":  40,
+                        "name":  "ELIXIR (ALREADY LISTED BUT EMPHASIZE BEAM)",
+                        "metadata":  [
+                                         "(See #022 for main links)",
+                                         "BEAM VM Docs:     https://www.erlang.org/doc/system/architecture.html",
+                                         "Observer (Debug): https://github.com/frankheng/observer",
+                                         "Recon (CLI Debug): erl -name recon@127.0.0.1 -setcookie cookie -eval \u0027application:start(observer), observer:start(cli).\u0027"
+                                     ]
+                    },
+                    {
+                        "index":  41,
+                        "name":  "ERLANG (OTP PLATFORM)",
+                        "metadata":  [
+                                         "(See #023 for main links)",
+                                         "OTP Docs:          https://www.erlang.org/doc/",
+                                         "Release Notes:     https://www.erlang.org/downloads",
+                                         "erl shell:         erl (after installing Erlang/OTP)"
+                                     ]
+                    },
+                    {
+                        "index":  42,
+                        "name":  "LFE (LISP FLAVOURED ERLANG)",
+                        "metadata":  [
+                                         "GitHub:            https://github.com/lfe/lfe",
+                                         "Hex Package:       https://hex.pm/packages/lfe",
+                                         "rebar3 plugin:     rebar3 plugin list | grep lfe"
+                                     ]
+                    },
+                    {
+                        "index":  43,
+                        "name":  "GLEAM (ON BEAM)",
+                        "metadata":  [
+                                         "Official:          https://gleam.run/",
+                                         "VS Code:           gleam-vscode-extension",
+                                         "Hex:               hex.pm/packages/gleam_stdlib",
+                                         "Docker:            docker pull gleamlang/gleam:latest"
+                                     ]
+                    },
+                    {
+                        "index":  44,
+                        "name":  "HTML5",
+                        "metadata":  [
+                                         "Spec:              https://html.spec.whatwg.org/",
+                                         "Validator:         https://validator.w3.org/",
+                                         "MDN Docs:          https://developer.mozilla.org/en-US/docs/Web/HTML",
+                                         "WhatWG:            https://whatwg.org/html/",
+                                         "Not \"installed\" per se - rendered by browsers/servers"
+                                     ]
+                    },
+                    {
+                        "index":  45,
+                        "name":  "CSS3",
+                        "metadata":  [
+                                         "Spec:              https://www.w3.org/Style/CSS/#specifications",
+                                         "Validator:         https://jigsaw.w3.org/css-validator/",
+                                         "PostCSS:          https://postcss.org/",
+                                         "Sass/SCSS:        https://sass-lang.com/install",
+                                         "Less:              https://lesscss.org/usage/#installing-less-js",
+                                         "Stylus:           https://stylus-lang.com/docs/install.html"
+                                     ]
+                    },
+                    {
+                        "index":  46,
+                        "name":  "SVG",
+                        "metadata":  [
+                                         "Spec:              https://www.w3.org/Graphics/SVG/",
+                                         "Inkscape Editor:   https://inkscape.org/",
+                                         "SVG.js Library:    https://svgjs.dev/",
+                                         "D3.js:             https://d3js.org/",
+                                         "Canva (Online):    https://www.canva.com/"
+                                     ]
+                    },
+                    {
+                        "index":  47,
+                        "name":  "XML",
+                        "metadata":  [
+                                         "Spec:              https://www.w3.org/XML/",
+                                         "LibXML2:          http://xmlsoft.org/",
+                                         "Xerces (Apache):   https://xerces.apache.org/xerces2-j/install.html",
+                                         "xmllint:          Usually installed with libxml2",
+                                         "XMLStarlet:       https://xmlstar.sourceforge.net/"
+                                     ]
+                    },
+                    {
+                        "index":  48,
+                        "name":  "WEBASSEMBLY (WASM)",
+                        "metadata":  [
+                                         "Binary Format Spec: https://webassembly.org/",
+                                         "Wasmtime (Runtime): https://wasmtime.dev/",
+                                         "Wasmer:            https://wasmer.io/",
+                                         "WasmEdge:          https://wasmedge.org/",
+                                         "Wasm3 (Interpreter):https://github.com/wasm3/wasm3",
+                                         "Emscripten:        https://emscripten.org/docs/getting_started/downloads.html",
+                                         "wasi-sdk:          https://github.com/WebAssembly/wasi-sdk",
+                                         "WABT Tools:        https://github.com/WebAssembly/wabt"
+                                     ]
+                    },
+                    {
+                        "index":  49,
+                        "name":  "GLSL (OPENGL SHADERS)",
+                        "metadata":  [
+                                         "Khronos Ref:      https://www.khronos.org/opengl/wiki/Compile_Shaders",
+                                         "ShaderToy:        https://www.shadertoy.com/",
+                                         "glslang:          https://github.com/KhronosGroup/glslang",
+                                         "SPIRV-Cross:      https://github.com/KhronosGroup/SPIRV-Cross",
+                                         "SPIRV-Tools:      https://github.com/KhronosGroup/SPIRV-Tools"
+                                     ]
+                    },
+                    {
+                        "index":  50,
+                        "name":  "HLSL (DIRECTX SHADERS)",
+                        "metadata":  [
+                                         "DXC Compiler:     https://github.com/microsoft/DirectXShaderCompiler",
+                                         "HLSL Docs:        https://learn.microsoft.com/en-us/windows/win32/direct3dhlsl/",
+                                         "FXC (Legacy):     Windows SDK part",
+                                         "Shader Playground: https://shader-playground.timjones.io/"
+                                     ]
+                    },
+                    {
+                        "index":  51,
+                        "name":  "METAL SHADING LANGUAGE (APPLE)",
+                        "metadata":  [
+                                         "Xcode:            Required (macOS only)",
+                                         "Metal Docs:       https://developer.apple.com/documentation/metal/shading-language-specification/",
+                                         "Metal C++:        https://developer.apple.com/metal/cpp/",
+                                         "Playground:       Xcode Metal template"
+                                     ]
+                    },
+                    {
+                        "index":  52,
+                        "name":  "SQL (ISO STANDARD)",
+                        "metadata":  [
+                                         "SQLite:           https://sqlite.org/download.html",
+                                         "PostgreSQL:        https://www.postgresql.org/download/",
+                                         "MySQL:            https://dev.mysql.com/downloads/",
+                                         "MariaDB:          https://mariadb.org/download/",
+                                         "DuckDB:           https://duckdb.org/docs/installation/",
+                                         "ClickHouse:       https://clickhouse.com/docs/en/install.html",
+                                         "SQL Server:       https://www.microsoft.com/en-us/sql-server/sql-server-downloads",
+                                         "Oracle DB:        https://www.oracle.com/database/technologies/appdev/xe.html",
+                                         "DB2:              https://www.ibm.com/analytics/db2",
+                                         "Firebird:         https://firebirdsql.org/",
+                                         "H2 (Java):        https://h2database.com/",
+                                         "Derby (Apache):   https://db.apache.org/derby/",
+                                         "HSQLDB:           https://hsqldb.org/",
+                                         "CockroachDB:      https://www.cockroachlabs.com/docs/stable/install-cockroachdb.html",
+                                         "TimescaleDB:     https://docs.timescale.com/install/latest/",
+                                         "MongoDB Compass:  https://www.mongodb.com/try/download compass",
+                                         "Redis:            https://redis.io/download",
+                                         "DBeaver (GUI):    https://dbeaver.io/download/",
+                                         "DataGrip (JetBrains): https://www.jetbrains.com/datagrip/download/",
+                                         "Workbench (MySQL): https://dev.mysql.com/downloads/workbench/",
+                                         "pgAdmin:          https://www.pgadmin.org/download/",
+                                         "Docker SQLite:    docker pull nouchka/sqlite3",
+                                         "Docker Postgres:  docker pull postgres:16-alpine",
+                                         "Docker MySQL:     docker pull mysql:8.0",
+                                         "Docker Redis:     docker pull redis:7-alpine"
+                                     ]
+                    },
+                    {
+                        "index":  53,
+                        "name":  "T-SQL (MICROFT SQL SERVER)",
+                        "metadata":  [
+                                         "SSMS:              https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms",
+                                         "Azure Data Studio: https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-datastudio",
+                                         "sqlcmd:           Included with SQL Server / ODBC Driver",
+                                         "bcp utility:      SQL Server client tools",
+                                         "Docker:            docker pull mcr.microsoft.com/mssql/server:2022-latest"
+                                     ]
+                    },
+                    {
+                        "index":  54,
+                        "name":  "PL/PGSQL (POSTGRESQL)",
+                        "metadata":  [
+                                         "Included with PostgreSQL installation (see SQL above)",
+                                         "pgAdmin:           GUI tool with PL/pgSQL editor",
+                                         "psql CLI:         Interactive PL/pgSQL execution",
+                                         "Extension docs:   https://www.postgresql.org/docs/current/plpgsql.html"
+                                     ]
+                    },
+                    {
+                        "index":  55,
+                        "name":  "PL/ORACLE",
+                        "metadata":  [
+                                         "Included with Oracle Database installation",
+                                         "SQL Developer:    https://www.oracle.com/tools/technologies/sql-developer/downloads.html",
+                                         "SQL Plus:          Oracle client tools",
+                                         "Docs:             https://docs.oracle.com/en/database/oracle-oracle-db/index.html"
+                                     ]
+                    },
+                    {
+                        "index":  56,
+                        "name":  "MONGODB QUERY LANGUAGE (MQL)",
+                        "metadata":  [
+                                         "Compass:          https://www.mongodb.com/try/download/compass",
+                                         "Shell:            mongosh (MongoDB Shell)",
+                                         "Atlas:            cloud.mongodb.com",
+                                         "Drivers:          https://www.mongodb.com/drivers",
+                                         "Docker:            docker pull mongo:7",
+                                         "GUI:              NoSQLBooster, Studio 3T, DBeaver"
+                                     ]
+                    },
+                    {
+                        "index":  57,
+                        "name":  "CASSANDRA QUERY LANGUAGE (CQL)",
+                        "metadata":  [
+                                         "DataStax:         https://www.datastax.com/download",
+                                         "Apache Cassandra: https://cassandra.apache.org/download/",
+                                         "cqlsh:            Included with Cassandra",
+                                         "DevCenter:        Apache GUI tool (legacy)",
+                                         "Docker:            docker pull cassandra:latest"
+                                     ]
+                    },
+                    {
+                        "index":  58,
+                        "name":  "GREMLIN (GRAPH TRAVERSAL)",
+                        "metadata":  [
+                                         "Apache TinkerPop: https://tinkerpop.apache.org/docs/current/reference/gremlin-console.html",
+                                         "Gremlin Server:   https://tinkerpop.apache.org/docs/current/recipes/server.html",
+                                         "Neptune (AWS):    console.aws.amazon.com/neptune/home",
+                                         "JanusGraph:       https://janusgraph.org/",
+                                         "Cosmos DB Gremlin: Azure portal",
+                                         "Docker:            docker pull tinkerpop/gremlin-server"
+                                     ]
+                    },
+                    {
+                        "index":  59,
+                        "name":  "CYPHER (NEO4J)",
+                        "metadata":  [
+                                         "Neo4j Desktop:    https://neo4j.com/download/",
+                                         "Neo4j Server:     https://neo4j.com/deployment-center/",
+                                         "Cypher Shell:     https://neo4j.com/docs/cypher-manual/current/cypher-shell/",
+                                         "Bloom:            Neo4j data visualization",
+                                         "Docker:            docker pull neo4j:5-community"
+                                     ]
+                    },
+                    {
+                        "index":  60,
+                        "name":  "SPARQL (RDF QUERIES)",
+                        "metadata":  [
+                                         "Apache Jena:      https://jena.apache.org/download/",
+                                         "Fuseki:           https://jena.apache.org/documentation/fuseki2/",
+                                         "GraphDB:          https://graphdb.ontotext.com/",
+                                         "Virtuoso:         https://virtuoso.openlinksw.com/",
+                                         "Stardog:          https://www.stardog.com/",
+                                         "TopQuadrant:      https://topquadrant.com/tools/edition-download/",
+                                         "Docker Fuseki:    docker pull stain/jena-docker"
+                                     ]
+                    },
+                    {
+                        "index":  61,
+                        "name":  "GRAPHQL",
+                        "metadata":  [
+                                         "Apollo Server:    https://www.apollographql.com/docs/apollo-server/",
+                                         "GraphQL Yoga:     https://www.graphql-yoga.com/",
+                                         "Prisma:           https://www.prisma.com/",
+                                         "GraphiQL:         https://graphql.org/swapi-grahiql/",
+                                         "Altair:           https://altair.sirmuel.design/",
+                                         "Playground:       https://graphql.org/learn/",
+                                         "Spec:              https://spec.graphql.org/"
+                                     ]
+                    },
+                    {
+                        "index":  62,
+                        "name":  "REGEX (REGULAR EXPRESSIONS)",
+                        "metadata":  [
+                                         "Universal - available in almost all languages:",
+                                         "JavaScript:       https://regex101.com/",
+                                         "Python:           https://regex101.com/?language=python",
+                                         "PCRE2 (C Lib):    https://www.pcre.org/",
+                                         "Oniguruma (Ruby): https://github.com/k-takata/Onigmo",
+                                         "RE2 (Google C++): https://github.com/google/re2",
+                                         "Regex Buddy:      https://www.regexbuddy.com/",
+                                         "Debuggex:         https://debuggex.com/",
+                                         "Regexr:           https://regexr.com/"
+                                     ]
+                    },
+                    {
+                        "index":  63,
+                        "name":  "VERILOG (HDL)",
+                        "metadata":  [
+                                         "Icarus Verilog:   https://github.com/steveicarus/iverilog",
+                                         "Verilator:        https://verilator.org/",
+                                         "GTKWave:          https://gtkwave.sourceforge.net/",
+                                         "EDA Playground:   https://edaplayground.com/",
+                                         "Docker Icarus:    docker pull ghcr.io/icarus/iverilog:latest",
+                                         "Docker Verilator: docker pull verilator/verilator:latest"
+                                     ]
+                    },
+                    {
+                        "index":  64,
+                        "name":  "SYSTEMVERILOG",
+                        "metadata":  [
+                                         "Synopsys VCS:     Commercial (license required)",
+                                         "Cadence Xcelium:  Commercial (license required)",
+                                         "Mentor Questa:    Commercial (license required)",
+                                         "Verilator SV:     Supports most SystemVerilog",
+                                         "EDAP:             https://edaplayground.com/",
+                                         "UVM:              http://www.accellera.org/downloads/user"
+                                     ]
+                    },
+                    {
+                        "index":  65,
+                        "name":  "VHDL",
+                        "metadata":  [
+                                         "GHDL:             https://github.com/ghdl/ghdl",
+                                         "ModelSim:         Commercial (Mentor Graphics)",
+                                         "Vivado (Xilinx):  https://www.xilinx.com/support/download.html",
+                                         "Quartus (Intel):  https://www.intel.com/content/www/us/en/software/programmable/quartus-prime/download.html",
+                                         "Docker GHDL:      docker pull ghdl/ghdl:latest"
+                                     ]
+                    },
+                    {
+                        "index":  66,
+                        "name":  "ABEL (PLD)",
+                        "metadata":  [
+                                         "WinCUPL (Atmel):  https://www.microchip.com/en-us/products/fpga-and-programming-devices/programming-hardware/cupl-software",
+                                         "ABEL Synario:     Legacy software (hard to find)",
+                                         "Modern alternative: Use Verilog/VHDL instead"
+                                     ]
+                    },
+                    {
+                        "index":  67,
+                        "name":  "CHISEL (SCALA HDL)",
+                        "metadata":  [
+                                         "GitHub:            https://github.com/chisel3/chisel3",
+                                         "Chisel Docs:      https://chisel-lang.org/",
+                                         "FIRRTL:           https://github.com/chisel FIRRTL",
+                                         "Docker:            docker pull chiselchisel3/chisel3"
+                                     ]
+                    },
+                    {
+                        "index":  68,
+                        "name":  "MYHDL (PYTHON HDL)",
+                        "metadata":  [
+                                         "PyPI:              pip install myhdl",
+                                         "GitHub:            https://github.com/myhdl/myhdl",
+                                         "Docs:             https://docs.myhdl.org/"
+                                     ]
+                    },
+                    {
+                        "index":  69,
+                        "name":  "CSOUND",
+                        "metadata":  [
+                                         "Official:          https://csound.com/docs/download/",
+                                         "GitHub:            https://github.com/csound/csound",
+                                         "CsoundQt (IDE):   https://csound.com/docs/getting-started/installation/",
+                                         "Blue (Score Editor): https://blue.kunstmusik.com/",
+                                         "Docker:            docker pull csound/csound:latest"
+                                     ]
+                    },
+                    {
+                        "index":  70,
+                        "name":  "SUPERCOLLIDER",
+                        "metadata":  [
+                                         "Official:          https://supercollider.github.io/downloads/",
+                                         "ScIDE (Editor):    Included with download",
+                                         "Quarks (Packages): Included with SuperCollider",
+                                         "Docker:            docker pull superecollider/supercollider:latest"
+                                     ]
+                    },
+                    {
+                        "index":  71,
+                        "name":  "PURE DATA (PD)",
+                        "metadata":  [
+                                         "Official:          https://puredata.info/",
+                                         "Pd Vanilla:        https://puredata.info/downloads",
+                                         "Pd L2Ork:         https://github.com/pure-data/pure-data/releases",
+                                         "Purr Data:         https://agraef.github.io/purr-data/",
+                                         "Docker:            docker pull dataflow/puredata:latest"
+                                     ]
+                    },
+                    {
+                        "index":  72,
+                        "name":  "MAX/MSP (COMMERCIAL)",
+                        "metadata":  [
+                                         "Cycling \u002774:       https://cycling74.com/products/max",
+                                         "Max 8:             Latest version",
+                                         "Runtime Free:      Available for playing patches",
+                                         "Academic Pricing: Available for students"
+                                     ]
+                    },
+                    {
+                        "index":  73,
+                        "name":  "FAUST (FUNCTIONAL AUDIO STREAM)",
+                        "metadata":  [
+                                         "Official:          https://faustdoc.grame.fr/",
+                                         "GitHub:            https://github.com/grame-cncm/faust",
+                                         "Online Compiler:   https://faust.ide.grame.fr/",
+                                         "Docker:            docker pull gramecrncm/faust:latest"
+                                     ]
+                    },
+                    {
+                        "index":  74,
+                        "name":  "CHUCK",
+                        "metadata":  [
+                                         "Official:          https://chuck.cs.princeton.edu/release/",
+                                         "MiniAudicle (IDE): Included with Chuck",
+                                         "Docker:            docker pull chucklang/chuck:latest"
+                                     ]
+                    },
+                    {
+                        "index":  75,
+                        "name":  "SONIC PI",
+                        "metadata":  [
+                                         "Official:          https://sonic-pi.net/",
+                                         "Download:         https://sonic-pi.net/download/",
+                                         "Tutorial:          https://sonic-pi.net/tutorial.html",
+                                         "Pi Zero Image:     Raspberry Pi OS with Sonic Pi pre-installed"
+                                     ]
+                    },
+                    {
+                        "index":  76,
+                        "name":  "TIDALCYCLES (HASKELL)",
+                        "metadata":  [
+                                         "Requires:          Haskell + SuperCollider + Atom/VS Code",
+                                         "Install:           https://tidalcycles.org/start/",
+                                         "Boot sequence:     Complex multi-tool setup (see docs)"
+                                     ]
+                    },
+                    {
+                        "index":  77,
+                        "name":  "EXTEMPORE (SCHEME/LISP AUDIO)",
+                        "metadata":  [
+                                         "GitHub:            https://github.com/digego/extempore",
+                                         "Downloads:         https://extemporeaudio.github.io/",
+                                         "Platforms:         macOS, Linux, Windows"
+                                     ]
+                    },
+                    {
+                        "index":  78,
+                        "name":  "NYQUIST (AUDACITY PLUGIN)",
+                        "metadata":  [
+                                         "Built into Audacity audio editor",
+                                         "Standalone:        https://www.cs.cmu.edu/~rbd/pub/nyquist/",
+                                         "Documentation:    https://wiki.audacityteam.org/wiki/Nyquist"
+                                     ]
+                    },
+                    {
+                        "index":  79,
+                        "name":  "GDSCRIPT (GODOT ENGINE)",
+                        "metadata":  [
+                                         "Godot Engine:      https://godotengine.org/download/",
+                                         "GDScript Docs:    https://docs.godotengine.org/en/stable/getting_started/scripting/gdscript/gdscript_basics.html",
+                                         "VS Code:           godot-tools extension",
+                                         "Includes:         With Godot installation"
+                                     ]
+                    },
+                    {
+                        "index":  80,
+                        "name":  "BLUEPRINTS VISUAL SCRIPTING (UNREAL ENGINE)",
+                        "metadata":  [
+                                         "Unreal Engine:     https://www.unrealengine.com/en/unreal-engine/",
+                                         "UE5:              Launcher application",
+                                         "Blueprints:       Visual scripting system within UE",
+                                         "Learning:         Unreal online learning portal"
+                                     ]
+                    },
+                    {
+                        "index":  81,
+                        "name":  "UNITY C#",
+                        "metadata":  [
+                                         "Unity Hub:         https://unity.com/download",
+                                         "Unity Editor:      Download via Unity Hub",
+                                         "Visual Studio Tools: unity.visualstudio.com",
+                                         "Bolt (Visual):    Unity Asset Store (now free)",
+                                         "Docker:            Not typical (game engine)"
+                                     ]
+                    },
+                    {
+                        "index":  82,
+                        "name":  "LUA (GAME SCRIPTING)",
+                        "metadata":  [
+                                         "See #017 for base Lua links",
+                                         "Love2D (Framework): https://love2d.org/",
+                                         "Roblox Luau:      https://luau-lang.org/",
+                                         "World of Warcraft: WoW API + Lua addons",
+                                         "Corona SDK:       https://coronalabs.com/ (solar2d now)",
+                                         "Defold:           https://defold.com/",
+                                         "Garry\u0027s Mod:      garrysmods.com (Lua modding)",
+                                         "FiveM:            https://fivem.net/ (GTA V multiplayer Lua)"
+                                     ]
+                    },
+                    {
+                        "index":  83,
+                        "name":  "SQUIRREL (C-LIKE GAME SCRIPTING)",
+                        "metadata":  [
+                                         "Official:          http://www.squirrel-lang.org/",
+                                         "GitHub Mirror:     https://github.com/albertodemichelis/squirrel",
+                                         "Used in:          GTA IV, Civilization IV, OpenTTD"
+                                     ]
+                    },
+                    {
+                        "index":  84,
+                        "name":  "ANGELSCRIPT",
+                        "metadata":  [
+                                         "Official:          https://www.angelcode.com/angelscript/",
+                                         "Docs:             https://www.angelcode.com/angelscript/docs/",
+                                         "Games using it:    SOMA, Amnesia, Gas Powered Games titles"
+                                     ]
+                    },
+                    {
+                        "index":  85,
+                        "name":  "PAWN (C-LIKE)",
+                        "metadata":  [
+                                         "Official:          https://www.compuphase.com/pawn/",
+                                         "SA-MP:            https://sa-mp.com/downloads/",
+                                         "Alternative:      https://github.com/pawn-lang/compiler"
+                                     ]
+                    },
+                    {
+                        "index":  86,
+                        "name":  "HAXE (CROSS-PLATFORM)",
+                        "metadata":  [
+                                         "Official:          https://haxe.org/download",
+                                         "HashLink (VM):    https://github.com/HaxeFoundation/hashlink",
+                                         "Heaps.io (Game):  https://heaps.io/",
+                                         "VS Code:           vscode-haxe extension",
+                                         "Lix (Alt Pkg Mgr): https://lix.pm/"
+                                     ]
+                    },
+                    {
+                        "index":  87,
+                        "name":  "ACTIONSCRIPT 3.0 (FLASH - LEGACY)",
+                        "metadata":  [
+                                         "Adobe Animate:    https://www.adobe.com/products/animate.html",
+                                         "Flash Player:      EOL (end of life) - not recommended",
+                                         "Apache Royale:    https://royale.apache.org/ (modern successor)",
+                                         "OpenFL:           https://openfl.org/",
+                                         "AIR Runtime:      https://airsdk.harman.com/ (legacy)"
+                                     ]
+                    },
+                    {
+                        "index":  88,
+                        "name":  "LÖVE (LUA FRAMEWORK)",
+                        "metadata":  [
+                                         "Love2D:            https://love2d.org/",
+                                         "Zerobrane Studio: IDE for Lua/Love2D development",
+                                         "Docker:            docker pull love2d/love2d:latest"
+                                     ]
+                    },
+                    {
+                        "index":  89,
+                        "name":  "DEFOLD (LUA GAME ENGINE)",
+                        "metadata":  [
+                                         "Official:          https://defold.com/",
+                                         "Editor:            Defold Editor (free)",
+                                         "Assets:           defold.com/assets",
+                                         "Lua API:          https://www.defold.com/ref/stable/"
+                                     ]
+                    },
+                    {
+                        "index":  90,
+                        "name":  "TWINE (INTERACTIVE FICTION)",
+                        "metadata":  [
+                                         "Twine 2:           https://twinery.org/",
+                                         "Harlowe (Default): https://twine2.neocities.org/",
+                                         "SugarCube:        https://www.motoslave.net/sugarcube2/",
+                                         "Chapbook:         https://chapbook.inkle.studios.com/"
+                                     ]
+                    },
+                    {
+                        "index":  91,
+                        "name":  "INFORM 7 (TEXT ADVENTURE)",
+                        "metadata":  [
+                                         "Official:          https://ganelson.github.io/inform-website/",
+                                         "Natural Inform:   https://inform7.com/",
+                                         "IDE:              Included with download",
+                                         "Extensions:       https://ifarchive.org/if-archive/programming/inform7/library/"
+                                     ]
+                    },
+                    {
+                        "index":  92,
+                        "name":  "TADS (TEXT ADVANTURE DEV SYSTEM)",
+                        "metadata":  [
+                                         "Official:          https://www.tads.org/",
+                                         "TADS 3:           Latest version",
+                                         "Workbench:        IDE included",
+                                         "HTML Games:       TADS outputs to HTML"
+                                     ]
+                    },
+                    {
+                        "index":  93,
+                        "name":  "APL",
+                        "metadata":  [
+                                         "Dyalog APL:       https://dyalog.com/download.xml (commercial)",
+                                         "GNU APL (GNU):    https://www.gnu.org/software/apl/",
+                                         "APLX (Dyalog):    Legacy free version",
+                                         "RIDE IDE:          Bundled with Dyalog",
+                                         "TryAPL Online:    https://tryapl.org/"
+                                     ]
+                    },
+                    {
+                        "index":  94,
+                        "name":  "J (APL SUCCESSOR)",
+                        "metadata":  [
+                                         "J Software:       https://www.jsoftware.com/",
+                                         "J9:               Latest stable release",
+                                         "J playground:     https://jsoftware.com/stable/j602/playground.htm",
+                                         "Docker:            docker pull jsoftware/jbase:latest"
+                                     ]
+                    },
+                    {
+                        "index":  95,
+                        "name":  "K (ARRAY LANGUAGE)",
+                        "metadata":  [
+                                         "KDB+ Personal:     https://kx.com/download/ (free for dev)",
+                                         "Shakti:           https://codeberg.org/shakti/shakti",
+                                         "oK:               https://codeberg.org/ngn/k",
+                                         "Kona:             https://github.com/kevinlawler/kona",
+                                         "ngn/k:            https://ngn.codeberg.page/k/"
+                                     ]
+                    },
+                    {
+                        "index":  96,
+                        "name":  "Q (K4 VARIANT)",
+                        "metadata":  [
+                                         "kdb+:             https://kx.com/download/",
+                                         "Personal Edition: Free for non-commercial use",
+                                         "Q Studio:         IDE included with kdb+"
+                                     ]
+                    },
+                    {
+                        "index":  97,
+                        "name":  "BQN (BAROQUE QUADRENNIAL NOTATION)",
+                        "metadata":  [
+                                         "Official:          https://mlochbaum.github.io/BQN/",
+                                         "Online REPL:       https://mlochbaum.github.io/BQN/docs/try.html",
+                                         "Docs:             https://mlochbaum.github.io/BQN/docs/index.html",
+                                         "GitHub:            https://github.com/mlochbaum/BQN"
+                                     ]
+                    },
+                    {
+                        "index":  98,
+                        "name":  "R (STATISTICAL) - DUPLICATE SEE #015",
+                        "metadata":  [
+                                         "(Covered in #015 - keeping sequential numbering)"
+                                     ]
+                    },
+                    {
+                        "index":  99,
+                        "name":  "MATLAB (MATHWORKS)",
+                        "metadata":  [
+                                         "MathWorks:         https://www.mathworks.com/downloads/",
+                                         "MATLAB Online:    https://matlab.mathworks.com/",
+                                         "Octave (Free Alt): https://www.gnu.org/software/octave/download",
+                                         "Scilab (Free Alt): https://scilab.org/",
+                                         "FreeMat (Legacy):  https://freemat.sourceforge.net/",
+                                         "Docker Octave:    docker pull gnuoctave/octave:latest",
+                                         "Docker Scilab:    docker pull scilab/scilab:latest"
+                                     ]
+                    },
+                    {
+                        "index":  100,
+                        "name":  "WOLFRAM LANGUAGE / MATHEMATICA",
+                        "metadata":  [
+                                         "Wolfram:          https://www.wolfram.com/mathematica/",
+                                         "Wolfram Cloud:    https://cloud.wolfram.com/",
+                                         "Wolfram Alpha:    https://www.wolframalpha.com/",
+                                         "Wolfram Engine:   https://www.wolfram.com/engine/",
+                                         "Player Pro:       Free alternative (limited)",
+                                         "Raspberry Pi:     Free for Pi hardware"
+                                     ]
+                    },
+                    {
+                        "index":  101,
+                        "name":  "MAPLE (WATERLOO)",
+                        "metadata":  [
+                                         "Maplesoft:        https://www.maplesoft.com/products/maple/",
+                                         "Maple Calculator: Mobile app",
+                                         "Cloud:            Maplesoft cloud offerings",
+                                         "Student Version: Discounted pricing"
+                                     ]
+                    },
+                    {
+                        "index":  102,
+                        "name":  "SAGEMATH",
+                        "metadata":  [
+                                         "Official:          https://www.sagemath.org/",
+                                         "Download:         https://www.sagemath.org/download.html",
+                                         "CoCalc (Cloud):   https://cocalc.com/",
+                                         "Docker:            docker pull sagemath/sagemath:latest",
+                                         "Ubuntu PPA:       ppa:sagemath/ppa"
+                                     ]
+                    },
+                    {
+                        "index":  103,
+                        "name":  "MAXIMA (CAS)",
+                        "metadata":  [
+                                         "Official:          https://maxima.sourceforge.net/",
+                                         "SourceForge:      https://sourceforge.net/projects/maxima/files/",
+                                         "wxMaxima (GUI):   https://wxmaxima-developers.github.io/wxmaxima/",
+                                         "Docker:            docker pull maxima/maxima:latest"
+                                     ]
+                    },
+                    {
+                        "index":  104,
+                        "name":  "SYMPY (PYTHON LIBRARY)",
+                        "metadata":  [
+                                         "pip install sympy",
+                                         "Online Shell:      https://live.sympy.org/",
+                                         "GitHub:            https://github.com/sympy/sympy",
+                                         "Docs:             https://docs.sympy.org/"
+                                     ]
+                    },
+                    {
+                        "index":  105,
+                        "name":  "AXIOM / FRIECAS",
+                        "metadata":  [
+                                         "FriCAS:            https://fricas.sourceforge.net/",
+                                         "OpenAxiom:        https://openaxiom.org/",
+                                         "Old Axiom:        Historical interest only"
+                                     ]
+                    },
+                    {
+                        "index":  106,
+                        "name":  "GAP (GROUPS ALGORITHMS PROGRAMMING)",
+                        "metadata":  [
+                                         "Official:          https://www.gap-system.org/",
+                                         "Download:         https://www.gap-system.org/Releases/",
+                                         "Jupyter Integration: gap_jupyter package",
+                                         "Docker:            docker pull gap-system/gap:latest"
+                                     ]
+                    },
+                    {
+                        "index":  107,
+                        "name":  "PARI/GP",
+                        "metadata":  [
+                                         "Official:          https://pari.math.u-bordeaux.fr/",
+                                         "Download:         https://pari.math.u-bordeaux.fr/download.html",
+                                         "GP/PARI Calculator: Command-line interface",
+                                         "SageMath includes: PARI/GP built-in"
+                                     ]
+                    },
+                    {
+                        "index":  108,
+                        "name":  "MAGMA (COMMERCIAL)",
+                        "metadata":  [
+                                         "University License: https://magma.maths.usyd.edu.au/magma/",
+                                         "Calculator:       Online web calculator (limited)",
+                                         "Commercial:       Expensive enterprise license"
+                                     ]
+                    },
+                    {
+                        "index":  109,
+                        "name":  "OX (ECONOMETRICS)",
+                        "metadata":  [
+                                         "Official:          https://www.doornik.com/pages/ox.html",
+                                         "OxMetrics:        GUI frontend for Ox",
+                                         "GiveWin:           Part of OxMetrics suite"
+                                     ]
+                    },
+                    {
+                        "index":  110,
+                        "name":  "GAUSS (MATRIX LANGUAGE)",
+                        "metadata":  [
+                                         "Official:          https://www Aptiv.com/gauss",
+                                         "Aptiv Analytics:  Maintained by Aptiv",
+                                         "Target audience:  Econometricians, statisticians"
+                                     ]
+                    },
+                    {
+                        "index":  111,
+                        "name":  "STATA",
+                        "metadata":  [
+                                         "Official:          https://www.stata.com/",
+                                         "Stata MP:         Multi-processor version",
+                                         "Stata SE:         Standard edition",
+                                         "Stata BE:         Basic edition",
+                                         "Student pricing:  Available"
+                                     ]
+                    },
+                    {
+                        "index":  112,
+                        "name":  "SPSS (IBM)",
+                        "metadata":  [
+                                         "IBM SPSS:         https://www.ibm.com/spss",
+                                         "Statistics:       Statistical analysis",
+                                         "Modeler:          Data science workbench",
+                                         "Subscription:     Cloud and desktop options"
+                                     ]
+                    },
+                    {
+                        "index":  113,
+                        "name":  "MINITAB",
+                        "metadata":  [
+                                         "Official:          https://www.minitab.com/",
+                                         "Statistical Software: Quality control, statistics",
+                                         "Education pricing: Available"
+                                     ]
+                    },
+                    {
+                        "index":  114,
+                        "name":  "JMP (SAS INSTITUTE)",
+                        "metadata":  [
+                                         "Official:          https://www.jmp.com/",
+                                         "Interactive Stats: Visual statistical discovery",
+                                         "SAS integration:  Native SAS connectivity"
+                                     ]
+                    },
+                    {
+                        "index":  115,
+                        "name":  "ALTERNATIVE (STATISTICS)",
+                        "metadata":  [
+                                         "Official:          https://www.alternative.net/",
+                                         "Statistics:       Designed for social sciences",
+                                         "Free version:      Available"
+                                     ]
+                    },
+                    {
+                        "index":  116,
+                        "name":  "JASP (FREE STATS GUI)",
+                        "metadata":  [
+                                         "Official:          https://jasp-stats.org/",
+                                         "Bayesian \u0026 Frequentist: Both paradigms",
+                                         "R Backend:        Uses R under the hood",
+                                         "Cross-platform:   Windows, macOS, Linux"
+                                     ]
+                    },
+                    {
+                        "index":  117,
+                        "name":  "PSPP (SPSS FREE ALTERNATIVE)",
+                        "metadata":  [
+                                         "GNU Project:       https://www.gnu.org/software/pspp/",
+                                         "Download:         https://www.gnu.org/software/pspp/get-pspp.html",
+                                         "GUI:              PSPPire interface",
+                                         "Syntax compatible: With SPSS syntax"
+                                     ]
+                    },
+                    {
+                        "index":  118,
+                        "name":  "JAVASCRIPT (WEB FRONTEND VARIANTS)",
+                        "metadata":  [
+                                         "TypeScript:        See #003",
+                                         "CoffeeScript:     npm install -g coffeescript",
+                                         "Elm:              npm install -g elm",
+                                         "PureScript:       npm install -g purescript",
+                                         "ReasonML:         npm install -g reason-cli @reasonml-community/reasonml-editor-vscode",
+                                         "Dart (JS output): See #014",
+                                         "Kotlin/JS:        Kotlin compiler supports JS target",
+                                         "Scala.js:         https://www.scala-js.org/",
+                                         "ClojureScript:   https://clojurescript.org/",
+                                         "Grain:            https://grain-lang.org/",
+                                         "AssemblyScript:   https://assemblyscript.org/",
+                                         "TinyScript:       https://github.com/nicholasf/tinytypescript"
+                                     ]
+                    },
+                    {
+                        "index":  119,
+                        "name":  "JSX (REACT SYNTAX EXTENSION)",
+                        "metadata":  [
+                                         "Part of React ecosystem",
+                                         "Create React App: npx create-react-app myapp",
+                                         "Next.js:           npx create-next-app myapp",
+                                         "Vite:              npm create vite@latest myapp -- --template react",
+                                         "Babel:             @babel/plugin-transform-react-jsx",
+                                         "Swc:              @swc/react"
+                                     ]
+                    },
+                    {
+                        "index":  120,
+                        "name":  "SVELTE (COMPILER LANGUAGE)",
+                        "metadata":  [
+                                         "Official:          https://svelte.dev/",
+                                         "CLI:              npm create svelte@latest myapp",
+                                         "SvelteKit:        Framework for full apps",
+                                         "VS Code:           svelte.svelte-vscode extension",
+                                         "Playground:        https://svelte.dev/repl/hello-world"
+                                     ]
+                    },
+                    {
+                        "index":  121,
+                        "name":  "SOLIDJS",
+                        "metadata":  [
+                                         "Official:          https://solidjs.com/",
+                                         "Degit:            npx degit solidjs/templates/ts my-solid-app",
+                                         "Start:             cd my-solid-app \u0026\u0026 npm install",
+                                         "VS Code:           solidjs.vscode-solidity extension",
+                                         "Tutorial:         https://www.solidtutorial.com/"
+                                     ]
+                    },
+                    {
+                        "index":  122,
+                        "name":  "QWIK (RESUMABLE FRAMEMENT)",
+                        "metadata":  [
+                                         "Official:          https://qwik.builder.io/",
+                                         "Starter:          npm create qwik@latest basic",
+                                         "Qwik City:        Full framework with routing",
+                                         "VS Code:           builderio.qwik extension",
+                                         "Playground:       https://qwik.builder.io/playground/"
+                                     ]
+                    },
+                    {
+                        "index":  123,
+                        "name":  "ASTRO (ISLANDS ARCHITECTURE)",
+                        "metadata":  [
+                                         "Official:          https://astro.build/",
+                                         "CLI:              npm create astro@latest my-astro-site",
+                                         "Integrations:     React, Vue, Svelte, Solid, etc.",
+                                         "Content Collections: Markdown/MDX support",
+                                         "Docker:            docker pull astro"
+                                     ]
+                    },
+                    {
+                        "index":  124,
+                        "name":  "FRESH (DENGO FRAMEWORK)",
+                        "metadata":  [
+                                         "Official:          https://fresh.deno.dev/",
+                                         "CLI:              deno run -A -r https://fresh.deno.dev/init.ts",
+                                         "Deno Deploy:      One-click deploy",
+                                         "Preact Islands:   Uses Preact under hood"
+                                     ]
+                    },
+                    {
+                        "index":  125,
+                        "name":  "REMIX (REACT FRAMEWORK)",
+                        "metadata":  [
+                                         "Official:          https://remix.run/",
+                                         "CLI:              npx create-remix@latest",
+                                         "Stack:             Remix App Server, Fly.io, Cloudflare",
+                                         "Nested Routing:    File-based routing system",
+                                         "Docs:             https://remix.run/docs"
+                                     ]
+                    },
+                    {
+                        "index":  126,
+                        "name":  "NEXT.JS (REACT META-FRAMEWORK)",
+                        "metadata":  [
+                                         "Official:          https://nextjs.org/",
+                                         "CLI:              npx create-next-app@latest my-app",
+                                         "App Router:       /app directory (new)",
+                                         "Pages Router:     /pages directory (legacy)",
+                                         "Vercel:           Optimized deployment platform"
+                                     ]
+                    },
+                    {
+                        "index":  127,
+                        "name":  "ANGULAR (GOOGLE)",
+                        "metadata":  [
+                                         "Official:          https://angular.dev/",
+                                         "CLI:              ng new my-app",
+                                         "Material Design:  Angular Material components",
+                                         "RxJS:             Reactive extensions built-in",
+                                         "Docker:            docker pull trion/ng-developer-cli"
+                                     ]
+                    },
+                    {
+                        "index":  128,
+                        "name":  "VUE.JS",
+                        "metadata":  [
+                                         "Official:          https://vuejs.org/",
+                                         "CLI:              npm create vue@latest my-vue-app",
+                                         "Pinia:            State management",
+                                         "Vue Router:       Official router",
+                                         "VitePress:        Static site generator",
+                                         "Nuxt:             https://nuxt.com/ (meta-framework)"
+                                     ]
+                    },
+                    {
+                        "index":  129,
+                        "name":  "LIT (WEB COMPONENTS)",
+                        "metadata":  [
+                                         "Official:          https://lit.dev/",
+                                         "npm:              npm install lit",
+                                         "Playground:       https://playground.lit.dev/",
+                                         "DevTools:         Lit DevTools Chrome extension",
+                                         "VS Code:           lit-html extension"
+                                     ]
+                    },
+                    {
+                        "index":  130,
+                        "name":  "STENCIL (WEB COMPONENT COMPILER)",
+                        "metadata":  [
+                                         "Official:          https://stenciljs.com/",
+                                         "CLI:              npm init stencil",
+                                         "Stencil Dev Server: Hot reload for components",
+                                         "Framework agnostic: Works with any framework",
+                                         "Output:           Vanilla custom elements"
+                                     ]
+                    },
+                    {
+                        "index":  131,
+                        "name":  "HTMX (HYPERMEDIA-DRIVEN)",
+                        "metadata":  [
+                                         "Official:          https://htmx.org/",
+                                         "CDN:              \u003cscript src=\"https://unpkg.com/htmx.org@1.9.10\"\u003e\u003c/script\u003e",
+                                         "npm:              npm install htmx",
+                                         "Extensions:       htmx-ext (headless, debug, etc.)",
+                                         "Hyperscript:      _hyperscript companion library"
+                                     ]
+                    },
+                    {
+                        "index":  132,
+                        "name":  "ALPINE.JS (LIGHTWEIGHT REACTIVE)",
+                        "metadata":  [
+                                         "Official:          https://alpinejs.dev/",
+                                         "CDN:              \u003cscript defer src=\"https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js\"\u003e\u003c/script\u003e",
+                                         "npm:              npm install alpinejs",
+                                         "jQuery replacement: Drop-in for simple interactivity"
+                                     ]
+                    },
+                    {
+                        "index":  133,
+                        "name":  "PETITE-VUE (6KB)",
+                        "metadata":  [
+                                         "Official:          https://petite-vue.js.org/",
+                                         "CDN:              \u003cscript src=\"https://unpkg.com/petite-vue@latest\"\u003e\u003c/script\u003e",
+                                         "Use case:         Progressive enhancement for small pages"
+                                     ]
+                    },
+                    {
+                        "index":  134,
+                        "name":  "IMBA (DOM-AWARE)",
+                        "metadata":  [
+                                         "Official:          https://imba.io/",
+                                         "npm:              npm install -g imba",
+                                         "VS Code:           imba.vscode-imba extension",
+                                         "Similar to:        Ruby/Python syntax for DOM manipulation"
+                                     ]
+                    },
+                    {
+                        "index":  135,
+                        "name":  "MARKO (EBAY TEMPLATE LANGUAGE)",
+                        "metadata":  [
+                                         "Official:          https://markojs.com/",
+                                         "CLI:              npm install marko-cli -g",
+                                         "Ebay origin:      Used at scale at eBay",
+                                         "Performance:      Highly optimized rendering"
+                                     ]
+                    },
+                    {
+                        "index":  136,
+                        "name":  "PHP (TEMPLATING) - SEE #010",
+                        "metadata":  [
+                                         "PHP itself is a template language historically",
+                                         "Template engines for PHP:",
+                                         "Twig:              https://twig.symfony.com/",
+                                         "Smarty:           https://smarty.net/",
+                                         "Latte:            https://latte.nette.org/",
+                                         "Blade (Laravel):  Built into Laravel framework",
+                                         "Plate:            https://platephp.com/"
+                                     ]
+                    },
+                    {
+                        "index":  137,
+                        "name":  "MUSTACHE (LOGIC-LESS TEMPLATES)",
+                        "metadata":  [
+                                         "Spec:              https://mustache.github.io/",
+                                         "Implementations:  Every language has a Mustache lib",
+                                         "JavaScript:       npm install mustache",
+                                         "Python:           pip install chevron (or pystache)",
+                                         "Ruby:             gem install mustache",
+                                         "Handlebars:       Superset of Mustache (next entry)"
+                                     ]
+                    },
+                    {
+                        "index":  138,
+                        "name":  "HANDLEBARS ({{ }} TEMPLATES)",
+                        "metadata":  [
+                                         "Official:          https://handlebarsjs.com/",
+                                         "npm:              npm install handlebars",
+                                         "Helpers:          Custom helper functions",
+                                         "Partials:         Template composition",
+                                         "Precompilation:   Compile templates server-side"
+                                     ]
+                    },
+                    {
+                        "index":  139,
+                        "name":  "JINJA2 (PYTHON TEMPLATES)",
+                        "metadata":  [
+                                         "pip install Jinja2",
+                                         "Flask uses:       Default template engine in Flask",
+                                         "Ansible uses:      For playbook templating",
+                                         "Django Template Lang: Similar but different (built into Django)"
+                                     ]
+                    },
+                    {
+                        "index":  140,
+                        "name":  "DJANGO TEMPLATE LANGUAGE (DTL)",
+                        "metadata":  [
+                                         "Part of Django:    pip install django",
+                                         "Tags/Filters:     {% if %} {{ variable }} {% filter %}",
+                                         "Inheritance:      {% extends \"base.html\" %}",
+                                         "Custom tags:      templatetags module"
+                                     ]
+                    },
+                    {
+                        "index":  141,
+                        "name":  "ERB (EMBEDDED RUBY)",
+                        "metadata":  [
+                                         "Gem:              gem install erb (part of Ruby stdlib)",
+                                         "Rails uses:       Default view template language",
+                                         "\u003c%= expression %\u003e  Output",
+                                         "\u003c% code %\u003e        Execution without output"
+                                     ]
+                    },
+                    {
+                        "index":  142,
+                        "name":  "HAML (INDENTATION-BASED HTML)",
+                        "metadata":  [
+                                         "Ruby gem:          gem install haml",
+                                         "haml-cli:         npm install @haml/haml",
+                                         "Python Hamlish:   pip install hamlish-jinja",
+                                         "PHP MtHaml:       composer require hamlish/hamlish",
+                                         "Indentation:      Significant whitespace (like Python)"
+                                     ]
+                    },
+                    {
+                        "index":  143,
+                        "name":  "SLIM (HAML-LIKE FOR RUBY)",
+                        "metadata":  [
+                                         "gem install slim",
+                                         "Slim Lang:        https://slim-lang.com/",
+                                         "Rails integration: gem \u0027slim-rails\u0027",
+                                         "Logic-less mode:  Available"
+                                     ]
+                    },
+                    {
+                        "index":  144,
+                        "name":  "PUG (FORMERLY JADE)",
+                        "metadata":  [
+                                         "npm install -g pug",
+                                         "Pug CLI:          pug index.pug",
+                                         "Express views:    app.set(\u0027view engine\u0027, \u0027pug\u0027)",
+                                         "Mixins:           Reusable template blocks"
+                                     ]
+                    },
+                    {
+                        "index":  145,
+                        "name":  "EJS (EMBEDDED JAVASCRIPT)",
+                        "metadata":  [
+                                         "npm install ejs",
+                                         "Usage:            \u003c% const name = \u0027world\u0027; %\u003e \u003c%= name %\u003e",
+                                         "Express:          app.set(\u0027view engine\u0027, \u0027ejs\u0027)",
+                                         "Include/partials: \u003c%- include(\u0027partials/header\u0027) %\u003e"
+                                     ]
+                    },
+                    {
+                        "index":  146,
+                        "name":  "UNDERSCORE/LDASH TEMPLATES",
+                        "metadata":  [
+                                         "npm install underscore",
+                                         "_.template(htmlString)(data)",
+                                         "Lodash:            npm install lodash (superset of underscore)",
+                                         "Compatible:       Same template syntax"
+                                     ]
+                    },
+                    {
+                        "index":  147,
+                        "name":  "NUNJUCKS (MOZILLA JINJA2 FOR JS)",
+                        "metadata":  [
+                                         "npm install nunjucks",
+                                         "Async support:     Async filters and loaders",
+                                         "Autoescaping:     XSS protection by default",
+                                         "Inheritance:      Template inheritance like Jinja2"
+                                     ]
+                    },
+                    {
+                        "index":  148,
+                        "name":  "TWIG (PHP TEMPLATES)",
+                        "metadata":  [
+                                         "composer require twig/twig",
+                                         "Symfony default:   Used throughout Symfony ecosystem",
+                                         "Drupal 8+:        Twig replaces PHPTemplate",
+                                         "Security:         Sandbox mode for untrusted templates"
+                                     ]
+                    },
+                    {
+                        "index":  149,
+                        "name":  "LATTE (NETTE PHP TEMPLATES)",
+                        "metadata":  [
+                                         "composer require latte/latte",
+                                         "Nette Framework:   Default template engine",
+                                         "Type-safe:        {varType $name string}",
+                                         "Context-aware:    Escaping based on context"
+                                     ]
+                    },
+                    {
+                        "index":  150,
+                        "name":  "FREE MARKER (JAVA TEMPLATES)",
+                        "metadata":  [
+                                         "Maven:            org.freemarker:freemarker",
+                                         "Spring Boot:      spring-boot-starter-freemarker",
+                                         "Apache project:   https://freemarker.apache.org/",
+                                         "FTL syntax:       ${variable}, [#list items]...[/#list]"
+                                     ]
+                    },
+                    {
+                        "index":  151,
+                        "name":  "VELOCITY (APACHE JAVA)",
+                        "metadata":  [
+                                         "Maven:            org.apache.velocity:velocity-engine-core",
+                                         "VTL syntax:       #set($var = \"value\") $var",
+                                         "Spring legacy:    Deprecated in favor of Thymeleaf"
+                                     ]
+                    },
+                    {
+                        "index":  152,
+                        "name":  "THYMEEAF (SPRING JAVA)",
+                        "metadata":  [
+                                         "Maven:            org.thymeleaf:thymeleaf-spring6",
+                                         "Natural templates: HTML can be opened in browser",
+                                         "Spring Boot:      spring-boot-starter-thymeleaf",
+                                         "Dialects:         Spring Security, Layout dialect"
+                                     ]
+                    },
+                    {
+                        "index":  153,
+                        "name":  "STRINGTEMPLATE (ANTLR)",
+                        "metadata":  [
+                                         "JAR download:     https://www.stringtemplate.org/",
+                                         "ST4 syntax:        $variable$; \u003clist:item; separator=\",\"\u003e",
+                                         "Target languages: Java, C#, Python, JavaScript, C++"
+                                     ]
+                    },
+                    {
+                        "index":  154,
+                        "name":  "GO TEMPLATES (HTML/Templates)",
+                        "metadata":  [
+                                         "Built into Go:     html/template, text/template",
+                                         "Go 1.18+:         html/template autoescaping",
+                                         "Hugo uses:        Go templates extensively",
+                                         "Cons:             Limited logic intentionally"
+                                     ]
+                    },
+                    {
+                        "index":  155,
+                        "name":  "ACE (GO TEMPLATE ALT)",
+                        "metadata":  [
+                                         "GitHub:            https://github.com/go-ace/ace",
+                                         "Features:         More logic than standard Go templates",
+                                         "Alternatives:     Hero, Plush, Jet (Go template engines)"
+                                     ]
+                    },
+                    {
+                        "index":  156,
+                        "name":  "HERO (GO TEMPLATES)",
+                        "metadata":  [
+                                         "GitHub:            https://github.com/gohero/hero",
+                                         "Inspired by:      Ember\u0027s Handlebars-like syntax",
+                                         "Performance:      Faster than standard html/template"
+                                     ]
+                    },
+                    {
+                        "index":  157,
+                        "name":  "PLUSH (GO RUBY-LIKE TEMPLATES)",
+                        "metadata":  [
+                                         "GitHub:            https://goplus.github.io/plush/",
+                                         "Ruby-ish syntax:  \u003c%= expression %\u003e, \u003c% code %\u003e",
+                                         "Echo/Gin frameworks use: Echo middleware"
+                                     ]
+                    },
+                    {
+                        "index":  158,
+                        "name":  "TERA (RUST TEMPLATES)",
+                        "metadata":  [
+                                         "Cargo:            cargo add tera",
+                                         "Jinja2-like:      Syntax similar to Jinja2",
+                                         "Actix-web uses:   Actix-web template integration",
+                                         "Django-inspired:  Inheritance, includes, macros"
+                                     ]
+                    },
+                    {
+                        "index":  159,
+                        "name":  "ASKAMA (RUST TEMPLATES)",
+                        "metadata":  [
+                                         "Cargo:            cargo add askama",
+                                         "Compile-time:     Templates verified at compile time",
+                                         "Type-safe:        Strong typing for variables",
+                                         "Performance:      Near-zero runtime overhead"
+                                     ]
+                    },
+                    {
+                        "index":  160,
+                        "name":  "MOJOLICIOUS (PERL TEMPLATES)",
+                        "metadata":  [
+                                         "cpan Mojolicious",
+                                         "Embedded Perl:    \u003c%= $var %\u003e",
+                                         "Full framework:   Mojolicious is also a web framework",
+                                         "Lite apps:        Mojolicious::Lite for small scripts"
+                                     ]
+                    },
+                    {
+                        "index":  161,
+                        "name":  "TEMPLATE TOOLKIT (PERL)",
+                        "metadata":  [
+                                         "cpan Template",
+                                         "TT2 syntax:       [% IF var %][% var %][% END %]",
+                                         "Plugins:          TT2 plugin ecosystem",
+                                         "CATALYST uses:    Default in Catalyst framework"
+                                     ]
+                    },
+                    {
+                        "index":  162,
+                        "name":  "MAKO (PYTHON TEMPLATES)",
+                        "metadata":  [
+                                         "pip install Mako",
+                                         "Pylons uses:      Default in Pylons framework",
+                                         "Syntax similar:   PHP/ERB style (\u003c% %\u003e)",
+                                         "Performance:      Compiled to Python modules"
+                                     ]
+                    },
+                    {
+                        "index":  163,
+                        "name":  "CHEETAH (PYTHON TEMPLATES)",
+                        "metadata":  [
+                                         "pip install Cheetah3",
+                                         "Legacy:           Less popular than Jinja2/Mako",
+                                         "WebSafe filter:   XSS protection"
+                                     ]
+                    },
+                    {
+                        "index":  164,
+                        "name":  "GENSHI (PYTHON - LEGACY)",
+                        "metadata":  [
+                                         "pip install Genshi",
+                                         "XML-based:        Templates are valid XHTML streams",
+                                         "Trac uses:        Bug tracker uses Genshi",
+                                         "Deprecated:      In maintenance mode only"
+                                     ]
+                    },
+                    {
+                        "index":  165,
+                        "name":  "C++ TEMPLATE METAPROGRAMMING (NOT SEPARATE INSTALL)",
+                        "metadata":  [
+                                         "Part of C++:      Template specialization, SFINAE, concepts (C++20)",
+                                         "Boost.Mp11:      https://boost.org/libs/mp11/",
+                                         "Boost.Hana:      https://boost.org/libs/hana/",
+                                         "CTAD:             Class template argument deduction (C++17)",
+                                         "Concepts:        C++20 feature (requires clauses)"
+                                     ]
+                    },
+                    {
+                        "index":  166,
+                        "name":  "D TEMPLATES (D LANGUAGE)",
+                        "metadata":  [
+                                         "Part of D:        std.format, std.array",
+                                         "CTFE:             Compile-Time Function Execution (unique to D)",
+                                         "string mixins:    Compile-time code generation",
+                                         "mixins(\"int x = 5;\"); // generates code at compile time"
+                                     ]
+                    },
+                    {
+                        "index":  167,
+                        "name":  "LISP MACROS (COMMON LISP)",
+                        "metadata":  [
+                                         "Part of CL:       DEFMACRO, macroexpand, macroexpand-1",
+                                         "Implementation:   Any Common Lisp (see #039)",
+                                         "Books:            On Lisp (Paul Graham), Practical Common Lisp"
+                                     ]
+                    },
+                    {
+                        "index":  168,
+                        "name":  "SCHEME HYGIENIC MACROS",
+                        "metadata":  [
+                                         "syntax-rules:     R5RS/R7RS macro system",
+                                         "syntax-case:      More powerful (R6RS)",
+                                         "Guile:            https://www.gnu.org/software/guile/manual/html_node/Macros.html",
+                                         "Racket:          https://docs.racket-guide.org/en/language/macros.html"
+                                     ]
+                    },
+                    {
+                        "index":  169,
+                        "name":  "RUST MACROS (MAC_RULES!)",
+                        "metadata":  [
+                                         "Part of Rust:      macro_rules! declarative macros",
+                                         "proc_macro:       Procedural macros (custom derive, attribute-like)",
+                                         "crate:            syn, quote crates for proc macros",
+                                         "Docs:             https://doc.rust.org/reference/macros-by-example.html"
+                                     ]
+                    },
+                    {
+                        "index":  170,
+                        "name":  "JULIA MACROS",
+                        "metadata":  [
+                                         "Part of Julia:     macro, @macrocall, @eval, @generated",
+                                         "Expr objects:      AST representation",
+                                         "Meta programming:  Heavy metaprogramming capabilities",
+                                         "Docs:             https://docs.julialang.org/en/v1/manual/metaprogramming/"
+                                     ]
+                    },
+                    {
+                        "index":  171,
+                        "name":  "Elixir MACROS (QUOTE/UNQUOTE)",
+                        "metadata":  [
+                                         "Part of Elixir:   defmacro, quote, unquote, macroexpand/1",
+                                         "AST:              Elixir AST is Elixir data structures",
+                                         "Compile-time:     Macros expand at compile time (like Lisp)",
+                                         "Docs:             https://hexdocs.pm/elixir/Macro.html"
+                                     ]
+                    },
+                    {
+                        "index":  172,
+                        "name":  "C PREPROCESSOR MACROS",
+                        "metadata":  [
+                                         "Part of C/C++:    #define, #ifdef, #include, ## (token pasting)",
+                                         "GCC:              cpp (preprocessor standalone)",
+                                         "M4:               GNU m4 (more powerful macro processor)",
+                                         "Autoconf:         Uses m4 extensively"
+                                     ]
+                    },
+                    {
+                        "index":  173,
+                        "name":  "M4 MACRO PROCESSOR",
+                        "metadata":  [
+                                         "GNU M4:           https://www.gnu.org/software/m4/",
+                                         "Autoconf uses:    ./configure scripts depend on m4",
+                                         "POSIX standard:   Portable across Unix systems",
+                                         "Docker:            docker pull alpine (includes m4)"
+                                     ]
+                    },
+                    {
+                        "index":  174,
+                        "name":  "RAZOR (ASP.NET CORE)",
+                        "metadata":  [
+                                         "Part of .NET:     ASP.NET Core MVC/Pages",
+                                         ".cshtml files:    Razor syntax (@{ } @* *@)",
+                                         "Tag Helpers:      Server-side HTML attributes",
+                                         "IntelliSense:     Full VS Code/Visual Studio support"
+                                     ]
+                    },
+                    {
+                        "index":  175,
+                        "name":  "BLAZOR (.NET RAZOR COMPONENTS)",
+                        "metadata":  [
+                                         "Part of .NET:     Blazor Server, Blazor WASM",
+                                         ".razor files:     Component-based UI",
+                                         "@code blocks:     C# code mixed with markup",
+                                         "WebAssembly:      Runs in browser via WASM"
+                                     ]
+                    },
+                    {
+                        "index":  176,
+                        "name":  "COLD FUSION Markup Language (CFML)",
+                        "metadata":  [
+                                         "Adobe ColdFusion: https://www.adobe.com/products/coldfusion-family.html",
+                                         "Lucee (Open Source): https://lucee.org/",
+                                         "BoxLang (New):    https://boxlang.io/",
+                                         ".cfm files:       CFML template syntax",
+                                         "Railo (Legacy):   Discontinued, replaced by Lucee"
+                                     ]
+                    },
+                    {
+                        "index":  177,
+                        "name":  "JSP (JAVASERVER PAGES)",
+                        "metadata":  [
+                                         "Legacy:           Replaced by modern Java templating (Thymeleaf, etc.)",
+                                         "Tomcat:           Still runs JSP",
+                                         ".jsp files:       HTML with \u003c% javaCode %\u003e",
+                                         "JSTL:             Tag libraries for JSP"
+                                     ]
+                    },
+                    {
+                        "index":  178,
+                        "name":  "ASP CLASSIC (LEGACY)",
+                        "metadata":  [
+                                         "Windows Only:     IIS with ASP enabled",
+                                         ".vbs/.asp files:  VBScript or JScript",
+                                         "Deprecated:      Replaced by ASP.NET (2002)",
+                                         "No modern install: Only legacy Windows servers"
+                                     ]
+                    },
+                    {
+                        "index":  179,
+                        "name":  "VBSCRIPT (WINDOWS SCRIPTING HOST)",
+                        "metadata":  [
+                                         "Legacy:           Deprecated by Microsoft",
+                                         ".wsf/.vbs files:  Windows Script Host",
+                                         "Still works:      On Windows 10/11 (compatibility mode)",
+                                         "Replacement:     PowerShell"
+                                     ]
+                    },
+                    {
+                        "index":  180,
+                        "name":  "BATCH FILES (.CMD/.BAT)",
+                        "metadata":  [
+                                         "Windows built-in: cmd.exe interpreter",
+                                         "No install needed: Ships with every Windows since DOS",
+                                         "Scripts:         .bat (DOS), .cmd (NT/modern)",
+                                         "Limitations:     Very limited compared to PowerShell"
+                                     ]
+                    },
+                    {
+                        "index":  181,
+                        "name":  "POWERSHELL SCRIPTS (.PS1)",
+                        "metadata":  [
+                                         "PowerShell 7.4:   https://github.com/PowerShell/PowerShell/releases",
+                                         "Windows built-in: Windows PowerShell 5.1 (pre-installed)",
+                                         "Core (Cross-plat): pwsh (separate install)",
+                                         "Modules:          PSGallery (Install-Module)",
+                                         "IDE:              VS Code + PowerShell extension, Windows Terminal ISE"
+                                     ]
+                    },
+                    {
+                        "index":  182,
+                        "name":  "GROOVY (APACHE JVM DSL)",
+                        "metadata":  [
+                                         "Official:          https://groovy.apache.org/download.html",
+                                         "SDKMAN!:          sdk install groovy",
+                                         "Jenkins pipelines: Groovy is Jenkinsfile language",
+                                         "Spock:            Testing framework written in Groovy",
+                                         "Gradle scripts:   build.gradle files are Groovy",
+                                         "Docker:            docker pull groovy:jdk21"
+                                     ]
+                    },
+                    {
+                        "index":  183,
+                        "name":  "BEANSHELL (LIGHTWEIGHT JAVA)",
+                        "metadata":  [
+                                         "Official:          https://beanshell.github.io/",
+                                         "JAR:              bsh.jar (standalone interpreter)",
+                                         "History:          Original embedded scripting for Java",
+                                         "Revived:          After Oracle lawsuit settlement",
+                                         "Use case:          Lightweight Java scripting (no compilation)"
+                                     ]
+                    },
+                    {
+                        "index":  184,
+                        "name":  "JTHON (PYTHON ON JVM)",
+                        "metadata":  [
+                                         "Official:          https://www.jython.org/downloads.py",
+                                         "Version:          2.7.x (Python 2.7 compatible, not Python 3)",
+                                         "Integration:      Direct access to Java classes from Python",
+                                         "Use case:          Java ecosystem scripting"
+                                     ]
+                    },
+                    {
+                        "index":  185,
+                        "name":  "IRONPYTHON (.NET PYTHON)",
+                        "metadata":  [
+                                         "GitHub:            https://github.com/IronLanguages/ironpython2",
+                                         "Version:          2.7.x (Python 2.7 for .NET)",
+                                         "IronPython3:      Experimental Python 3 for .NET",
+                                         ".NET interop:     Access .NET libraries from Python"
+                                     ]
+                    },
+                    {
+                        "index":  186,
+                        "name":  "JRUBY (RUBY ON JVM)",
+                        "metadata":  [
+                                         "Official:          https://www.jruby.org/download",
+                                         "Platform:          Java Virtual Machine",
+                                         "Gems:             Most Ruby gems work (native extensions need care)",
+                                         "Performance:      Often faster than MRI Ruby due to JIT"
+                                     ]
+                    },
+                    {
+                        "index":  187,
+                        "name":  "TRUFFLERUBY (GRAALVM RUBY)",
+                        "metadata":  [
+                                         "GraalVM:          https://www.graalvm.org/ruby/",
+                                         "Oracle:           Maintained by GraalVM team",
+                                         "Performance:      Can be faster than MRI using GraalVM compiler",
+                                         "Native image:     Ahead-of-time compilation possible"
+                                     ]
+                    },
+                    {
+                        "index":  188,
+                        "name":  "FENNEL (LISP ON LUA)",
+                        "metadata":  [
+                                         "Official:          https://fennel-lang.org/",
+                                         "Compiles to:       Lua bytecode",
+                                         "REPL:             fennel command (requires Lua)",
+                                         "Emacs:            fennel-mode for Emacs",
+                                         "VS Code:           fennel.vscode-fennel extension"
+                                     ]
+                    },
+                    {
+                        "index":  189,
+                        "name":  "JANET (LISP-LIKE)",
+                        "metadata":  [
+                                         "Official:          https://janet-lang.org/",
+                                         "GitHub:            https://github.com/janet-lang/janet",
+                                         "jpm (Pkg Mgr):    Janet Package Manager",
+                                         "Embeddable:       Designed for embedding in C programs",
+                                         "Docker:            docker pull janetlang/janet:latest"
+                                     ]
+                    },
+                    {
+                        "index":  190,
+                        "name":  "GUILE (GNU EXTENSION LANGUAGE)",
+                        "metadata":  [
+                                         "GNU Project:       https://www.gnu.org/software/guile/",
+                                         "Scheme dialect:    Implementation of extended R5RS/R7RS",
+                                         "Use case:         Official GNU extension language (GIMP, etc.)",
+                                         "Docker:            docker pull guile:latest"
+                                     ]
+                    },
+                    {
+                        "index":  191,
+                        "name":  "CHICKEN SCHEME",
+                        "metadata":  [
+                                         "Official:          https://call-cc.org/",
+                                         "Eggs (packages):  https://eggs.call-cc.org/",
+                                         "C-to-C:           Compiles Scheme to C then to native",
+                                         "Practical:        Heavy focus on practical programming"
+                                     ]
+                    },
+                    {
+                        "index":  192,
+                        "name":  "BIGLOO (SCHEME)",
+                        "metadata":  [
+                                         "Official:          https://www-sop.inria.fr/members/manuel.serrano/bigloo/bigloo.html",
+                                         "C compiler:        Compiles Scheme to C",
+                                         "Optimization:     Aggressive optimization",
+                                         "GUI toolkit:      Bigloo includes its own GUI lib"
+                                     ]
+                    },
+                    {
+                        "index":  193,
+                        "name":  "KAWA (SCHEME ON JVM)",
+                        "metadata":  [
+                                         "GNU:              https://www.gnu.org/software/kawa/",
+                                         "JVM target:        Compiles to JVM bytecode",
+                                         "Scheme + Java:    Seamless Java interop",
+                                         "Shell:            kawa command provides REPL"
+                                     ]
+                    },
+                    {
+                        "index":  194,
+                        "name":  "SISC (SCHEME IN JAVA)",
+                        "metadata":  [
+                                         "Official:          https://sisc-scheme.org/",
+                                         "Pure Java:         Entirely written in Java (no native code)",
+                                         "R5RS compliant:   Complete implementation",
+                                         "Continuations:    Full continuation support"
+                                     ]
+                    },
+                    {
+                        "index":  195,
+                        "name":  "HY (LISP ON PYTHON)",
+                        "metadata":  [
+                                         "pip install hy",
+                                         "REPL:             hy command",
+                                         "Compiles to:      Python bytecode",
+                                         "Macros:          Hy has defmacro like Lisp",
+                                         "Docs:             https://hy.readthedocs.io/"
+                                     ]
+                    },
+                    {
+                        "index":  196,
+                        "name":  "CLOJURESCRIPT (CLOJURE TO JS)",
+                        "metadata":  [
+                                         "npm install clojurescript",
+                                         "Figwheel:         Hot-reloading for ClojureScript",
+                                         "Shadow-CLJS:     Modern build tool",
+                                         "Reagent:          React wrapper for ClojureScript",
+                                         "Compiles to:      JavaScript"
+                                     ]
+                    },
+                    {
+                        "index":  197,
+                        "name":  "SCALA.JS (SCALA TO JS)",
+                        "metadata":  [
+                                         "Official:          https://www.scala-js.org/",
+                                         "sbt plugin:       addSJsPlugin(\"1.16.0\")",
+                                         "Target:           Browsers or Node.js",
+                                         "Scala.js 1.16:    Latest stable"
+                                     ]
+                    },
+                    {
+                        "index":  198,
+                        "name":  "KOTLIN/JS (KOTLIN TO JS)",
+                        "metadata":  [
+                                         "Part of Kotlin:    kotlin js { nodejs {} } in Gradle",
+                                         "IR target:        Kotlin/JS intermediate representation",
+                                         "NPM publish:      kotlin { js(IR) { binaries.executable() } }",
+                                         "Kotlin/Wasm:      Experimental Wasm target"
+                                     ]
+                    },
+                    {
+                        "index":  199,
+                        "name":  "DART TO JAVASCRIPT",
+                        "metadata":  [
+                                         "dart2js compiler: Part of Dart SDK",
+                                         "Target:           Browsers (legacy before Dart 2)",
+                                         "Dart web:         Now compiles to Wasm primarily",
+                                         "Flutter Web:      Uses Dart web compiler"
+                                     ]
+                    },
+                    {
+                        "index":  200,
+                        "name":  "ASSEMBLYSCRIPT (TYPESCRIPT FOR WASM)",
+                        "metadata":  [
+                                         "Official:          https://assemblyscript.org/",
+                                         "npm:              npm install assemblyscript",
+                                         "Target:           WebAssembly (WASM)",
+                                         "Performance:      Near-native speed in browser",
+                                         "Binaryen:         Optimization toolchain included"
+                                     ]
+                    },
+                    {
+                        "index":  201,
+                        "name":  "GRAIN (STRONGLY-TYPED FOR WASM)",
+                        "metadata":  [
+                                         "Official:          https://grain-lang.org/",
+                                         "npm:              npm i -g grain-cli",
+                                         "Similar to:        Elm/OCaml syntax",
+                                         "WASM target:      Compiles to WebAssembly"
+                                     ]
+                    },
+                    {
+                        "index":  202,
+                        "name":  "TINYSCRIPT (MINIMAL TYPESCRIPT)",
+                        "metadata":  [
+                                         "GitHub:            https://github.com/nicholasf/tinytypescript",
+                                         "Use case:         Educational minimal TS subset",
+                                         "Browser:          Runs in browser via CDN"
+                                     ]
+                    },
+                    {
+                        "index":  203,
+                        "name":  "EMSCRIPTEN (C/C++ TO WASM)",
+                        "metadata":  [
+                                         "Official:          https://emscripten.org/docs/getting_started/downloads.html",
+                                         "emsdk:            Git repository with installer script",
+                                         "clang/clang++:    emcc wrapper around LLVM Clang",
+                                         "System libraries:  SDL2, OpenGL, POSIX subsets emulated",
+                                         "Docker:            docker pull emscripten/emsdk"
+                                     ]
+                    },
+                    {
+                        "index":  204,
+                        "name":  "WASI-SDK (C/C++ TO WASI)",
+                        "metadata":  [
+                                         "Official:          https://github.com/WebAssembly/wasi-sdk",
+                                         "Releases:         GitHub releases page",
+                                         "clang/wasi:       Clang configured for WASI target",
+                                         "WASI sysroot:     Minimal POSIX-like syscall interface",
+                                         "Wasmtime:         Runtime for WASI-WASM modules"
+                                     ]
+                    },
+                    {
+                        "index":  205,
+                        "name":  "WASMER (WASM RUNTIME)",
+                        "metadata":  [
+                                         "Official:          https://wasmer.io/",
+                                         "Install:          curl https://get.wasmer.io | bash",
+                                         "WAPM:             Wasmer Package Manager for WASM",
+                                         "Plugins:          WASI, WAGI, Emscripten compat",
+                                         "Docker:            docker pull wasmer/wasmer:latest"
+                                     ]
+                    },
+                    {
+                        "index":  206,
+                        "name":  "WASMEDGE (EMBEDDED WASM RUNTIME)",
+                        "metadata":  [
+                                         "Official:          https://wasmedge.org/",
+                                         "GitHub:            https://github.com/WasmEdge/WasmEdge",
+                                         "Embeddable:       Designed for edge/IoT devices",
+                                         "Plugins:          WASI, TensorFlow, image processing",
+                                         "Docker:            docker pull wasmedge/wasmedge:latest"
+                                     ]
+                    },
+                    {
+                        "index":  207,
+                        "name":  "WASMTIME (FAST WASM RUNTIME)",
+                        "metadata":  [
+                                         "Official:          https://wasmtime.dev/",
+                                         "Install:          curl https://wasmtime.dev/install.sh | sh",
+                                         "Bytecode Alliance: Mozilla, Fastly, Red Hat, etc.",
+                                         "WASI support:     Full WASI implementation",
+                                         "WAPM:             wasm package manager"
+                                     ]
+                    },
+                    {
+                        "index":  208,
+                        "name":  "WASM3 (WASM INTERPRETER)",
+                        "metadata":  [
+                                         "GitHub:            https://github.com/wasm3/wasm3",
+                                         "Interpreter:      No compilation needed (small footprint)",
+                                         "IoT friendly:      Very low memory usage",
+                                         "Arduino:          Can run on microcontrollers"
+                                     ]
+                    },
+                    {
+                        "index":  209,
+                        "name":  "MOZILLA SPIDERMONKEY (JS ENGINE)",
+                        "metadata":  [
+                                         "Build from source: https://spidermonkey.dev/",
+                                         "Part of Firefox:   Embedded in Firefox browser",
+                                         "js command:       Standalone REPL (after building)",
+                                         "Rust bindings:    mozjs/spidermonkey-rs (mozjs crate)"
+                                     ]
+                    },
+                    {
+                        "index":  210,
+                        "name":  "GOOGLE V8 (JS ENGINE)",
+                        "metadata":  [
+                                         "Build:             https://v8.dev/docs/build",
+                                         "Node.js uses:     V8 powers Node.js runtime",
+                                         "Deno uses:        V8 (with different flags)",
+                                         "Embed:            C++ API for embedding in applications",
+                                         "d8 shell:         Standalone V8 REPL (after building)"
+                                     ]
+                    },
+                    {
+                        "index":  211,
+                        "name":  "JAVASCRIPTCORE (APPLE/Safari)",
+                        "metadata":  [
+                                         "Part of WebKit:   https://webkit.org/",
+                                         "macOS:            Pre-installed (system framework)",
+                                         "Linux:            WebKitGTK (apt install webkit2gtk-4.0)",
+                                         "jsc command:      Standalone JSC REPL on macOS/Linux",
+                                         "API:              C API for embedding"
+                                     ]
+                    },
+                    {
+                        "index":  212,
+                        "name":  "QUICKJS (EMBEDDABLE JS)",
+                        "metadata":  [
+                                         "Official:          https://bellard.org/quickjs/",
+                                         "QJS command:      QuickJS REPL after compiling",
+                                         "Features:         ES2023 support, small footprint (~200KB)",
+                                         "Fabrice Bellard:  Also created TCC, QEMU, FFmpeg",
+                                         "Docker:            docker pull nickvdyck/quickjs"
+                                     ]
+                    },
+                    {
+                        "index":  213,
+                        "name":  "JERRYSCRIPT (IOT JS)",
+                        "metadata":  [
+                                         "Official:          https://jerryscript.net/",
+                                         "Target:           IoT devices, microcontrollers",
+                                         "Esprima parser:   Integrated parser",
+                                         "SnappyJS:        Minified variant for extreme constraints",
+                                         "Zephyr RTOS:      Supported in Zephyr OS"
+                                     ]
+                    },
+                    {
+                        "index":  214,
+                        "name":  "BOA (RUST JS ENGINE)",
+                        "metadata":  [
+                                         "GitHub:            https://github.com/boa-dev/boa",
+                                         "Rust-written:     JS engine in safe Rust",
+                                         "ECMAScript:       Conformance testing ongoing",
+                                         "Goal:             Spec-compliant JS engine in Rust"
+                                     ]
+                    },
+                    {
+                        "index":  215,
+                        "name":  "MODULAR MOJO (AI/ML SYSTEMS LANG)",
+                        "metadata":  [
+                                         "Official:          https://www.modular.com/mojo",
+                                         "Download:         https://www.modular.com/download",
+                                         "Magic (IDE):      Modular Magic IDE",
+                                         "MAX (SDK):        Mojo eXtension SDK",
+                                         "Python interop:  Imports Python modules directly",
+                                         "Early access:      Request access via modular.com"
+                                     ]
+                    },
+                    {
+                        "index":  216,
+                        "name":  "TAICHI (PYTHON DSL FOR GPU)",
+                        "metadata":  [
+                                         "pip install taichi",
+                                         "GPU targets:       CUDA, Vulkan, Metal, OpenGL, Wasm",
+                                         "Domain:           Physical simulation, visual computing",
+                                         "Taichi Lang:      https://taichi-lang.org/",
+                                         "IDE:              VS Code Taichi extension"
+                                     ]
+                    },
+                    {
+                        "index":  217,
+                        "name":  "STAN (PROBABILISTIC PROGRAMMING)",
+                        "metadata":  [
+                                         "Official:          https://mc-stan.org/",
+                                         "CmdStan:          C++ interface (fastest)",
+                                         "PyStan:           pip install pystan",
+                                         "RStan:            install.packages(rstan)",
+                                         "CmdStanPy:        pip install cmdstanpy",
+                                         "Interfaces:       R, Python, Julia, Stata, Mathematica, MATLAB"
+                                     ]
+                    },
+                    {
+                        "index":  218,
+                        "name":  "PYMC (PROBABILISTIC PYTHON)",
+                        "metadata":  [
+                                         "pip install pymc",
+                                         "PyMC v5:          Latest major version (Aesara/Theano backend)",
+                                         "ArviZ:            Visualization for probabilistic programming",
+                                         "Docs:             https://docs.pymc.io/"
+                                     ]
+                    },
+                    {
+                        "index":  219,
+                        "name":  "EDWARD (PROBABILISTIC TF)",
+                        "metadata":  [
+                                         "pip install edward2 (Edward2 for TensorFlow 2)",
+                                         "Original Edward:  Edward 1 (TF 1.x, deprecated)",
+                                         "TensorFlow Probability: Often used alongside",
+                                         "Docs:             https://probabilitytensorflow.org/"
+                                     ]
+                    },
+                    {
+                        "index":  220,
+                        "name":  "JAX (DIFFERENTABLE NUMPY)",
+                        "metadata":  [
+                                         "pip install jax jaxlib",
+                                         "Google Research:   https://github.com/google/jax",
+                                         "TPU support:      Google Cloud TPU acceleration",
+                                         "Just-In-Time:     XLA compilation",
+                                         "Flax:             Neural network library on JAX",
+                                         "Orbax:            JAX utilities for research"
+                                     ]
+                    },
+                    {
+                        "index":  221,
+                        "name":  "TENSORFLOW GRAPH LANGUAGE",
+                        "metadata":  [
+                                         "pip install tensorflow",
+                                         "Graph definition:  tf.Graph(), tf.Operation",
+                                         "SavedModel:      .pb format serialization",
+                                         "TF Lite:          Mobile/edge inference",
+                                         "TF.js:            Browser/machine learning"
+                                     ]
+                    },
+                    {
+                        "index":  222,
+                        "name":  "ONNX (OPEN NEURAL NETWORK EXCHANGE)",
+                        "metadata":  [
+                                         "pip install onnx",
+                                         "Format:            .onnx (interchange format for ML models)",
+                                         "ONNX Runtime:     https://onnxruntime.ai/",
+                                         "Exporters:        PyTorch, TensorFlow, sklearn, etc.",
+                                         "Visualizers:     Netron app (https://netron.app/)"
+                                     ]
+                    },
+                    {
+                        "index":  223,
+                        "name":  "TORCHSCRIPT (PYTORCH SERIALIZATION)",
+                        "metadata":  [
+                                         "Part of PyTorch:   pip install torch",
+                                         "torch.compile:     PyTorch 2.0 compiled mode",
+                                         "torch.jit.script:  Scripting mode",
+                                         "torch.jit.trace:  Tracing mode",
+                                         "TorchScript lang:  Subset of Python for Torch models"
+                                     ]
+                    },
+                    {
+                        "index":  224,
+                        "name":  "PROLOG",
+                        "metadata":  [
+                                         "SWI-Prolog:       https://www.swi-prolog.org/",
+                                         "GNU Prolog:       https://www.gnu.org/software/prolog/",
+                                         "Tau Prolog:       Browser-based Prolog (https://tauprolog.github.io/)",
+                                         "s(CASP):         https://github.com/mth/scasp",
+                                         "Scryer Prolog:   Modern ISO Prolog (https://github.com/mth/scryer-prolog)",
+                                         "Docker SWI:       docker pull swipl/swipl:latest"
+                                     ]
+                    },
+                    {
+                        "index":  225,
+                        "name":  "DATALOG",
+                        "metadata":  [
+                                         "Soufflé:          https://souffle-lang.org/",
+                                         "Datalog tutorial:  https://www.logicblox.com/product/logicblox-introduction-to-datalog",
+                                         "Cascalog:         Datalog for Hadoop (Clojure)",
+                                         "DDlog:            https://github.com/vmware/ddlog",
+                                         "RDF Datalog:      Datalog queries over RDF graphs"
+                                     ]
+                    },
+                    {
+                        "index":  226,
+                        "name":  "ANSWER SET PROGRAMMING (ASP)",
+                        "metadata":  [
+                                         "Clingo:           https://potassco.org/clingo/",
+                                         "DLV:              http://www.dlvsystem.com/",
+                                         "DLV2:             https://github.com/dlvsoft/dlv2",
+                                         "casp:             Constraint answer set solving",
+                                         "IDE:              ASPIDE (Eclipse plugin)"
+                                     ]
+                    },
+                    {
+                        "index":  227,
+                        "name":  "MINIZINC (CONSTRAINT MODELING)",
+                        "metadata":  [
+                                         "Official:          https://www.minizinc.org/",
+                                         "IDE:              MiniZinc IDE",
+                                         "Solvers:          Gecode, Chuffed, CBC, Gurobi, etc.",
+                                         "Model file:       .mzn extension",
+                                         "Docker:            docker pull minizinc/minizinc:latest"
+                                     ]
+                    },
+                    {
+                        "index":  228,
+                        "name":  "MERcury (LOGIC + FUNCTIONAL)",
+                        "metadata":  [
+                                         "Official:          https://mercurylang.org/",
+                                         "Declarative debug: Unique debugging features",
+                                         "Backtracking:     Logic programming features",
+                                         "Functional:        Strong static type system",
+                                         "Docker:            docker pull mercurylang/mercury:latest"
+                                     ]
+                    },
+                    {
+                        "index":  229,
+                        "name":  "CURRY (FUNCTIONAL LOGIC)",
+                        "metadata":  [
+                                         "Official:          https://www-ps.informatik.uni-kiel.de/curry/",
+                                         "PAKCS:            Reference implementation",
+                                         "KiCS2:            Another Curry implementation",
+                                         "MUSIC:            Multi-paradigm language (successor)"
+                                     ]
+                    },
+                    {
+                        "index":  230,
+                        "name":  "CONSTRAINT HANDLING RULES (CHR)",
+                        "metadata":  [
+                                         "SWI-Prolog:       pip install chr (library for SWI-Prolog)",
+                                         "K.U.Leuven:       CHR implementation in various Prologs",
+                                         "chr.js:           JavaScript implementation (experimental)",
+                                         "Use case:         Rule-based constraint solving"
+                                     ]
+                    },
+                    {
+                        "index":  231,
+                        "name":  "OZ (MULTI-PARADIGM)",
+                        "metadata":  [
+                                         "Mozart-OZ System:  https://www.mozart-oz.org/",
+                                         "Distributed:      Built-in distributed programming",
+                                         "Concepts:         Dataflow variables, laziness, classes",
+                                         "GUI:              Oz Explorer for visualization"
+                                     ]
+                    },
+                    {
+                        "index":  232,
+                        "name":  "ALICE (PARALLEL)",
+                        "metadata":  [
+                                         "Official:          https://alice.cc.gatech.edu/",
+                                         "Standard ML:      Based on SML with concurrency",
+                                         "Distributed:      Type-safe distributed programming",
+                                         "Resources:        Georgia Tech Alice project"
+                                     ]
+                    },
+                    {
+                        "index":  233,
+                        "name":  "FORTRAN (DUPLICATE - SEE #032)",
+                        "metadata":  [
+                                         "(Covered in #032 - maintaining count)"
+                                     ]
+                    },
+                    {
+                        "index":  234,
+                        "name":  "COBOL (DUPLICATE - SEE #033)",
+                        "metadata":  [
+                                         "(Covered in #033 - maintaining count)"
+                                     ]
+                    },
+                    {
+                        "index":  235,
+                        "name":  "REXX (MAINFRAME/IBM)",
+                        "metadata":  [
+                                         "Open Object Rexx:  https://www.oorexx.org/download.html",
+                                         "NetRexx (JVM):   https://www.ibm.com/docs/en/netrexx/3.0.0",
+                                         "Regina Rexx:     https://regina-rexx.sourceforge.net/",
+                                         "ooRexx:          Object-oriented extension of classic Rexx"
+                                     ]
+                    },
+                    {
+                        "index":  236,
+                        "name":  "JCL (JOB CONTROL LANGUAGE - IBM MAINFRAME)",
+                        "metadata":  [
+                                         "IBM z/OS:         Part of mainframe operating system",
+                                         "No separate install: Comes with z/OS",
+                                         "Emulators:        Hercules emulator (open source)",
+                                         "TSO/ISPF:        Interactive environments for JCL"
+                                     ]
+                    },
+                    {
+                        "index":  237,
+                        "name":  "ASSEMBLER (IBM MAINFRAME)",
+                        "metadata":  [
+                                         "HLASM (High Level): IBM licensed product (z/OS)",
+                                         "IAS Assembler:    Teaching assembler (open source)",
+                                         "z/OS Assembler:   Part of z/OS toolkit",
+                                         "Hercules:         Mainframe emulator can run assembler"
+                                     ]
+                    },
+                    {
+                        "index":  238,
+                        "name":  "PL/I (PROGRAMMING LANGUAGE ONE)",
+                        "metadata":  [
+                                         "Enterprise PL/I:  IBM commercial compiler (mainframe)",
+                                         "Open PL/I:        https://iron-spring.com/open-pli.php (legacy)",
+                                         "Mainframe only:   Rarely used outside IBM ecosystem"
+                                     ]
+                    },
+                    {
+                        "index":  239,
+                        "name":  "RPG (REPORT PROGRAM GENERATOR - IBM)",
+                        "metadata":  [
+                                         "RPG IV:           IBM iSeries (AS/400) language",
+                                         "RPG Free:         Modern free-form syntax",
+                                         "ILE RPG:          Integrated Language Environment",
+                                         "IBM licensed:     Only runs on IBM Power Systems"
+                                     ]
+                    },
+                    {
+                        "index":  240,
+                        "name":  "NATURAL (SOFTWARE AG)",
+                        "metadata":  [
+                                         "Adabas Natural:   Software AG commercial product",
+                                         "Mainframe/Unix:   Originally for Adabas database",
+                                         "4GL:              Fourth-generation language",
+                                         "Commercial only:   No open source equivalent"
+                                     ]
+                    },
+                    {
+                        "index":  241,
+                        "name":  "ABAP (SAP)",
+                        "metadata":  [
+                                         "SAP NetWeaver:    Part of SAP ERP systems",
+                                         "ABAP Workbench:   Development environment (SE80)",
+                                         "ABAP Cloud:       SAP BTP cloud runtime",
+                                         "SAPUI5:          Fiori UI framework (JavaScript)",
+                                         "No standalone:    Only within SAP ecosystem"
+                                     ]
+                    },
+                    {
+                        "index":  242,
+                        "name":  "APEX (ORACLE APPLICATION EXPRESS)",
+                        "metadata":  [
+                                         "Oracle APEX:      https://apex.oracle.com/",
+                                         "PL/SQL based:     Builds on Oracle PL/SQL",
+                                         "Low-code:         Rapid web app development",
+                                         "Oracle Cloud:     Free tier available"
+                                     ]
+                    },
+                    {
+                        "index":  243,
+                        "name":  "POWERSCRIPT (POWERBUILDER)",
+                        "metadata":  [
+                                         "Appeon:           https://www.appeon.com/products/powerbuilder/",
+                                         "DataWindow:       Famous data binding technology",
+                                         "Client-server:    Classic enterprise client-server apps",
+                                         "Legacy:           Mostly legacy applications still maintained"
+                                     ]
+                    },
+                    {
+                        "index":  244,
+                        "name":  "LABVIEW (GRAPHICAL - NI)",
+                        "metadata":  [
+                                         "National Instruments: https://www.ni.com/en-us/shop/labview.html",
+                                         "G language:       Dataflow graphical programming",
+                                         "Hardware:         Designed for instrument control and DAQ",
+                                         "Expensive:        Enterprise/licensed pricing"
+                                     ]
+                    },
+                    {
+                        "index":  245,
+                        "name":  "SIMULINK (MODEL-BASED DESIGN)",
+                        "metadata":  [
+                                         "MathWorks:        https://www.mathworks.com/products/simulink.html",
+                                         "MATLAB based:     Simulation environment",
+                                         "Blocks:           Graphical block diagram modeling",
+                                         "Embedded code gen: Generate C/C++ from models"
+                                     ]
+                    },
+                    {
+                        "index":  246,
+                        "name":  "SCRATCH (VISUAL BLOCKS - MIT)",
+                        "metadata":  [
+                                         "Official:          https://scratch.mit.edu/download",
+                                         "Scratch 3.0:      Desktop and online versions",
+                                         "Scratch Jr:       Ages 5-7 simplified version",
+                                         "Extensions:       Scratch extensions (micro:bit, LEGO, etc.)"
+                                     ]
+                    },
+                    {
+                        "index":  247,
+                        "name":  "SNAP! (BERKELEY - ADVANCED SCRATCH)",
+                        "metadata":  [
+                                         "Official:          https://snap.berkeley.edu/",
+                                         "Run in browser:    No download needed (web-based)",
+                                         "First-class functions: More advanced than Scratch",
+                                         "BYOB:             Build Your Own Block (original name)"
+                                     ]
+                    },
+                    {
+                        "index":  248,
+                        "name":  "BLOCKLY (GOOGLE VISUAL BLOCKS)",
+                        "metadata":  [
+                                         "Official:          https://developers.google.com/blockly",
+                                         "Library:          JavaScript library for block editors",
+                                         "Code generation:  Generates JavaScript, Python, etc.",
+                                         "Many forks:        Custom blockly implementations"
+                                     ]
+                    },
+                    {
+                        "index":  249,
+                        "name":  "CODE.ORG APPS",
+                        "metadata":  [
+                                         "Studio:           https://studio.code.org/",
+                                         "Minecraft:        Minecraft Hour of Code",
+                                         "Dance Party:      AI-powered coding",
+                                         "App Lab:          JavaScript-like visual coding",
+                                         "Game Lab:         Game creation environment"
+                                     ]
+                    },
+                    {
+                        "index":  250,
+                        "name":  "ALICE (CMU 3D STORYTELLING)",
+                        "metadata":  [
+                                         "Official:          https://www.alice.org/",
+                                         "Alice 3:          Latest version (Java-based)",
+                                         "Educational:      Computer science education focus",
+                                         "3D worlds:        Drag-and-drop 3D scene building"
+                                     ]
+                    },
+                    {
+                        "index":  251,
+                        "name":  "GREENFOOT (JAVA LEARNING)",
+                        "metadata":  [
+                                         "Official:          https://www.greenfoot.org/doors",
+                                         "Java focused:      2D game/animation learning",
+                                         "BlueJ related:     From same team (Kent University)",
+                                         "Scenario-based:   World-based programming model"
+                                     ]
+                    },
+                    {
+                        "index":  252,
+                        "name":  "BLUEJ (JAVA IDE/LEARNING)",
+                        "metadata":  [
+                                         "Official:          https://bluej.org/",
+                                         "Java beginners:    Simplified Java IDE",
+                                         "Object bench:     Visual object interaction",
+                                         "Strides:          Step-through execution"
+                                     ]
+                    },
+                    {
+                        "index":  253,
+                        "name":  "PROCESSING (CREATIVE CODING)",
+                        "metadata":  [
+                                         "Official:          https://processing.org/download/",
+                                         "Processing IDE:   Sketch-based creative coding",
+                                         "p5.js (Web):      https://p5js.org/download/",
+                                         "Processing.py:   Python mode for Processing",
+                                         "Android Mode:     Android sketches"
+                                     ]
+                    },
+                    {
+                        "index":  254,
+                        "name":  "OPENRNDR (CREATIVE CODING - KOTLIN)",
+                        "metadata":  [
+                                         "Official:          https://openrndr.org/",
+                                         "Kotlin-based:     Creative coding framework",
+                                         "Generative art:   Graphics, animation, interaction",
+                                         "Multiplatform:     Desktop, web, Android"
+                                     ]
+                    },
+                    {
+                        "index":  255,
+                        "name":  "TOUCHDESIGNER (VISUAL PROGRAMMING)",
+                        "metadata":  [
+                                         "Derivative:        https://derivative.ca/",
+                                         "Node-based:       Visual data flow programming",
+                                         "Real-time 3D:     Interactive media installations",
+                                         "Expensive:        Professional/commercial licensing"
+                                     ]
+                    },
+                    {
+                        "index":  256,
+                        "name":  "MAX/MSP (SEE #072 - MUSIC)",
+                        "metadata":  [
+                                         "Also used for:     Visual interactive installations",
+                                         "Jitter:            Video/graphics processing add-on",
+                                         "Gen (patching):   Text-based patching language"
+                                     ]
+                    },
+                    {
+                        "index":  257,
+                        "name":  "PURE DATA (SEE #071 - MUSIC)",
+                        "metadata":  [
+                                         "Also used for:     Physical computing, Arduino, sensors",
+                                         "libpd:            Embed Pure Data in other programs",
+                                         "ofxPd:            openFrameworks PD integration"
+                                     ]
+                    },
+                    {
+                        "index":  258,
+                        "name":  "BRAINFUCK (ESOTERIC)",
+                        "metadata":  [
+                                         "Interpreters:     Many exist (search \"brainfuck interpreter\")",
+                                         "Online:           https://copy.sh/brainfuck/",
+                                         "Simplest spec:    8 commands only (\u003e\u003c+-.,[])",
+                                         "BF to C:          Various converters available",
+                                         "Challenge:        Implementing BF interpreters is common exercise"
+                                     ]
+                    },
+                    {
+                        "index":  259,
+                        "name":  "BEFUNGE-93 (2D ESOTERIC)",
+                        "metadata":  [
+                                         "Specification:    https://catbox.es/esoteric/befunge93/spec.bef93",
+                                         "Interpreters:     Multiple implementations",
+                                         "Self-modifying:   Instructions modify source at runtime",
+                                         "2D grid:          Program exists on 2D grid (direction changes)"
+                                     ]
+                    },
+                    {
+                        "index":  260,
+                        "name":  "WHITESPACE (INVISIBLE CODE)",
+                        "metadata":  [
+                                         "Spec:             https://compsoc.dur.ac.uk/whitespace/",
+                                         "Interpreter:      Many implementations (Python, JS, etc.)",
+                                         "Characters:       Only spaces, tabs, linefeeds visible",
+                                         "Obfuscated:       Looks like blank text file"
+                                     ]
+                    },
+                    {
+                        "index":  261,
+                        "name":  "MALBOLGE (DELIBERATELY DIFFICULT)",
+                        "metadata":  [
+                                         "Spec:             https://www.malbolge.dolecgo.pl/",
+                                         "Interpreters:     Very few working ones (by design)",
+                                         "Turing complete:  But extremely hard to program",
+                                         "Historical:      Designed to be impossible to use"
+                                     ]
+                    },
+                    {
+                        "index":  262,
+                        "name":  "INTERCAL",
+                        "metadata":  [
+                                         "Official:          https://catbox.es/intercal/",
+                                         "C-INTERCAL:       Reference implementation",
+                                         "Please/PLEASE:     Unique syntax elements",
+                                         "DO / DON\u0027T / PLEASE: Control flow keywords"
+                                     ]
+                    },
+                    {
+                        "index":  263,
+                        "name":  "LOLCODE",
+                        "metadata":  [
+                                         "Spec:              http://lolcode.org/specs/lolcode1.0.pdf",
+                                         "LOLPython:        lolcode → Python transpiler",
+                                         "loli interpreter:  https://github.com/justinlittman/loli",
+                                         "Keywords:         HAI, KTHXBYE, CAN HAS, ITZ"
+                                     ]
+                    },
+                    {
+                        "index":  264,
+                        "name":  "PIET (IMAGE PROGRAMMING)",
+                        "metadata":  [
+                                         "Programs are:     Bitmap images (color = instruction)",
+                                         "nPiet:            Reference interpreter",
+                                         "Piet Creator:     Visual editor for Piet programs",
+                                         "Colors:           Hue/lightness determine operation"
+                                     ]
+                    },
+                    {
+                        "index":  265,
+                        "name":  "ROCKSTAR (ROCK LYRIC SYNTAX)",
+                        "metadata":  [
+                                         "Spec:              https://codewithrockstar.com/",
+                                         "Interpreter:      Multiple language implementations",
+                                         "Example:          Put \"greeting\" into \"Hello, World!\"",
+                                         "Poetic numbers:   Numbers spelled out in lyrics"
+                                     ]
+                    },
+                    {
+                        "index":  266,
+                        "name":  "SHAKESPEARE (PLAYS AS CODE)",
+                        "metadata":  [
+                                         "Spec:              https://github.com/quine/shakespear",
+                                         "Characters:       Dramatis personae as variables",
+                                         "Scenes/Acts:     Program structure",
+                                         "Insults:          Error messages in Shakespearean insults"
+                                     ]
+                    },
+                    {
+                        "index":  267,
+                        "name":  "CHEF (RECIPES AS CODE)",
+                        "metadata":  [
+                                         "Spec:              http://www.davidgiven.me/chef/",
+                                         "Ingredients:      Variables are ingredients",
+                                         "Methods:          Mixing, baking, stirring = operations",
+                                         "Title:            First word is recipe title"
+                                     ]
+                    },
+                    {
+                        "index":  268,
+                        "name":  "UNLAMBDA (COMBINATOR LOGIC)",
+                        "metadata":  [
+                                         "Spec:              https://github.com/baruchel/unlambda",
+                                         "SK/I combinators:  Pure combinator logic",
+                                         "Cryptic:          Extremely terse, hard to read",
+                                         "Academic:         Theoretical computer science interest"
+                                     ]
+                    },
+                    {
+                        "index":  269,
+                        "name":  "FALSE (STACK-BASED ESOTERIC)",
+                        "metadata":  [
+                                         "Spec:              https://github.com/aaronball/false",
+                                         "Stack-based:      Like Forth but more cryptic",
+                                         "Single-letter ops: Most commands are single characters",
+                                         "Tiny:             Interpreter fits in very few bytes"
+                                     ]
+                    },
+                    {
+                        "index":  270,
+                        "name":  "JSF*CK (JS SUBSET)",
+                        "metadata":  [
+                                         "Only chars:        []()!+",
+                                         "Valid JS:         Actually valid JavaScript",
+                                         "Obfuscation:      Extreme code golf/obfuscation",
+                                         "Interpreter:      Any JS engine (it\u0027s valid JS!)"
+                                     ]
+                    },
+                    {
+                        "index":  271,
+                        "name":  "ZOMBIE (ZOMBIE THEMED)",
+                        "metadata":  [
+                                         "Spec:              https://esolangs.org/wiki/Zombie",
+                                         "Keywords:         zombie, humans, alive, dead, undead",
+                                         "State machine:    Variable states track zombie/human status"
+                                     ]
+                    },
+                    {
+                        "index":  272,
+                        "name":  "OOK! (ORANGUTAN)",
+                        "metadata":  [
+                                         "Spec:              https://esolangs.org/wiki/Ook!",
+                                         "Three words:      Ook. Ook? Ook!",
+                                         "Brainfuck mapping: Direct 1:1 map to Brainfuck commands",
+                                         "Esoteric:         Just Brainfuck with Orangutan noises"
+                                     ]
+                    },
+                    {
+                        "index":  273,
+                        "name":  "ARNOLDC (ARNOLD SCHWARZENEGGER MOVIE QUOTES)",
+                        "metadata":  [
+                                         "GitHub:            https://lhartikk/ArnoldC",
+                                         "Compiler:         C target (transpiles to C)",
+                                         "Quotes:           All syntax is Arnold movie lines",
+                                         "GET TO THE CHOPPER: Main function"
+                                     ]
+                    },
+                    {
+                        "index":  274,
+                        "name":  "velato (MIDI FILES AS CODE)",
+                        "metadata":  [
+                                         "Spec:              https://esolangs.org/wiki/Velato",
+                                         "Input:            MIDI files (.mid)",
+                                         "Pitch/duration:   Determine instructions",
+                                         "Musical:          Programs literally are music"
+                                     ]
+                    },
+                    {
+                        "index":  275,
+                        "name":  "PSEUDOCODE (EDUCATIONAL)",
+                        "metadata":  [
+                                         "No standard:      Many variants exist",
+                                         "Tools:             Pseudocode editors, flowchart generators",
+                                         "Purpose:          Algorithm design before real coding",
+                                         "Often taught:      AP CSP, introductory CS courses"
+                                     ]
+                    }
+                ]
+}

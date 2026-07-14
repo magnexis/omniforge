@@ -1,0 +1,46 @@
+{
+  "name": "C#",
+  "slug": "csharp",
+  "creator": "Anders Hejlsberg",
+  "year": 2000,
+  "latest_version": "",
+  "typing": "static, strong",
+  "memory_model": "managed runtime",
+  "garbage_collected": true,
+  "compiled": true,
+  "interpreted": false,
+  "license": "MIT",
+  "package_manager": "NuGet",
+  "compiler": "dotnet",
+  "runtime": ".NET",
+  "github": "https://github.com/dotnet/csharplang",
+  "official_site": "https://dotnet.microsoft.com/en-us/languages/csharp",
+  "documentation": "https://learn.microsoft.com/dotnet/csharp/",
+  "paradigm": [
+    "object-oriented",
+    "functional",
+    "multi-paradigm"
+  ],
+  "inspired_by": [
+    "C++",
+    "Java",
+    "Delphi"
+  ],
+  "inspired": [],
+  "status": "active",
+  "feature_flags": {
+    "coroutines": true,
+    "ffi": true,
+    "macros": false,
+    "generics": true
+  },
+  "ecosystem": {
+    "package_count": 0,
+    "primary_domains": [
+      "enterprise",
+      "web",
+      "desktop"
+    ],
+    "notable_companies": []
+  }
+}

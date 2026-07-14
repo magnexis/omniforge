@@ -1,0 +1,12 @@
+{
+  "language": "d",
+  "runtime": "dmd",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "dmd --version",
+  "runExample": "dmd examples/hello-world/main.d"
+}

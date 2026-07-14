@@ -1,0 +1,19 @@
+{
+  "id": "r-median-01",
+  "language": "r",
+  "runtime": "4.6.1",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/r",
+  "command": [
+    "Rscript",
+    "worker.R"
+  ],
+  "capabilities": [
+    {
+      "name": "math.median",
+      "inputSchema": "number-array",
+      "outputSchema": "median-result"
+    }
+  ]
+}

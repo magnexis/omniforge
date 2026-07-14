@@ -1,0 +1,19 @@
+{
+  "id": "raku-title-01",
+  "language": "raku",
+  "runtime": "26.6.1",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/raku",
+  "command": [
+    "raku",
+    "worker.raku"
+  ],
+  "capabilities": [
+    {
+      "name": "text.title-case",
+      "inputSchema": "text-request",
+      "outputSchema": "title-result"
+    }
+  ]
+}

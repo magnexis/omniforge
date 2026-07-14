@@ -1,0 +1,12 @@
+{
+  "language": "scryer-prolog",
+  "runtime": "scryer-prolog",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": false,
+  "healthcheck": "scryer-prolog --version",
+  "runExample": "scryer-prolog examples/hello-world/main.pl"
+}

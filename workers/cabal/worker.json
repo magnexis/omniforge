@@ -1,0 +1,23 @@
+{
+  "id": "cabal-plan-01",
+  "language": "cabal",
+  "runtime": "3.10.2.0",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/cabal",
+  "command": [
+    "powershell",
+    "-NoProfile",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    "worker.ps1"
+  ],
+  "capabilities": [
+    {
+      "name": "dev.haskell-tooling",
+      "inputSchema": "tooling-request",
+      "outputSchema": "tooling-result"
+    }
+  ]
+}

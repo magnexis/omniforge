@@ -1,0 +1,15 @@
+{
+  "language": "clojure",
+  "name": "Clojure",
+  "year": 2007,
+  "typing": "dynamic",
+  "paradigm": [
+    "functional",
+    "lisp",
+    "jvm"
+  ],
+  "supportTier": "tier-0",
+  "status": "catalogued",
+  "workerStatus": "not-counted",
+  "admissionRule": "Catalogued only until Omniforge has a detected runtime, OFP worker, verified coordinator path, and tests."
+}

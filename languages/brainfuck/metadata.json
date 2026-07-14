@@ -1,0 +1,14 @@
+{
+  "language": "brainfuck",
+  "name": "Brainfuck",
+  "year": 1993,
+  "typing": "untyped",
+  "paradigm": [
+    "esoteric",
+    "minimalist"
+  ],
+  "supportTier": "tier-3",
+  "status": "operational",
+  "workerStatus": "embedded-interpreter",
+  "admissionRule": "Counted because Omniforge includes a verified OFP worker with an embedded interpreter and automated test coverage."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "vb-reverse-01",
+  "language": "vb",
+  "runtime": "net9.0",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/vb",
+  "command": [
+    "dotnet",
+    "run",
+    "--project",
+    "Worker.vbproj",
+    "--no-build"
+  ],
+  "capabilities": [
+    {
+      "name": "text.reverse",
+      "inputSchema": "text-request",
+      "outputSchema": "reversed-text"
+    }
+  ]
+}

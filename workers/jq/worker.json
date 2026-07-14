@@ -1,0 +1,27 @@
+{
+  "id": "jq-query-01",
+  "language": "jq",
+  "runtime": "jq-1.8.1",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/jq",
+  "command": [
+    "powershell",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    "worker.ps1"
+  ],
+  "capabilities": [
+    {
+      "name": "data.json-query",
+      "inputSchema": "jq-query-request",
+      "outputSchema": "jq-query-result"
+    },
+    {
+      "name": "ops.remediation-summary",
+      "inputSchema": "remediation-plan",
+      "outputSchema": "remediation-summary"
+    }
+  ]
+}

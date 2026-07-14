@@ -1,0 +1,12 @@
+{
+  "language": "agda",
+  "runtime": "agda",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "agda --version",
+  "runExample": "agda examples/hello-world/Main.agda"
+}

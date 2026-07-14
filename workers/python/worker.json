@@ -1,0 +1,20 @@
+{
+  "id": "python-data-01",
+  "language": "python",
+  "runtime": "3.x",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "command": ["python", "workers/python/worker.py"],
+  "capabilities": [
+    {
+      "name": "data.csv-transform",
+      "inputSchema": "examples/data/customers.csv",
+      "outputSchema": "cleaned-records"
+    },
+    {
+      "name": "ops.incident-normalize",
+      "inputSchema": "incident-file",
+      "outputSchema": "normalized-incidents"
+    }
+  ]
+}

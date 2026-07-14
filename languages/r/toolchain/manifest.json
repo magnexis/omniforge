@@ -1,0 +1,12 @@
+{
+  "language": "r",
+  "runtime": "Rscript",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "Rscript --version",
+  "runExample": "Rscript examples/hello-world/main.R"
+}

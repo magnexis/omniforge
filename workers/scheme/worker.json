@@ -1,0 +1,19 @@
+{
+  "id": "scheme-product-01",
+  "language": "scheme",
+  "runtime": "racket-scheme",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/scheme",
+  "command": [
+    "racket",
+    "worker.rkt"
+  ],
+  "capabilities": [
+    {
+      "name": "math.product-scheme",
+      "inputSchema": "number-array",
+      "outputSchema": "product-result"
+    }
+  ]
+}

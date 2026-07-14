@@ -1,0 +1,12 @@
+{
+  "language": "scratch",
+  "runtime": "scratch-desktop-or-browser",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "manual",
+  "runExample": "open Scratch Desktop or browser project"
+}

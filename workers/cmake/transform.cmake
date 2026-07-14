@@ -1,0 +1,24 @@
+if(NOT DEFINED INPUT_TEXT)
+  set(INPUT_TEXT "")
+endif()
+
+if(NOT DEFINED FROM_TEXT)
+  set(FROM_TEXT "")
+endif()
+
+if(NOT DEFINED TO_TEXT)
+  set(TO_TEXT "")
+endif()
+
+if(NOT DEFINED OUTPUT_TEXT_FILE)
+  message(FATAL_ERROR "OUTPUT_TEXT_FILE is required")
+endif()
+
+if(NOT DEFINED OUTPUT_LENGTH_FILE)
+  message(FATAL_ERROR "OUTPUT_LENGTH_FILE is required")
+endif()
+
+string(REPLACE "${FROM_TEXT}" "${TO_TEXT}" OUTPUT_TEXT "${INPUT_TEXT}")
+string(LENGTH "${OUTPUT_TEXT}" OUTPUT_LENGTH)
+file(WRITE "${OUTPUT_TEXT_FILE}" "${OUTPUT_TEXT}")
+file(WRITE "${OUTPUT_LENGTH_FILE}" "${OUTPUT_LENGTH}")

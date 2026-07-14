@@ -1,0 +1,62 @@
+{
+  "phases": [
+    {
+      "name": "phase-0-operational",
+      "status": "active",
+      "languages": [
+        "python",
+        "ruby",
+        "javascript",
+        "typescript",
+        "go",
+        "rust",
+        "c",
+        "cpp",
+        "csharp",
+        "fsharp",
+        "vb",
+        "powershell",
+        "awk",
+        "bash",
+        "sh",
+        "perl",
+        "lua",
+        "racket",
+        "erlang",
+        "prolog",
+        "nim",
+        "d",
+        "pascal",
+        "raku",
+        "sbcl",
+        "julia",
+        "groovy",
+        "r",
+        "tcl",
+        "freebasic",
+        "forth",
+        "elvish"
+      ]
+    },
+    {
+      "name": "phase-1-installed-not-counted",
+      "status": "in-progress",
+      "languages": [
+        "scala",
+        "crystal",
+        "gleam",
+        "nushell",
+        "dart",
+        "zig",
+        "octave"
+      ]
+    },
+    {
+      "name": "phase-2-next-install-batch",
+      "status": "partially-complete",
+      "languages": [
+        "cobol"
+      ]
+    }
+  ]
+}

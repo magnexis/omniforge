@@ -1,0 +1,19 @@
+{
+  "id": "perl-regex-01",
+  "language": "perl",
+  "runtime": "git-perl",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/perl",
+  "command": [
+    "perl",
+    "worker.pl"
+  ],
+  "capabilities": [
+    {
+      "name": "text.regex",
+      "inputSchema": "regex-request",
+      "outputSchema": "regex-summary"
+    }
+  ]
+}

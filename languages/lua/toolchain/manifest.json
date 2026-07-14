@@ -1,0 +1,12 @@
+{
+  "detector": "lua",
+  "build": [],
+  "run": [
+    "lua",
+    "examples/hello-world/main.lua"
+  ],
+  "expected": {
+    "language": "lua",
+    "message": "hello-forge"
+  }
+}

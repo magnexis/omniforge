@@ -1,0 +1,19 @@
+{
+  "id": "webfortran-status-01",
+  "language": "webfortran",
+  "runtime": "0.8",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/webfortran",
+  "command": [
+    "python",
+    "worker.py"
+  ],
+  "capabilities": [
+    {
+      "name": "dev.webfortran-status",
+      "inputSchema": "tooling-request",
+      "outputSchema": "tooling-result"
+    }
+  ]
+}

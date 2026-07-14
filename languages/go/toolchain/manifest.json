@@ -1,0 +1,17 @@
+{
+  "detector": "go",
+  "build": [
+    "go",
+    "build",
+    "-o",
+    "examples/hello-world/hello.exe",
+    "examples/hello-world/main.go"
+  ],
+  "run": [
+    "examples/hello-world/hello.exe"
+  ],
+  "expected": {
+    "language": "go",
+    "message": "hello-forge"
+  }
+}

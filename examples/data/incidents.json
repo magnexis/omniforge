@@ -1,0 +1,34 @@
+{
+  "incidents": [
+    {
+      "id": "inc-1001",
+      "service": "payments-api",
+      "host": "node-a1",
+      "cpu": 97,
+      "memory": 91,
+      "restarts": 1,
+      "error_rate": 0.24,
+      "region": "us-east-1"
+    },
+    {
+      "id": "inc-1002",
+      "service": "queue-worker",
+      "host": "node-b4",
+      "cpu": 88,
+      "memory": 76,
+      "restarts": 4,
+      "error_rate": 0.11,
+      "region": "us-east-2"
+    },
+    {
+      "id": "inc-1003",
+      "service": "search-indexer",
+      "host": "node-c3",
+      "cpu": 62,
+      "memory": 58,
+      "restarts": 1,
+      "error_rate": 0.03,
+      "region": "us-west-2"
+    }
+  ]
+}

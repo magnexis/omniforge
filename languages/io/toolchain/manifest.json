@@ -1,0 +1,12 @@
+{
+  "language": "io",
+  "runtime": "io",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "io --version",
+  "runExample": "io examples/hello-world/main.io"
+}

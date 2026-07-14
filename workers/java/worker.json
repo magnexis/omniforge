@@ -1,0 +1,16 @@
+{
+  "id": "java-wordcount-01",
+  "language": "java",
+  "runtime": "21",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/java",
+  "command": ["java", "-cp", ".", "Worker"],
+  "capabilities": [
+    {
+      "name": "text.word-count",
+      "inputSchema": "text-request",
+      "outputSchema": "word-count-result"
+    }
+  ]
+}

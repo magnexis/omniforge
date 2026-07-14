@@ -1,0 +1,27 @@
+{
+  "id": "git-inspect-01",
+  "language": "git",
+  "runtime": "git-2.55.0",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/git",
+  "command": [
+    "powershell",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    "worker.ps1"
+  ],
+  "capabilities": [
+    {
+      "name": "repo.file-list",
+      "inputSchema": "repo-request",
+      "outputSchema": "repo-file-list"
+    },
+    {
+      "name": "repo.status",
+      "inputSchema": "repo-request",
+      "outputSchema": "repo-status"
+    }
+  ]
+}

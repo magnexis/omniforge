@@ -1,0 +1,17 @@
+{
+  "prompts": [
+    {
+      "id": "mega-omniforge-expansion",
+      "capturedOn": "2026-07-14",
+      "source": "attachment:pasted-text.txt",
+      "intent": "mass worker generation prompt",
+      "status": "reviewed-not-applied-literally",
+      "reviewDocument": "docs/mega-expansion-review.md",
+      "notes": [
+        "Prompt proposes 650+ workers and a stricter OFP variant.",
+        "Current repo should use this as backlog and generator input only.",
+        "Workers remain supportable only after runtime detection, coordinator verification, and tests."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "groovy-camel-01",
+  "language": "groovy",
+  "runtime": "4.0.32",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/groovy",
+  "command": [
+    "cmd",
+    "/q",
+    "/c",
+    "C:\\Program Files (x86)\\Groovy\\bin\\groovy.bat",
+    "worker.groovy"
+  ],
+  "capabilities": [
+    {
+      "name": "text.camel-case",
+      "inputSchema": "text-request",
+      "outputSchema": "camel-case-result"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+C:\Users\matth\OneDrive\Desktop\we lit\polyglot-forge\languages\csharp\examples\hello-world\bin\Debug\net9.0\HelloForge.exe
+C:\Users\matth\OneDrive\Desktop\we lit\polyglot-forge\languages\csharp\examples\hello-world\bin\Debug\net9.0\HelloForge.deps.json
+C:\Users\matth\OneDrive\Desktop\we lit\polyglot-forge\languages\csharp\examples\hello-world\bin\Debug\net9.0\HelloForge.runtimeconfig.json
+C:\Users\matth\OneDrive\Desktop\we lit\polyglot-forge\languages\csharp\examples\hello-world\bin\Debug\net9.0\HelloForge.dll
+C:\Users\matth\OneDrive\Desktop\we lit\polyglot-forge\languages\csharp\examples\hello-world\bin\Debug\net9.0\HelloForge.pdb
+C:\Users\matth\OneDrive\Desktop\we lit\polyglot-forge\languages\csharp\examples\hello-world\obj\Debug\net9.0\HelloForge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matth\OneDrive\Desktop\we lit\polyglot-forge\languages\csharp\examples\hello-world\obj\Debug\net9.0\HelloForge.AssemblyInfoInputs.cache
+C:\Users\matth\OneDrive\Desktop\we lit\polyglot-forge\languages\csharp\examples\hello-world\obj\Debug\net9.0\HelloForge.AssemblyInfo.cs
+C:\Users\matth\OneDrive\Desktop\we lit\polyglot-forge\languages\csharp\examples\hello-world\obj\Debug\net9.0\HelloForge.csproj.CoreCompileInputs.cache
+C:\Users\matth\OneDrive\Desktop\we lit\polyglot-forge\languages\csharp\examples\hello-world\obj\Debug\net9.0\HelloForge.dll
+C:\Users\matth\OneDrive\Desktop\we lit\polyglot-forge\languages\csharp\examples\hello-world\obj\Debug\net9.0\refint\HelloForge.dll
+C:\Users\matth\OneDrive\Desktop\we lit\polyglot-forge\languages\csharp\examples\hello-world\obj\Debug\net9.0\HelloForge.pdb
+C:\Users\matth\OneDrive\Desktop\we lit\polyglot-forge\languages\csharp\examples\hello-world\obj\Debug\net9.0\HelloForge.genruntimeconfig.cache
+C:\Users\matth\OneDrive\Desktop\we lit\polyglot-forge\languages\csharp\examples\hello-world\obj\Debug\net9.0\ref\HelloForge.dll

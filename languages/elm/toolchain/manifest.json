@@ -1,0 +1,12 @@
+{
+  "language": "elm",
+  "runtime": "elm",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "elm --version",
+  "runExample": "elm examples/hello-world/Main.elm"
+}

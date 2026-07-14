@@ -1,0 +1,23 @@
+{
+  "id": "cmake-replace-01",
+  "language": "cmake",
+  "runtime": "3.x",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/cmake",
+  "command": [
+    "powershell",
+    "-NoProfile",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    "worker.ps1"
+  ],
+  "capabilities": [
+    {
+      "name": "text.replace-cmake",
+      "inputSchema": "replace-request",
+      "outputSchema": "replace-response"
+    }
+  ]
+}

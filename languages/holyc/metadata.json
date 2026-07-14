@@ -1,0 +1,15 @@
+{
+  "language": "holyc",
+  "name": "HolyC",
+  "year": 2013,
+  "typing": "static",
+  "paradigm": [
+    "systems",
+    "custom-os",
+    "historical"
+  ],
+  "supportTier": "tier-0",
+  "status": "catalogued",
+  "workerStatus": "not-counted",
+  "admissionRule": "Catalogued only until Omniforge has a realistic TempleOS-compatible execution path, OFP worker, verified coordinator path, and tests."
+}

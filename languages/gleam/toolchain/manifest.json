@@ -1,0 +1,12 @@
+{
+  "language": "gleam",
+  "runtime": "gleam",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": false,
+  "healthcheck": "gleam --version",
+  "runExample": "powershell -ExecutionPolicy Bypass -File languages/gleam/toolchain/run-example.ps1"
+}

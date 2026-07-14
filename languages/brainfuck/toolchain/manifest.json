@@ -1,0 +1,12 @@
+{
+  "language": "brainfuck",
+  "runtime": "embedded-python-interpreter",
+  "version": "unverified",
+  "installStrategy": "none-required",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": false,
+  "healthcheck": "python --version",
+  "runExample": "embedded via workers/brainfuck/worker.py"
+}

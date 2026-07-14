@@ -1,0 +1,100 @@
+{
+  "batch": "276-300",
+  "capturedOn": "2026-07-14",
+  "host": "windows-current-machine",
+  "candidates": [
+    {
+      "name": "jq",
+      "kind": "cli-tool",
+      "omniValue": "high",
+      "installed": true,
+      "command": "jq",
+      "path": "C:\\Users\\matth\\AppData\\Local\\Microsoft\\WinGet\\Packages\\jqlang.jq_Microsoft.Winget.Source_8wekyb3d8bbwe\\jq.exe",
+      "recommendedPhase": 1
+    },
+    {
+      "name": "Protocol Buffers",
+      "kind": "idl-tooling",
+      "omniValue": "high",
+      "installed": true,
+      "command": "protoc",
+      "path": "C:\\Users\\matth\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.Protobuf_Microsoft.Winget.Source_8wekyb3d8bbwe\\bin\\protoc.exe",
+      "recommendedPhase": 1
+    },
+    {
+      "name": "Vimscript",
+      "kind": "editor-runtime",
+      "omniValue": "medium",
+      "installed": false,
+      "command": "vim",
+      "recommendedPhase": 1
+    },
+    {
+      "name": "Neovim Lua API",
+      "kind": "editor-runtime",
+      "omniValue": "medium",
+      "installed": true,
+      "command": "nvim",
+      "path": "C:\\Program Files\\Neovim\\bin\\nvim.exe",
+      "recommendedPhase": 1
+    },
+    {
+      "name": "Emacs Lisp",
+      "kind": "editor-runtime",
+      "omniValue": "medium",
+      "installed": false,
+      "command": "emacs",
+      "recommendedPhase": 2
+    },
+    {
+      "name": "Flowgorithm",
+      "kind": "visual-tool",
+      "omniValue": "medium",
+      "installed": false,
+      "command": "flowgorithm",
+      "recommendedPhase": 2
+    },
+    {
+      "name": "RAPTOR",
+      "kind": "visual-tool",
+      "omniValue": "medium",
+      "installed": false,
+      "command": "raptor",
+      "recommendedPhase": 2
+    },
+    {
+      "name": "Apache Thrift",
+      "kind": "idl-tooling",
+      "omniValue": "medium",
+      "installed": false,
+      "command": "thrift",
+      "recommendedPhase": 3
+    },
+    {
+      "name": "Cap'n Proto",
+      "kind": "idl-tooling",
+      "omniValue": "medium",
+      "installed": false,
+      "command": "capnp",
+      "recommendedPhase": 3
+    },
+    {
+      "name": "FlatBuffers",
+      "kind": "idl-tooling",
+      "omniValue": "medium",
+      "installed": false,
+      "command": "flatc",
+      "recommendedPhase": 3
+    }
+  ],
+  "notStandaloneLanguageTargets": [
+    "LMS (Learning Management System code)",
+    "Configuration Languages (general category)"
+  ],
+  "ecosystemBoundTargets": [
+    "FiveM Lua",
+    "Garry's Mod Lua",
+    "World of Warcraft Lua Addon API",
+    "Neovim Lua API"
+  ]
+}

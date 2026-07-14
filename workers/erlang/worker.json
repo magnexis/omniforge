@@ -1,0 +1,19 @@
+{
+  "id": "erlang-presence-01",
+  "language": "erlang",
+  "runtime": "otp-29",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/erlang",
+  "command": [
+    "escript",
+    "worker.escript"
+  ],
+  "capabilities": [
+    {
+      "name": "system.ping",
+      "inputSchema": "ping-request",
+      "outputSchema": "ping-result"
+    }
+  ]
+}

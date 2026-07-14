@@ -1,0 +1,12 @@
+{
+  "language": "webassembly",
+  "runtime": "wasmtime",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "wasmtime --version",
+  "runExample": "wasmtime examples/hello-world/main.wat"
+}

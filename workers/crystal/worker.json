@@ -1,0 +1,23 @@
+{
+  "id": "crystal-length-01",
+  "language": "crystal",
+  "runtime": "1.20.3",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/crystal",
+  "command": [
+    "powershell",
+    "-NoProfile",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    "worker.ps1"
+  ],
+  "capabilities": [
+    {
+      "name": "text.length-cr",
+      "inputSchema": "text-request",
+      "outputSchema": "length-result"
+    }
+  ]
+}

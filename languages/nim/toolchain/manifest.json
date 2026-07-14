@@ -1,0 +1,12 @@
+{
+  "language": "nim",
+  "runtime": "nim",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "nim --version",
+  "runExample": "nim examples/hello-world/main.nim"
+}

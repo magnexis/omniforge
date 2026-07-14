@@ -1,0 +1,12 @@
+{
+  "language": "octave",
+  "runtime": "octave",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "octave --version",
+  "runExample": "octave examples/hello-world/main.m"
+}

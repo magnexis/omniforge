@@ -1,0 +1,16 @@
+{
+  "id": "elixir-upper-01",
+  "language": "elixir",
+  "runtime": "elixir",
+  "workerVersion": "0.1.0",
+  "tier": "tier-2",
+  "workingDirectory": "workers/elixir",
+  "command": ["powershell", "-ExecutionPolicy", "Bypass", "-File", "workers/elixir/worker.ps1"],
+  "capabilities": [
+    {
+      "name": "text.uppercase-ex",
+      "inputSchema": "text-request",
+      "outputSchema": "uppercase-result"
+    }
+  ]
+}

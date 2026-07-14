@@ -1,0 +1,15 @@
+{
+  "id": "javascript-validate-01",
+  "language": "javascript",
+  "runtime": "node",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "command": ["node", "workers/javascript/worker.js"],
+  "capabilities": [
+    {
+      "name": "data.validate",
+      "inputSchema": "classified-records",
+      "outputSchema": "validated-records"
+    }
+  ]
+}

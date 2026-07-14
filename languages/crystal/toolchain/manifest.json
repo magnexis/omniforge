@@ -1,0 +1,12 @@
+{
+  "language": "crystal",
+  "runtime": "crystal",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "crystal --version",
+  "runExample": "crystal examples/hello-world/main.cr"
+}

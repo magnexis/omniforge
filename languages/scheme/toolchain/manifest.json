@@ -1,0 +1,12 @@
+{
+  "language": "scheme",
+  "runtime": "racket",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "racket --version",
+  "runExample": "racket examples/hello-world/main.scm"
+}

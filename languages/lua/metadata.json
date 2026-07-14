@@ -1,0 +1,48 @@
+{
+  "name": "Lua",
+  "slug": "lua",
+  "creator": "Roberto Ierusalimschy, Luiz Henrique de Figueiredo, Waldemar Celes",
+  "year": 1993,
+  "latest_version": "",
+  "typing": "dynamic",
+  "memory_model": "garbage collected",
+  "garbage_collected": true,
+  "compiled": false,
+  "interpreted": true,
+  "license": "MIT",
+  "package_manager": "LuaRocks",
+  "compiler": "lua",
+  "runtime": "Lua VM",
+  "github": "https://github.com/lua/lua",
+  "official_site": "https://www.lua.org/",
+  "documentation": "https://www.lua.org/docs.html",
+  "paradigm": [
+    "scripting",
+    "embeddable"
+  ],
+  "inspired_by": [
+    "Scheme",
+    "Modula",
+    "C"
+  ],
+  "inspired": [
+    "Luau",
+    "Terra"
+  ],
+  "status": "active",
+  "feature_flags": {
+    "coroutines": true,
+    "ffi": false,
+    "macros": false,
+    "generics": false
+  },
+  "ecosystem": {
+    "package_count": 0,
+    "primary_domains": [
+      "embedded",
+      "games",
+      "scripting"
+    ],
+    "notable_companies": []
+  }
+}

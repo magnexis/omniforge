@@ -1,0 +1,12 @@
+{
+  "language": "ada",
+  "runtime": "gnatmake",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "gnatmake --version",
+  "runExample": "gnatmake examples/hello-world/main.adb"
+}

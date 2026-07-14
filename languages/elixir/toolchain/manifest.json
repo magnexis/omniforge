@@ -1,0 +1,12 @@
+{
+  "language": "elixir",
+  "runtime": "elixir",
+  "version": "unverified",
+  "installStrategy": "detect-first",
+  "hostSupport": [
+    "windows"
+  ],
+  "cataloguedOnly": true,
+  "healthcheck": "elixir --version",
+  "runExample": "elixir examples/hello-world/main.exs"
+}

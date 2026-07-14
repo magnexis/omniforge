@@ -1,0 +1,19 @@
+{
+  "id": "julia-vector-01",
+  "language": "julia",
+  "runtime": "1.12.6",
+  "workerVersion": "0.1.0",
+  "tier": "tier-3",
+  "workingDirectory": "workers/julia",
+  "command": [
+    "julia",
+    "worker.jl"
+  ],
+  "capabilities": [
+    {
+      "name": "math.vector-sum",
+      "inputSchema": "number-array",
+      "outputSchema": "vector-sum-result"
+    }
+  ]
+}

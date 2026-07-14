@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://omniforge.dev/protocol/schemas/ofp-message.schema.json",
+  "title": "OFP Message",
+  "type": "object",
+  "required": ["type"],
+  "properties": {
+    "type": {
+      "type": "string",
+      "enum": [
+        "HELLO",
+        "WELCOME",
+        "REGISTER",
+        "REGISTER_ACK",
+        "CAPABILITIES",
+        "CAPABILITY_QUERY",
+        "CAPABILITY_RESPONSE",
+        "HEARTBEAT",
+        "HEALTH_REPORT",
+        "PING",
+        "PONG",
+        "WORKER_STATUS",
+        "METRICS_SNAPSHOT",
+        "JOB_START",
+        "JOB_ACCEPTED",
+        "JOB_PROGRESS",
+        "JOB_LOG",
+        "JOB_STREAM",
+        "JOB_RESULT",
+        "JOB_ERROR",
+        "JOB_CANCEL",
+        "JOB_CANCELLED",
+        "ARTIFACT_PUT",
+        "ARTIFACT_GET",
+        "ARTIFACT_REF",
+        "ARTIFACT_CHUNK",
+        "ARTIFACT_COMPLETE",
+        "TRACE_START",
+        "TRACE_STOP",
+        "SHUTDOWN",
+        "SHUTDOWN_ACK"
+      ]
+    },
+    "messageId": { "type": "string" },
+    "correlationId": { "type": "string" },
+    "parentMessageId": { "type": "string" },
+    "timestamp": { "type": "string" },
+    "protocol": { "type": "string" },
+    "workerId": { "type": "string" },
+    "language": { "type": "string" },
+    "runtimeVersion": { "type": "string" },
+    "workerVersion": { "type": "string" },
+    "jobId": { "type": "string" },
+    "capability": { "type": "string" },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": { "type": "string" },
+          "inputSchema": { "type": "string" },
+          "outputSchema": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "limits": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "deadline": { "type": "string" },
+    "input": {},
+    "output": {},
+    "error": { "type": "string" },
+    "code": { "type": "string" },
+    "retryable": { "type": "boolean" },
+    "progress": { "type": "number" },
+    "status": { "type": "string" },
+    "reason": { "type": "string" },
+    "message": { "type": "string" },
+    "severity": { "type": "string" },
+    "sequence": { "type": "integer" },
+    "streamId": { "type": "string" },
+    "artifactId": { "type": "string" },
+    "uri": { "type": "string" },
+    "contentType": { "type": "string" },
+    "checksum": { "type": "string" },
+    "chunkIndex": { "type": "integer" },
+    "totalChunks": { "type": "integer" },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "health": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "metrics": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}
