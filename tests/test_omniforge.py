@@ -175,6 +175,10 @@ class OmniforgeTests(unittest.TestCase):
         powershell = self.resolve_executable("powershell")
         if not powershell:
             self.skipTest("powershell or pwsh is not available")
+        gleam = self.resolve_executable("gleam")
+        workspace_gleam = ROOT / ".cache" / "runtime-shims" / "gleam.exe"
+        if not gleam and not workspace_gleam.exists():
+            self.skipTest("gleam is not available in PATH or workspace runtime shims")
         env = dict(os.environ)
         if os.name == "nt":
             env["PATH"] = r"C:\Program Files\Erlang OTP\bin;" + env.get("PATH", "")
